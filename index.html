@@ -12,7 +12,7 @@ about: 'about.html'
                     <img src="{{ site.logo }}" alt="Blog Logo" />
                 </a>
             {% endif %}
-        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Feed</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
@@ -41,7 +41,7 @@ about: 'about.html'
             <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         </header>
         <section class="post-excerpt">
-            {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
+            {{ post.excerpt }} &nbsp;<a class="read-more" href="{{ post.url }}">&raquo;</a>
         </section>
         <footer class="post-meta">
             {% if site.author %}
@@ -52,7 +52,12 @@ about: 'about.html'
                 {{ post.categories | array_to_sentence_string | prepend: 'dans ' }} 
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
-                {{ post.date | date_to_string }}
+                {% capture i18n_date %}
+                {{ page.date | date: "%-d" }}
+                {% assign m = page.date | date: "%-m" | minus: 1 %}
+                {{ site.data.fr.months[m] }}
+                {{ page.date | date: "%Y" }}
+                {% endcapture %}
             </time> 
         </footer>
     </article>
