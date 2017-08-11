@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About me 
+title: À propos
+cover: '/assets/images/bg-index.jpg'
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+<a href="//twitter.com/joachimesque">@joachimesque</a> pour les intimes

@@ -1,0 +1,299 @@
+---
+layout: post
+title:  "ParisWeb 2015"
+date:   2015-10-04 17:26:00
+categories: blog
+---
+
+**J’étais à la conférence des gens qui font le&nbsp;web**
+
+[**Paris Web**](http://www.paris-web.fr) est une conférence annuelle basée à Paris, qui célébrait cette année sa 10e édition. Cet événement rassemble les professionnels de toute la France autour de sujets touchant aux technologies du web, au design et à l’accessibilité. On peut venir y découvrir les évolutions, les bonnes pratiques ou retours d’expérience, de la part de spécialistes français ou internationaux.
+
+Paris Web se déroule sur deux jours de conférences allant de 15 minutes à une heure, puis une journée d’ateliers (auxquels je n’ai pas pris part).
+
+En tant que designer et intégrateur, j’ai évité les conférences tournées vers le back-end, et je me suis plus intéressé aux questions liées au design, au front-end, et à l’accessibilité. Ici je vais en parler en regroupant par thématiques, ça devrait être un peu plus intéressant qu’un rapport de chef de gare.
+
+_Addendum le 05/10/2015&nbsp;: un troisième paragraphe a été ajouté aux Enseignements et Leçons_
+
+_Addendum le 06/10/2015&nbsp;: quelques erreurs ont été corrigées, merci à_ [_@sylduch_](https://twitter.com/sylduch) _pour les explications_
+
+* * *
+
+### J’ai eu un aperçu du&nbsp;futur
+
+Le web évolue, c’est bien de pouvoir se tenir au courant des technologies qui vont changer notre vie…
+
+* * *
+
+#### Un JS plus&nbsp;mieux
+
+Comme Bruce Wayne s’appelle en fait Batman, Javascript a un vrai nom&nbsp;: ECMAScript. C’est un langage qui a beaucoup évolué jusqu’en 2004, (sa version 3), puis la version 4 a été jugée trop révolutionnaire donc rien n’a été fait pendant 10 ans sauf une version 5 du langage qui apportait peu… mais maintenant tout va changer avec ECMAScript 6 (ou ES6). Parmi les nouveautés, l’OOP (Programmation orientée objet) arrive sur JS. C’est beau, c’est grand, je ne sais pas si ça va changer ma vie. Les questions de scope de variables ont été revues (avec l’introduction de _let_ ou _const_ au lieu de _var_ , je sais pas pour vous mais moi j’aime bien), la définition de fonctions à l’aide du _fat arrow_ est intéressante pour économiser de la place&nbsp;:
+
+<pre name="db7e" id="db7e" class="graf graf--pre graf-after--p">var resultat = function(foo, bar){ return(bar, foo) }</pre>
+
+devient (si je ne me trompe pas)
+
+<pre name="b593" id="b593" class="graf graf--pre graf-after--p">var resultat = (foo, bar) => { return(bar, foo) }</pre>
+
+Et en plus de ça on conserve le scope extérieur, c’est très bien pour le this.
+
+Mais ça, c’est purement technique. En vrai, ES6 doit être recompilé en ES5 (le JavaScript actuel) pour marcher universellement. La bonne nouvelle, c’est que bientôt, tous les bons navigateurs comprendront nativement le ES6.
+
+( [Découvrir ES6 par le code](http://www.paris-web.fr/2015/conferences/decouvrir-es6-par-le-code.php) , par Matthieu Lux)
+
+* * *
+
+Un autre petit truc qui va changer pas mal d’applications web, c’est les Service Workers&nbsp;: il s’agit d’un moyen de gérer en JS l’état online/offline de l’utilisateur. Une app comme Google Documents ou autre dépend de ce genre de technologies pour pouvoir laisser la possibilité à l’utilisateur de travailler quand il n’est plus connecté. Le “Attention chérie, ça va couper” ne fera plus perdre de documents, et ça c’est cool.
+
+( [Service workers&nbsp;: reprendre le contrôle du navigateur](http://www.paris-web.fr/2015/conferences/service-workers-reprendre-le-controle-du-navigateur.php) , par Éric Daspet)
+
+* * *
+
+#### Enfin un moyen de faire de la composition en&nbsp;CSS
+
+Depuis des années on attendait ça. Comment mettre en page efficacement un document HTML avec du CSS&nbsp;? En sachant qu’il faut rester sémantique (pas de mauvaises balises pour définir un contenu), accessible (le contenu doit pouvoir être affiché dans une composition qui ne dépend pas de l’ordre dans lequel il est dans la source) et compréhensible pour le collègue qui reprend le projet après.
+
+Au début on a voulu faire ça avec des _table_ HTML (pas sémantique ni accessible ni propre), puis on a appris à le faire avec des propriétés CSS _float_ (pas propre ni très accessible), maintenant on a le _display: inline-block_ ou le _display: flex_ (souvent pas très propre ni très adapté à une page entière).
+
+Mais dans le futur, on aura CSS Grid. Cette propriété, c’est le paradis. Une grille de composition est définie en CSS, puis les blocs sont disposés selon les cellules formées par cette grille. Comme ça, les blocs peuvent être ordonnés de manière complètement indépendante de la structure du document, et cette disposition se fait entièrement en CSS&nbsp;—&nbsp;ce qui permet beaucoup plus facilement l’utilisation de points de rupture pour le _responsive design_ .
+
+L’algorithme est super puissant pour ajouter lignes et colonnes au besoin, et on peut spécifier la mise en page en suivant une logique visuelle, directement dans le fichier CSS. **C’est génial** .
+
+> CSS Grid is ⭐ M A G I C ⭐, thank you [@rachelandrew](https://twitter.com/rachelandrew) for the discovery ! [#parisweb](https://twitter.com/hashtag/parisweb?src=hash)
+> 
+> — Joachim (@joachimesque) [1 octobre 2015](https://twitter.com/joachimesque/status/649522841881284608)
+
+Ressource supplémentaires&nbsp;:
+
+*   [https://rachelandrew.co.uk/presentations/css-grid](https://rachelandrew.co.uk/presentations/css-grid)
+*   [https://speakerdeck.com/rachelandrew/css-grid-layout-for-paris-web](https://speakerdeck.com/rachelandrew/css-grid-layout-for-paris-web)
+*   [http://gridbyexample.com/](http://gridbyexample.com/)
+
+( [An Introduction to CSS Grid Layout](http://www.paris-web.fr/2015/conferences/an-introduction-to-css-grid-layout.php) , par Rachel Andrew)
+
+* * *
+
+#### Et l’accessibilité, ça s’améliore aussi.
+
+Le handicap, c’est la confrontation du besoin d’une personne avec un environnement qui n’y est pas adapté. Le web peut être très discriminant pour certaines personnes en situation de handicap, si les pages et applications ne sont pas conçues pour être accessibles à tous. Il faut par exemple penser aux sourds, en fournissant des sous-titres ou des transcriptions texte des vidéos et sons diffusés, ou aux aveugles et aux mal-voyants en permettant une navigation simple et rapide ainsi qu’une alternative textuelle à tout contenu visuel porteur d’information.
+
+Là, c’est pas vraiment le futur parce que c’est sorti récemment, mais il va falloir en tenir compte. Le RGAA3, c’est la troisième version du _Référentiel général d’accessibilité pour les administrations_ , un ensemble de critères d’accessibilité web et une méthodologie pour vérifier la conformité à ces critères, c’est publié par le gouvernement, à l’usage des administration et de toute communication publique.
+
+Beaucoup de nouveautés sont annoncées dans cette évolution du référentiel. La conception de tout site d’administration devrait prendre ce référentiel en compte, mais la cause de l’accessibilité n’est pas vraiment comprise…
+
+On peut noter deux sites qui respectent déjà le RGAA 3&nbsp;:
+
+*   [http://www.service-public.fr](http://www.service-public.fr/)
+*   [http://www.pasdecalais.fr](http://www.pasdecalais.fr/)
+
+( [Il est beau il est frais mon RGAA 3](http://www.paris-web.fr/2015/conferences/il-est-beau-il-est-frais-mon-rgaa-3.php) , par Aurélien Levy)
+
+* * *
+
+En dépit de cette vision pessimiste du présent ou du futur proche, il est intéressant d’imaginer ce que l’avenir plus lointain peut nous apporter. Lorsqu’on pense à Intelligence Artificielle ou Voiture Autonome, on n’envisage pas vraiment à quel point ces technologies pourront transformer la vie des personnes en situation de handicap. L’assistance d’un humain n’est pas toujours possible, l’assistance d’une machine est pour l’instant peu pratique ou peu fiable… mais avec les développements technologiques en matière d’IA, le futur pourrait garantir à tous un accès au web et permettre une plus grande qualité de vie à ceux qui sont oubliés par l’immense majorité des concepteurs de technologies et de contenus.
+
+( [Le jour où l’on n’aura plus besoin de l’accessibilité](http://www.paris-web.fr/2015/conferences/le-jour-ou-lon-naura-plus-besoin-de-laccessibilite.php) , par Olivier Nourry)
+
+* * *
+
+### J’ai aussi découvert le&nbsp;présent
+
+* * *
+
+
+#### Des sujets qui font réfléchir
+
+Pour ouvrir Paris Web jeudi matin, Adrienne Charmet, de La Quadrature du Net, est venue nous parler de la défense des droits et libertés sur Internet. Cette conf plénière était surtout un appel à tous les acteurs du web à agir en rapport aux quatre projets législatifs qui nous concernent en ce moment, et qui peuvent potentiellement réduire la libertés des citoyens sur le net (la Loi Renseignement, la loi de Neutralité du Net, les enjeux liés aux Données Personnelles et à leur protection, et le projet de Loi Numérique).
+
+Les acteurs du net (hébergeurs, concepteurs d’applications, fournisseurs de contenus) ont autant à perdre que les citoyens, il ne faut dont pas voir de séparation entre un engagement citoyen et un engagement professionnel au regard des libertés sur le net. En exemple de cet activisme de la part d’organisations, les actions contre les lois SOPA et PIPA qui ont eu lieu aux États-Unis, et auxquelles Wikipedia, Google ou Twitter ont participé en limitant ou bloquant l’accès à leurs sites ou en instruisant les visiteurs sur l’action et les projets de loi.
+
+_Pour aller plus loin, la Quadrature du Net&nbsp;:_ [http://www.laquadrature.net/](http://www.laquadrature.net/)
+
+( [Internet et libertés&nbsp;: pour un engagement des acteurs du numérique](http://www.paris-web.fr/2015/conferences/internet-et-libertes-pour-un-engagement-des-acteurs-du-numerique.php) , par Adrienne Charmet)
+
+* * *
+
+Vendredi matin, un autre sujet pesant&nbsp;: Internet et la mort.  
+10000 utilisateurs de Facebook meurent chaque jour, 1 profil sur 30 appartient à une personne morte. Dans le futur, ce nombre va augmenter&nbsp;; on peut dès maintenant se poser quelques questions sur le sujet.
+
+Que se passe-t’il lorsqu’une personne meurt&nbsp;? Quels recours avons-nous pour accéder à la page d’un proche récemment décédé&nbsp;? De quelle manière pouvons-nous transformer un profil Facebook en mémorial&nbsp;? Est-ce que ça en vaut la peine&nbsp;? Quels autres services permettent ce genre d’action&nbsp;?
+
+Ces questionnements peuvent peut-être donner naissance à un système de “standardisation de décès numérique”, des API qui permettraient de déclarer une fois un décès, et opérer des changements à tous les aspects de nos identités online (comptes de réseaux sociaux, sites perso…), en fonction des dernières volontés du décédé.
+
+_Pour aller plus loin, l’article 20 du projet de Loi Numérique&nbsp;:_ [https://www.republique-numerique.fr/pages/projet-de-loi-pour-une-republique-numerique](https://www.republique-numerique.fr/pages/projet-de-loi-pour-une-republique-numerique)
+
+( [Death and UX: Digital Afterlife and Digital Legacy.](http://www.paris-web.fr/2015/conferences/death-and-ux-digital-afterlife-and-digital-legacy.php) , par Agnieszka Maria Walorska)
+
+* * *
+
+Comment est-ce qu’une personne aveugle navigue sur le web, utilise les réseaux sociaux, participe à la vie culturelle et intellectuelle d’Internet&nbsp;? Je n’en savais pas grand chose avant l’intervention passionnante de Sylvie Duchateau, qui nous a parlé de son workflow (créer et utiliser des modèles de documents Office accessibles&nbsp;!) et décrit les outils qu’elle utilise (Jaws, NVDA). Elle a même paramétré le dictionnaire de prononciation de son lecteur d’écran NVDA pour qu’il prononce “visage souriant” quand il lit un smiley&nbsp;:-)&nbsp;. Ont été abordés bien sûr la question de l’accessibilité des sites publics et privés, de méthodologie pour créer un site véritablement utilisable par tous, et la formation de personnes aveugles à l’évaluation d’accessibilité des sites web.
+
+( [Le défi d’une personne aveugle&nbsp;: conseiller sur l’accessibilité dans un web toujours plus visuel](http://www.paris-web.fr/2015/conferences/le-defi-dune-personne-aveugle-conseiller-sur-laccessibilite-dans-un-web-toujours-plus-visuel.php) , par Sylvie Duchateau)
+
+* * *
+
+Pour rebondir sur la méthodologie pour un site accessible, Bertrand Binois nous a parlé de la conception du site [pasdecalais.fr](http://www.pasdecalais.fr/) . Ce site a été le premier en France à être compatible RGAA 3, il a eu le label e-accessible (label de l’état) en juin dernier.
+
+Le site montre bien qu’un site accessible peut être vraiment utilisable par tous et n’est pas forcément moche, et que la démarche d’accessibilité ne nuit pas aux contenus et ne coûte pas cinq fois plus cher.
+
+L’accessibilité, on en pense ce qu’on veut, mais on va **tous** en avoir besoin. Personne n’est à l’abris de l’âge, d’une maladie ou d’un accident qui réduit l’accès à l’information.
+
+Une démarche d’accessibilité commence par une formation aux critères RGAA, WCAG etc., une éducation en interne de tous les contributeurs au site et l’accompagnement d’une structure spécialisée, il faut aussi un bon cahier des charges et une charte éditoriale bien conçue, et la volonté d’améliorer les processus et le rendu. Ça se pense dès le départ, et ça se suit au quotidien (via une gestion éditoriale stricte).
+
+Les principaux problèmes viennent des prestataires (qui ne sont pas forcément au courant), de la méthode (pas encore assez de ressources pour équipes et prestes), de l’éducation (en interne et des prestataires, mais surtout du grand public), et de certaines normes pas encore adaptées aux usages.
+
+Mais la bonne nouvelle, c’est que c’est possible.
+
+( [Pasdecalais.fr, histoire d’une démarche d’accessibilité](http://www.paris-web.fr/2015/conferences/pasdecalaisfr-histoire-dune-demarche-daccessibilite.php) , par Bertrand Binois)
+
+* * *
+
+Depuis 10 ans, Paris Web appelle les services d’une équipe d’interprètes LSF (Langue des Signes Française) pour traduire les conférences et permettre à ce que des sourds puissent y assister. Pour cet anniversaire, Sandrine Schwartz, une des interprètes historique de la conférence, a parlé de la langue, de traduction simultanée, des signes utilisés pour le vocabulaire technologique (est-ce que le signe pour _Websocket_ a un rapport avec le signe pour _chaussette_ &nbsp;?).
+
+Sandrine nous a ouvert les yeux sur un monde immense à découvrir, une intervention nécessaire pour clôturer la conférence.
+
+* * *
+
+#### Bonnes pratiques pour tout de&nbsp;suite
+
+Ces quatre courtes conférences traitent de sujets à approfondir dès maintenant&nbsp;; le format d’un quart d’heure est intéressant pour saisir le vif d’un sujet sans s’appesantir.
+
+Les formulaires d’email ne devraient pas être contrôlés par un vulgaire script. Trop d’adresses qui fonctionnent se font refuser par des systèmes trop zélés, par exemple les TLD très longs, les domaines qui ont des caractères accentués, les caractères spéciaux dans les parties locales…
+
+Bref, pas de contrôles par un REGEX trouvé sur StackOverflow, mais un bon vieux clic de lien à la réception de l’email.
+
+( [«&nbsp;Acceptation Générale&nbsp;» mon prénom, mon adresse, mon domaine seront-ils acceptés par tous les formulaires&nbsp;?](http://www.paris-web.fr/2015/conferences/acceptation-generale-mon-prenom-mon-adresse-mon-domaine-seront-ils-acceptes-par-tous-les-formulaires.php) , par Stéphane Bortzmeyer)
+
+* * *
+
+Une présentation sur le standard OpenID Connect, successeur de OpenID mais compatible avec OAuth 2.0\. Sur le projet FranceConnect, ça permet aux sites d’administrations françaises d’authentifier des utilisateurs avec leur login d’autres administrations, et d’échanger des informations entre divers services administratifs.
+
+( [OpenID Connect, le nouveau standard d’authentification sur le web&nbsp;: mise en oeuvre sur FranceConnect](http://www.paris-web.fr/2015/conferences/openid-connect-le-nouveau-standard-dauthentification-sur-le-web-mise-en-oeuvre-sur-franceconnect.php) , par François Petitit)
+
+* * *
+
+C’est quoi un styleguide&nbsp;? C’est une bibliothèque, une documentation, un outil de design… En gros, c’est l’ensemble des ressources utilisables pour un même site. Pour préserver la logique d’une expérience utilisateur, il faut que tous les éléments soient unifiés. Le styleguide est particulièrement pertinent dans une démarche d’ _atomic design_ . Il contient l’identité du projet (typos, couleurs, ton du discours, icône…), les éléments d’interface (boutons, liens, grille de composition…) et surtout la documentation (expressions CSS, process, readme…).
+
+C’est primordial pour la cohérence graphique et une UX pérenne, ça améliore la production, le workflow entre équipes, la communication, ça accélère les tests et le process.
+
+( [Le styleguide, bien alimenté il tient ses promesses](http://www.paris-web.fr/2015/conferences/le-styleguide-bien-alimente-il-tient-ses-promesses.php) , par Laurent Guitton)
+
+* * *
+
+La ligne de commande est un outil puissant pour interagir avec l’ordinateur. Les exemples donnés étaient très intéressants, et les slides étaient parmi les plus réussies. Ça compte aussi&nbsp;!
+
+_Pour aller plus loin, les slides&nbsp;:_ [http://slides.com/thierrymichel/le-designer-qui-chuchotait-l-oreille-des-ordinateurs#/](http://slides.com/thierrymichel/le-designer-qui-chuchotait-l-oreille-des-ordinateurs#/)
+
+( [Le designer qui chuchotait à l’oreille des ordinateurs](http://www.paris-web.fr/2015/conferences/le-designer-qui-chuchotait-a-loreille-des-ordinateurs.php) , par Thierry Michel)
+
+* * *
+
+#### Pratique du design au jour le&nbsp;jour
+
+Un sportif s’entraine pour être au top, est-ce qu’un créatif ne devrait pas faire la même chose&nbsp;? L’entrainement créatif est bon pour le processus. Il faut penser à la mémoire physique (les routines, la mémoire musculaire, la cognition incarnée…), la mémoire visuelle et mentale (par la lecture, la mémorisation, faire travailler l’empathie), travailler l’exploration créative (via la pensée latérale & les mind maps), la résolution de problèmes (en séparant hypothèses, tests & résolutions), puis appliquer ces entrainements à l’équipe pour en améliorer la dynamique (montrer son travail, apprendre du comportement des autres, communiquer efficacement…)
+
+( [Êtes-vous au top&nbsp;?](http://www.paris-web.fr/2015/conferences/etes-vous-au-top.php) , par Natacha Hennocq)
+
+* * *
+
+Le parcours atypique d’un psychologue social dans le web&nbsp;: de l’analyse des interactions sociales à l’ergonomie, en passant par l’analyse des machines comme objets sociaux, pour terminer UX designer.
+
+Retournement de situation&nbsp;: en fait, dans la chaîne de conception d’un projet web, tout le monde est UX designer, ça recouvre une constellation de talents. Une présentation qui avait des belles slides, c’est important à mentionner.
+
+( [Itinéraire d’une licorne&nbsp;: de la psychologie sociale à l’UX design](http://www.paris-web.fr/2015/conferences/itineraire-dune-licorne-de-la-psychologie-sociale-a-lux-design.php) , par Maxime Fortelle)
+
+* * *
+
+Le Pair Design, ou design en binômes, est une évolution du Pair Programming&nbsp;: deux personnes font le travail, l’une tient l’outil, l’autre tient la carte. En design, les binômes peuvent être composés de plein de manières intéressantes (junior/senior, 2 experts de sujets complémentaires, UI designer/front-end developer…). Les rôles navigateur/conducteur s’inversent fréquemment. C’est une méthode approuvée par le monde du développement, qui produit une plus grande qualité grâce à une plus grande réflexion, favorise la collaboration via la motivation, l’émulation et le partage de la paternité du projet (et des risques & récompenses), et améliore la communication et l’apprentissage par le partage de connaissances.
+
+( [Vers une bonne pratique du Pair Design](http://www.paris-web.fr/2015/conferences/vers-une-bonne-pratique-du-pair-design.php) , par Catherine Verfaillie)
+
+* * *
+
+Au moment de révéler un projet à un client ou à un supérieur, le meilleur moyen pour gagner leur confiance est de dévoiler tout le process. Les clients doivent être guidés&nbsp;: s’ils n’aiment pas votre travail, autant que ça soit pour les bonnes raisons. Parler du processus, ça rassure le client&nbsp;; la simplicité est souvent le résultat d’un cheminement complexe, il faut expliquer que ce qu’il voit mérite le prix qu’il paye. C’est le processus qui donne du sens à notre travail.
+
+_Pour aller plus loin&nbsp;:_
+
+[**Révélez votre process**  
+_Un bon design ne se vend pas tout seul, par JP Cabaroc_ medium.com](https://medium.com/p/d27ec133ec3b "https://medium.com/p/d27ec133ec3b")[](https://medium.com/p/d27ec133ec3b)
+
+Austin Kleon, Show your work, [http://austinkleon.com/show-your-work/](http://austinkleon.com/show-your-work/)
+
+( [Vendez votre méthodologie](http://www.paris-web.fr/2015/conferences/vendez-votre-process.php) , par Jean-Philippe Cabaroc)
+
+* * *
+
+#### Les leçons de&nbsp;vie
+
+Quand les idées intéressantes arrivent, elles sont parfois tuées dans l’œuf par des prédateurs intérieurs (syndrome de l’imposteur, émotions, peur, procrastination) ou meurent des mains de tueurs extérieurs (facteur humain, gatekeepers, absence de contrôle sur le projet, trop de projets en même temps, absence de diversités…). Ou bien il y trop d’idées qui arrivent, et à ce moment là il faut soi-même prendre le couteau de boucher et en sacrifier certaines pour laisser les autres émerger.
+
+Comment gérer tout ça&nbsp;? Parfois il faut couper les idées en morceaux, prendre de la distance, bien s’entourer, confronter les idées à des inconnus, accepter l’idée que l’on crée pour l’impermanence. Mais surtout il faut choisir ses combats et suivre un code (1\. ne pas se tuer, 2\. ne tuer personne)
+
+( [Confessions d’un serial killer](http://www.paris-web.fr/2015/conferences/confessions-dun-serial-killer.php) , par Virginie Caplet)
+
+* * *
+
+Le design de soi, comme _personal branding_ auquel on aurait retiré les aspects commerciaux, voilà ce dont Marie Guillaumet a parlé dans une des conférences les plus remarquées de cette édition. Le design de soi offre des atouts professionnels (pour se vendre) mais aussi personnels (il nous permet de se rassembler entre esprits proches)&nbsp;; c’est prendre possession de la façon dont on communique, dont on prend la parole. Toutes les voix sont légitimes, à condition de valoriser notre personnalité propre&nbsp;; il faut assumer sa vulnérabilité, et rester la même personne online et offline.
+
+L’expertise de chacun est nécessaire pour la communauté, il faut partager les savoirs, ça nous permet aussi de valoriser notre savoir-faire. Il faut parler du travail des autres aussi, publier utile et s’adresser à tous (même aux newbies), être une force positive. Le partage d’une expertise n’entraine pas de dévalorisation, au contraire, c’est un cercle vertueux de valorisation des savoirs, qui a pour effet secondaire le bouche à oreille.
+
+Pour rester crédible il faut savoir quoi montrer, préserver son intimité, privilégier le partage de l’ _extimité_ (voir ça avec Michel Tournier), et éviter à tout prix le _personal branling_ (ne pas retweeter TOUS les compliments). Il faut aussi savoir parler de ses réussites sans passer pour prétentieux, notamment en restant humble et accessible.
+
+Le principal, c’est de retranscrire sa personnalité à l’écran… et si on n’a pas le temps, on le fait petit à petit.
+
+_Pour aller plus loin&nbsp;:_ [http://bit.ly/design-de-soi](http://bit.ly/design-de-soi)
+
+( [Design de soi&nbsp;: valoriser son identité et son expertise sur le web](http://www.paris-web.fr/2015/conferences/design-de-soi-valoriser-son-identite-et-son-expertise-sur-le-web.php) , par Marie Guillaumet)
+
+* * *
+
+### Leçons et enseignement tirés
+
+Dur de ne pas tirer de leçons de tant de contenus&nbsp;! Plusieurs fils se détachent du faisceau d’idées générées par tous les échanges des deux jours de conf.
+
+#### L’accessibilité
+
+Le principal fil à suivre, celui qui a besoin du plus d’effort à mon avis, c’est celui de l’accessibilité. Trop d’équipes de conception ne savent même pas ce qu’est l’accessibilité, et en quoi ça touche tout le monde.
+
+Il faut d’abord passer par l’éducation des concepteurs pour ensuite rebondir sur les décisionnaires, et ensuite toucher le grand public. Mais ça commence par la compréhension du sujet par nous les concepteurs, ceux qui implémentons les solutions. C’est nous qui sommes au cœur du problème. Fermer les yeux sur c’est problèmes, c’est manquer singulièrement d’humanité. Même si c’est pour une excellente raison comme le budget.
+
+Parmi les solutions&nbsp;: formations WCAG / RGAA pour se spécialiser en tant que designer ou intégrateur, intervention de spécialistes (Access42, Temesis)
+
+* * *
+
+#### Le design à plusieurs
+
+Le design est un sport d’équipe. Malheureusement, c’est plutôt vu comme une cascade décisionnaire, où tout ne peut aller que dans un sens. Le Pair Design est une piste à explorer en fonction des capacités d’équipe, mais même sans ça il faut améliorer l’environnement collaboratif. Trop souvent, on voit une décision prise par la première personne, ajoutée à la todo-list, et qui n’est pas remise en question avant la version suivante du produit, parce que personne ne peut proposer d’alternative à cette décision. En incluant un plus grand nombre d’acteurs du projet dès l’origine, on gagne énormément.
+
+Parmi les solutions&nbsp;: Pair design, outils de communication comme Slack&nbsp;?
+
+* * *
+
+#### Addendum&nbsp;: Styleguide et Atomic&nbsp;Design
+
+Je rajoute un petit mot sur le Styleguide, et surtout sur l’idée d’ _Atomic Design_ , abordée dans la conf de Laurent Guitton. Ça m’intéresse.  
+Si seulement on pouvait avoir un retour d’expérience de cette méthodologie dans la prochaine édition de Paris Web&nbsp;!
+
+* * *
+
+### Conclusion
+
+Évidemment, j’attends que les vidéos des conférences soient en ligne, je pourrai rattraper celles que j’ai loupé.
+
+C’est génial qu’on ait un événement comme ça dans le panorama web français/francophone. Tout est très positif, les gens sont ouverts et sympa, il y avait même des licornes et des arc-en-ciels, c’est pas rien.
+
+
+> Faut pas oublier le gif licorne avec [@cheekfille](https://twitter.com/cheekfille) ! [#ParisWeb](https://twitter.com/hashtag/ParisWeb?src=hash) [pic.twitter.com/Pd5qKeK3f8](http://t.co/Pd5qKeK3f8)
+> 
+> — Joachim (@joachimesque) [4 octobre 2015](https://twitter.com/joachimesque/status/650663355334701057)
+
+
+Il faudra que j’y retourne l’an prochain, et j’y proposerai même peut-être une conférence. Comment faire des jolies slides, par exemple. Je tirerai pour ça ma grande expérience de conférencier et de designer de présentations&nbsp;—&nbsp;grande expérience que je n’ai absolument pas… mais il faut bien commencer quelque part.
+
+* * *
+
+Ce CR a été rédigé pour mes collègues, collaborateurs et supérieurs, mais je veux tester un peu la diffusion à plus grande échelle… c’est la conférence sur le Design de soi qui m’y force&nbsp;!
+
+Si tu trouves des erreurs ou autre, je suis joignable sur twitter&nbsp;: [@joachimesque](http://twitter.com/joachimesque) .
+
+Initialement publié le [<time class="dt-published" datetime="2015-10-04T17:26:34.022Z">October 4, 2015</time> sur Medium](https://medium.com/p/3619ec18c24f)

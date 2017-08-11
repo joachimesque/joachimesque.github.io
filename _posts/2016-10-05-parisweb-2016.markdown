@@ -1,0 +1,212 @@
+---
+layout: post
+title:  "ParisWeb 2016"
+date:   2016-10-05 16:22:00
+categories: blog
+---
+
+**De retour à la conf des gens qui font le&nbsp;web.**
+
+Comme en 2015, j’ai eu la chance d’aller manger les petits fours et en errant à la recherche de têtes connues à l’occasion de Paris Web 2016\. La bonne nouvelle, c’est qu’il y a plus de têtes connues par rapport à l’an dernier.
+
+[Paris Web](https://www.paris-web.fr/) est une conférence annuelle basée à Paris, qui rassemble le microcosme des artisans français du web autour de sujets touchant aux technologies du web, au design et à l’accessibilité. Mon employeur m’y envoie à condition que j’écrive un compte-rendu des conf auxquelles j’assiste, je les publie sur Medium pour en faire profiter le plus grand monde. Voici [mon compte-rendu de Paris Web 2015](https://medium.com/@joachimesque/paris-web-2015-3619ec18c24f) .
+
+Après une mission assez longue chez un client, j’ai réintégré mon équipe en interne le mois dernier&nbsp;: ça m’a permis de me rendre compte plus en détail des savoirs et process qu’on a ensemble en interne. C’est sous cet angle-là que j’ai abordé les différents talks de la conférence&nbsp;: d’une part dans le cadre de l’équipe, et aussi pour mon périmètre. De plus, certains talks se détachaient encore par leur caractère universel, j’en parle à la fin.
+
+_Si vous voyez des erreurs ou des flous dans ce texte, n’hésitez pas à me contacter&nbsp;:_ [_@joachimesque_](https://twitter.com/joachimesque) _)_
+
+* * *
+
+### **Ce qui va être utile à mon&nbsp;équipe**
+
+Est-ce que le développement serait si amusant s’il n’y avait pas continuellement une nouvelle techno à adopter&nbsp;? J’ai entendu les collègues parler de Docker et Capistrano, j’y pigeais rien. Jusqu’à ce que David Sferruzza explique le principe.
+
+Pour éviter de tout gérer soi-même à la main (ce que je fais pour mes projets perso), il y a toute une série d’outils pour travailler à plusieurs sur le même projet ou automatiser les tâches. Git, on l’utilise déjà dans l’équipe, comme NPM ou Grunt. En revanche, tout ce qui est CI (Intégration Continue) ou déploiement, on n’a pas encore touché. Les gars, regardez du côté de GitLab CI, Docker, Deployer ou Capistrano… mais avant ça, regardez les slides (en attendant la vidéo).
+
+Le déploiement manuel&nbsp;: non merci, j’essaye d’arrêter&nbsp;!  
+_Par_ [_David Sferruzza_](https://twitter.com/d_sferruzza) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/le-deploiement-manuel-non-merci-jessaie-darreter.php) _—_ [_Les slides_](https://dsferruzza.github.io/conf-arreter-deploiement-manuel/#/)
+
+* * *
+
+Certains de nos projets n’ont pas besoin de grosse base de donnée, d’énormes serveurs qui peuvent traiter des millions de requêtes à la minute. Parfois, moins c’est mieux. En l’occurence, la technologie commence à être mature du côté des générateurs de sites statiques&nbsp;; bien utilisé, un système statique auquel on ajoute un Headless CMS est plus performant, scalable et moins cher. Bref, il y a plein d’outils sympathiques à découvrir. Peut-être même [un peu trop](https://www.staticgen.com/) .
+
+Ne passons pas à côté des choses simples  
+_Par_ [_Franck Taillandier_](https://twitter.com/dirtyf) _et_ [_Bertrand Keller_](https://twitter.com/bertrandkeller) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/ne-passons-pas-a-cote-des-choses-simples.php) _—_ [_Les slides_](http://frank.taillandier.me/presentations/ne-passons-pas-a-cote-des-choses-simples/) _&_ [_le support texte_](http://frank.taillandier.me/2016/10/02/ne-passons-pas-a-cote-des-choses-simples/)
+
+* * *
+
+Un site dans une langue, c’est bien, dans plein de langues c’est mieux mais beaucoup plus compliqué. L’internationalisation (i18n pour les intimes), c’est à penser en amont, et ça impacts toutes les étapes du développement. Du contenu (qui va traduire&nbsp;?) au back-end (comment stocker les dates&nbsp;?) au design (écriture de gauche à droite, de droite à gauche&nbsp;? polices de caractères adaptées&nbsp;?) au référencement, ou à l’intégration de fonctionnalités (quels outils utiliser&nbsp;? Google est interdit en Chine), rien ne s’improvise, il faut tout spécifier dès le début.
+
+Lancer son site à l’international, facile&nbsp;? Oui, si l’on pense à tout&nbsp;!  
+_Par_ [_Aurélie Guillaume_](https://twitter.com/slig36) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/lancer-son-site-a-linternational-facile-oui-si-lon-pense-a-tout.php) _—_ [_Les slides_](https://speakerdeck.com/slig36/lancer-son-site-a-linternational-facile-oui-si-lon-pense-a-tout)
+
+* * *
+
+_Paris Web m’étonne toujours par les moyens déployés, notamment en matière d’intervenants étrangers. On a une traduction simultanée assorti d’une vélotypie, comme ça c’est accessible pour tous, même ceux qui ne comprennent pas l’anglais. C’est fou. Comme ça on peut avoir des intervenants étrangers et on ne reste pas à tourner en rond dans notre communauté web française._
+
+* * *
+
+Les tests d’utilisabilité sont une étape cruciale du développement d’un produit, malheureusement le manque de moyen nous empêche de bien le faire (ou le manque d’intérêt de la part des décideurs, mais ça c’est un autre problème). Tester une app mobile, c’est la mettre entre les mains d’un sujet qui n’y connait encore rien et voir s’il s’en sort. Filmer ces tests, c’est parfait pour se souvenir des résultats, pour communiquer plus facilement, et pour générer de l’empathie avec les vrais utilisateurs.
+
+Là, Belen Pena et Bernard Tyers nous proposent un protocole à faire soi-même (DIY, _Do It Yourself_ ), à base de webcams, de patafix, de Linux et de pièces de Meccano, pour filmer l’écran et le visage d’un testeur, et mieux comprendre ses réactions. Le talk était très réussi&nbsp;: ils ont pu faire une démonstration sur la scène pour tester le site des Aéroports de Paris sur mobile. Le site lui-même est inusable.
+
+
+> CDG airport web site totally *destroyed* on stage by conference on mobile user testing [#parisweb](https://twitter.com/hashtag/parisweb?src=hash) HILARIOUS !!!
+> 
+> — Daniel Glazman (@glazou) [29 septembre 2016](https://twitter.com/glazou/status/781434844567990272)
+
+
+DIY Mobile Usability Testing  
+_Par_ [_Bernard Tyers_](https://twitter.com/bernardtyers) _et_ [_Belen Barros Pena_](https://twitter.com/belenpena) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/diy-mobile-usability-testing.php) _—_ [_Les slides_](https://belenbarrospena.github.io/parisweb2016/)
+
+* * *
+
+Il est des talks dont je ne comprends pas tout, mais dont je sais qu’ils peuvent être importants. La sécurité, par exemple, c’est important. Les données de chacun sont à la merci des hackers, plus personne n’est à l’abri. La sécurité est la responsabilité de toutes les entreprises (PME comme CAC 40). Jérémie Jourdin et Benjamin Leroux sont experts en sécurité et donnent quelques pistes pour envisager les bonnes pratiques de sécurité dès le début d’un projet. Ça peut vouloir dire éviter les mauvaises décisions (mauvais usage de chiffrement, pas de logs…), prises pour de mauvaises raisons (time to market, faible sensibilisation sécurité, manque de contrôles…). La sécurité ça s’apprend, il ne faut pas réinventer la roue et investir dans des bons process.
+
+Web Security by design  
+_Par Jérémie Jourdin et_ [_Benjamin Leroux_](https://twitter.com/ben_lrx) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/web-security-by-design.php)
+
+* * *
+
+Le retour d’expérience, c’est un exercice un peu périlleux&nbsp;: comment rapporter les enseignements d’un projet, sans partir trop dans le détail et rester pertinent&nbsp;?
+
+Le talk de Noëlie Andrieu est bien conçu sur ce plan là. Au lieu d’une liste technique de ce qui a été fait dans le projet en question, elle nous parle de l’approche personnelle à adopter, de méthodes qui permettent de comprendre/mesurer/être à l’écoute pour bien avancer. Étaient abordées aussi les questions du management, et son utilité, ainsi que les personnes&nbsp;: la maturité, positivité et l’écoute dont elles doivent faire preuve. Plein d’idées utiles, j’attends les slides&nbsp;!
+
+Retour d’expérience sur la refactorisation d’une application d’e-mail  
+_Par_ [_Noëlie Andrieu_](https://twitter.com/no_way) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/retour-dexperience-sur-la-refacto-dune-application-demail.php)
+
+* * *
+
+### **Ce qui va m’être&nbsp;utile**
+
+Le syndrome de l’imposteur, c’est le décalage entre les compétences perçues et les compétences réelles. Quelqu’un qui en souffre trouvera toutes les excuses pour ne pas faire valoir son expérience. «&nbsp;J’ai pas de diplôme/expertise/idée cool&nbsp;» (rayez la mention inutile)
+
+Pour s’en défaire, pourquoi ne pas redécouvrir ses compétences en les mettant en avant en participant à des conférences ou en participant au monde de l’Open Source&nbsp;? Ici, Agnès Haasser raconte comment elle a dépassé ce syndrome, et conclut que ce qui est évident pour soi ne l’est pas forcément pour tous&nbsp;: c’est bien de partager ses connaissances.
+
+Libérée, délivrée… du syndrome de l’imposteur  
+_Par_ [_Agnès Haasser_](https://twitter.com/tut_tuuut) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/liberee-delivree-du-syndrome-de-limposteur.php) _—_ [_Les slides_](https://www.paris-web.fr/2016/Agnes_Haasser_ParisWeb2016_Libereedelivree.pdf)
+
+* * *
+
+L’Open Design, c’est curieux. On connait l’open source pour le développement logiciel, mais pour le design c’est loin d’être aussi riche et développé. À travers quelques exemples, My Lê nous a montré l’effervescence autour du partage en matière de design. Au niveau des connaissances, les designers on tendance à cacher leurs process, sans doute parce qu’ils sont payés pour le process. La solution c’est d’ouvrir, de partager. Dans le monde typographique, quelques fonderies libèrent leurs polices, notamment Velvetyne ou Open Source Type Foundry. Si on choisit ces d’utiliser ces typos, on lutte contre l’uniformisation (voir le talk suivant) et on soutient la démarche des graphistes dans l’Open Source. Le troisième exemple portait sur le rebranding de Mozilla.
+
+À la suite de ce talk, il y a eu une informelle (une conf «&nbsp;improvisée&nbsp;», espace de conversations). Il en est ressorti plusieurs idées chères aux graphistes
+
+*   le design est perçu moins comme une expertise que comme un _truc artistique_ sur lequel tout le monde doit avoir un avis
+*   le rebranding de Mozilla est l’exemple même du _design by committee_ , et gagnerait peut-être à un _benevolent dictator_ pour trancher
+*   [@hellgy](https://twitter.com/hellgy) conseille de demander _pourquoi&nbsp;?_ à chaque commentaire, ça a tendance à départager ce qui est pertinent de ce qui ne l’est pas
+*   [@l_myle_l](https://twitter.com/l_myle_l) ajoute _la règle des 5 pourquoi_ , qui fait la même chose, mais encore plus profondément
+*   le plus important pour faire accepter un design, c’est la pédagogie
+
+Open Design  
+_Par_ [_My Lê_](https://twitter.com/l_myle_l) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/open-design.php) _—_ [_La transcription_](https://www.paris-web.fr/2016/conferences/open-design.php#transcription-1997)
+
+* * *
+
+_En ce moment, tous les sites se ressemblent&nbsp;!_ , c’est le constat qui ouvre la présentation. Il y a beaucoup d’homogénéisation dans le web, due au plagiat ou aux templates, ou au syndrome de on-ne-va-pas-réinventer-la-roue. Utiliser un thème déjà fait, c’est utiliser une antisèche qui n’a pas la bonne réponse. Le principal, nous dit Amélie Boucher, c’est d’être soi, et d’apporter du sens aux projets. Pour ça, il faut rechercher, trouver un regard neuf, se poser les bonnes questions et découvrir le domaine. Ça passe aussi par le détail, réfléchir à ce qu’on veut montrer/cacher, et être conscient qu’une réponse de design peut être liée au contenu. Le process peut aussi aider, par exemple en se mettant dans la peau de l’utilisateur, en ne partant de rien ( _l’esprit du débutant_ ), en faisant attention aux fausses bonnes idées que sont le benchmark ou le brainstorm, et surtout en sortant de sa zone de confort.
+
+C’était une présentation très intéressante, que je conseille à tout travailleur «&nbsp;créatif&nbsp;».
+
+Questionnements sur l’Internet prêt-à-porter  
+_Par_ [_Amélie Boucher_](https://twitter.com/amelieboucher) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/questionnements-sur-linternet-pret-a-porter.php) _—_ [_les slides_](http://www.slideshare.net/amelieboucher/questionnements-sur-linternet-prtporter-paris-web-2016)
+
+* * *
+
+Les sélecteurs CSS, il y a des tonnes à dire sur ce sujet, mais Gaël Poupard s’est bien débrouillé pour en tirer la substantifique moelle, en proposant à la fin son projet [a11y.css](https://github.com/ffoodd/a11y.css) , un outil CSS pour contrôler le markup HTML sur certains sujets d’accessibilité (genre contrôler la présence de l’attribut lang dans la balise <html>.
+
+L’usage de sélecteurs dans le genre de [aria-hidden=”true”] au lieu d’ajouter/enlever des classes spéciales dans nos scripts peut être plus pratique. On peut aussi en économiser en utilisant [class*=”btn”] au lieu de&nbsp;.btn.btn-red.btn-big ou autre horreur. Et puis ça, c’est joli&nbsp;: main * + * { margin-top: 1em; } (au lieu de faire des tas de p:first-child { margin-top: 0; }).
+
+_Maintenant, il faut que je me renseigne sur_ [_Atomic CSS_](http://acss.io/) _et_ [_Tachyons_](http://tachyons.io/) _, je crois que ça peut m’intéresser._
+
+Il n’y a pas que _class_ et _id_ dans la vie  
+_Par_ [_Gaël Poupard_](https://twitter.com/ffoodd_fr) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/il-ny-a-pas-que-class-et-id-dans-la-vie.php) _—_ [_La transcription_](https://www.paris-web.fr/2016/conferences/il-ny-a-pas-que-class-et-id-dans-la-vie.php)
+
+* * *
+
+Cette présentation très complète portait sur les nouveautés qu’apportera la spec HTML5.1, par exemple les _service workers_ , les notifications _push_ , l’API Gamepad (pour les jeux dans le navigateur), et les trucs dont on ne sait pas encore si ça existera un jour (genre _ContentEditable_ ).
+
+HTML 5.1 + Web Platforms API  
+_Par_ [_Léonie Watson_](https://twitter.com/leoniewatson) _et_ [_Charles McCathieNevile_](https://twitter.com/chaals) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/html51-web-platform-apis.php) _—_ [_Les slides_](http://ljwatson.github.io/decks/2016/parisweb/index.html#cover)
+
+* * *
+
+Leboncoin, c’est le site jaune qui a changé récemment (mais pas trop). Son design est basé sur la simplicité d’utilisation, lors de la refonte responsive, l’accent a été mis sur l’UX, le «&nbsp;pixel&nbsp;» est passé après. Pour un tel projet, ils ont rassemblé des talents très différents mais complémentaires, et ont coupé la chaine décisionnaire habituelle. Il leur a fallu se former auprès d’autres équipes de leur groupe, et auprès de consultants extérieurs. Avec 40% de visiteurs sur mobile, la refonte était un vrai enjeu, qu’ils ont pu réussir en faisant les changements petit à petit, workflow par workflow. Ils ont pu recruter un très grand nombre de testeurs pour leurs beta grâce aux réseaux sociaux (il leur a fallu lire 70000 réponses). Les leçons finales, c’est de faire les features progressivement, d’écouter les utilisateurs, de ne pas trop se couper des décisions des autres équipes de la boîte (c’est plutôt important, ça), et surtout de bien communiquer au sein de sa propre équipe.
+
+Leboncoin, les coulisses d’une refonte graphique  
+_Par Margaux Chenard et Jérémie Pereira—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/leboncoin-les-coulisses-dune-refonte-graphique.php)
+
+* * *
+
+Une expertise de graphiste au milieu d’une équipe de dev c’est toujours une richesse, mais ça passe d’abord par le partage et la présentation du métier (peu de développeurs savent en quoi ça consiste vraiment), et cultiver les à-cotés comme le dessin, etc. Et puis ça peut être intéressant d’avoir l’avis de devs sur des sujets de graphistes.
+
+Une graphiste parmi les dev  
+_Par_ [_Florie Séchaud_](https://twitter.com/floriesd) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/une-graphiste-parmi-les-devs.php)
+
+* * *
+
+### **Ce qui va être utile au plus grand&nbsp;nombre**
+
+En regardant mes notes, il y a trois talks qui m’ont vraiment enthousiasmé, c’est là qu’il y a le plus de pages noircies, de mots soulignés et de flèches dans tous les sens. Étrangement, c’est des sujets plus larges que de la technique ou du retour d’expérience, ça a à voir avec le web et la façon dont il influence les sociétés.
+
+Les données personnelles, c’est le pétroles du web&nbsp;; qui a un gisement de data, domine. Apple récolte, Google récolte, Amazon en sait sûrement plus sur moi que ma maman, Facebook et Twitter n’en parlons pas. Il y a aussi les _data brokers_ , qui récupèrent toutes les données utilisateurs possibles, les croisent, et en font des profils le plus détaillé possible pour nous envoyer des publicités pour du viagra.
+
+L’existence de données utilisateur peut être positive mais elle est beaucoup plus souvent négative. Quand le site d’une pharmacie contient un tracker de Google, Google sait quels médicaments j’achète, et donc quelles maladies je peux avoir.
+
+En tant que professionnels du web, on a une responsabilité dans la protection de la vie privée, la notre et celle des utilisateurs pour qui on fait des sites. En l’absence de contexte, toutes les données doivent être considérées comme sensibles&nbsp;; une donnée peut être indirectement sensible. Adoptons un principe de précaution, et offrons la possibilité aux utilisateurs de modifier/supprimer leurs données.
+
+Il faudra donc «&nbsp;dératiser&nbsp;» nos sites, notamment en analysant les logs ou en hébergeant les outils soi-même (au lieu de faire appel à Google), en hébergeant aussi ses typos et en n’incluant pas de maps google… Il faudra aussi toujours activer le chiffrement, réinternaliser/désexternaliser les données, par exemple les commentaires, ne pas empêcher les utilisateurs de protéger leur vie privée, et plein d’autres choses.
+
+Anatomie d’une désintoxication Web sous surveillance  
+_Par_ [_Thibault Jouannic_](https://twitter.com/thibaultj) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/anatomie-dune-desintoxication-au-web-sous-surveillance.php) _—_ [_Le support texte_](https://www.miximum.fr/blog/conf-pw-2017/) _—_ [_La transcription_](https://www.paris-web.fr/2016/conferences/anatomie-dune-desintoxication-au-web-sous-surveillance.php#transcription-1986)
+
+* * *
+
+Le Web a énormément grossi depuis ses débuts il y a 20 ans&nbsp;; les pages web ont grossi 115 fois&nbsp;: plein d’images, de scripts, de typos, etc. Grâce à l’explosion du web et maintenant des apps, Internet a une empreinte environnementale plus grande que deux fois la France.
+
+Le principal impact se situe au niveau des terminaux, et non des réseaux ou des serveurs&nbsp;; en tant que dev web, on ne peut pas allonger la durée de vie des smartphones et ordinateurs personnels… en revanche, on peut réduire le besoin en terme de serveurs et de bande passante. L’important, c’est la frugalité et l’efficience.
+
+Malheureusement, il n’existe pas de certification officielle «&nbsp;écoconception de services numériques&nbsp;» type écolabel, bien qu’il y a une demande de la part de grands groupes ( _Il ne faudrait pas non plus que ça devienne un argument de_ green-washing). En revanche, beaucoup de petites structures en France se posent la question et bâtissent des réseaux de connaissance et de bonnes pratiques au niveau régional.
+
+Parmi les bonnes pratiques à développer, il faut centrer la conception sur le fonctionnel ( _Le designer en moi est horrifié, l’utilisateur en moi applaudit des deux mains, l’écolo en moi enlève ses chaussures pour applaudir aussi des deux pieds_ ), avec une approche frugale et sobre. Au niveau design et UX on bosse en mobile first, on purifie l’interface (pas trop d’images—bande passante—ou d’animations—puissance processeur), au niveau technique on adapte les choix techno à l’usage ( _voir plus haut la conférence sur les sites statiques_ ), on évite les plugins genre flash ou java, etc…
+
+Dans l’esprit des gens, le web est immatériel. Mais nous, les concepteurs, on sait que tout ça a un coût, à nous de réduire ce coût.
+
+Éco-conception&nbsp;: mon site web au régime  
+_Par_ [_Frédéric Bordage_](https://twitter.com/greenit) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/eco-conception-mon-site-web-au-regime.php) _—_ [_Les slides_](https://www.paris-web.fr/2016/Fre%CC%81de%CC%81ric_Bordage-EcoConception.pdf)
+
+* * *
+
+Bruce Lawson travaille chez Opera, les développeurs du navigateur éponyme. Chez Opera, ils se préoccupent énormément des 4 milliards d’internautes à venir, en provenances des pays en développement. Sa conférence était très intéressante pour briser les idées reçues sur tous les utilisateurs qu’on ne voit pas. Énormément de gens n’ont pas commencé avec Internet sur un ordinateur, par exemple, mais via un téléphone mobile. Il faut donc penser à construire le web en tenant compte de ces limitations. Par exemple, au lieu d’apps faites depuis un marketplace, les _progressive web apps_ sont beaucoup mieux&nbsp;: toujours à jour, et peuvent s’utiliser sur toutes les plate-formes, et même offline grâce aux _Service Workers_ . C’est d’ailleurs en Asie et en Afrique qu’on voit le plus de _web apps_ natives ( _Pour des exemples, voir_ [_pwa.rocks_](http://pwa.rocks/) ).
+
+_It doesn’t matter how smart your device is, if your network is dumb  
+_Pour accélérer l’accès au web, Opera a mis en place un navigateur proxy&nbsp;: les pages visitées par un utilisateur sont compressées par un serveur, puis envoyées au device de l’utilisateur, de manière dégradée certes, mais beaucoup plus rapide. Il faut donc oublier les typos web (surtout pour les icônes, le SVG c’est le bien), les coins arrondis ou les animations. Là on parle web basique, mais web accessible sur un réseau lent ou soumis aux coupures de courant.
+
+WWW&nbsp;: World Wide Web, not Wealthy Westerners’ Web  
+_Par_ [_Bruce Lawson_](https://twitter.com/brucel) _—_ [_Sur paris-web.fr_](https://www.paris-web.fr/2016/conferences/www-world-wide-web-not-wealthy-westerners-web.php) _—_ [_Les slides_](https://speakerdeck.com/brucel/parisweb-paris-30-september-2016)
+
+* * *
+
+J’ai aussi assisté à deux ou trois autres talks assez intéressants mais peu pertinents à ce compte-rendu, et aux lightning talks, très sympa… mais j’ai pas pris de notes, il faudra les regarder en vidéo.
+
+Parmi les sujets des talks auxquels je n’ai pas assisté et qui m’intéressaient aussi, il y avait&nbsp;:
+
+*   [La Blockchain](https://www.paris-web.fr/2016/conferences/la-blockchain-quand-lindividu-sert-au-collectif-malgre-lui.php) , on m’en a dit le plus grand bien (et sans langue de bois)
+*   [Les Beacons](https://www.paris-web.fr/2016/conferences/le-monde-physique-les-beacons-le-web-mobile-et-vous.php) , comment augmenter le monde physique, dans le cadre par exemple d’une visite de musée&nbsp;?
+*   [L’accessibilité décomplexée](https://www.paris-web.fr/2016/conferences/laccessibilite-decomplexee---ce-quelle-peut-faire-pour-vous.php) , j’admets que le résumé me laisse sur ma faim, j’attends la vidéo
+*   [Les ateliers de co-conception UX](https://www.paris-web.fr/2016/conferences/kit-de-survie-en-atelier-de-co-conception-fonctionnelle-ux.php) , j’admets volontiers que l’UX est pour moi un domaine à explorer (mais à la différence de beaucoup de directeurs artistiques qui se la pêtent, je sais que c’est une discipline à part entière et pas juste une excuse pour vendre du design minimaliste et des boutons hamburger), heureusement les slides sont déjà là
+*   Les [Progressive Web Apps](https://www.paris-web.fr/2016/conferences/progressive-web-apps-le-futur-du-web-arrive.php) , j’attends la vidéo avec impatience, étant donné que la salle était archi-pleine
+*   [L’accessibilité au delà des référentiels](https://www.paris-web.fr/2016/conferences/vers-linfini-et-au-dela-des-referentiels.php) , il faudrait déjà que j’arrive à sensibiliser les gens pour qui je fais des sites, sur les sujets de l’accessibilité. Mais c’est bien de savoir comment aller plus loin
+*   [Le design de l’audio](https://www.paris-web.fr/2016/conferences/laudio-na-pas-dit-son-dernier-mot.php) , un talk dont on m’a beaucoup parlé, et que j’ai pu revoir avec [Carine](https://twitter.com/carinefillot) , la conférencière
+
+* * *
+
+J’ai lu quelques articles au sujet de cette édition de ParisWeb, sur le manque de diversité dans le type de conférenciers présents (depuis 10 ans). Personnellement, je suis pour plus de diversité. En tant que participant, j’ai été content de voir sur la scène et dans les couloirs des gens qui ne me ressemblaient pas. Je sais que l’organisation de ParisWeb fait beaucoup de travail dans ce sens, il faut continuer, et amplifier le mouvement. Je ne dis pas ça pour plonger moi aussi dans la polémique, mais bien pour souligner l’importance de la discussion.
+
+* * *
+
+En conclusion de ce long—trop long—compte rendu, j’ai appris plein de choses et passé des bons moments avec des amis professionnels que je ne vois que pas assez souvent. L’an prochain j’y reviens, avec peut-être une idée de conférence sous le bras, mais surtout avec plein de collègues. Ils verront à quel point c’est fondamentalement _bien_ de se connecter à tant d’autres gens qui partagent leur savoir, leurs pratiques, leur foi dans le web.
+
+* * *
+
+Initialement publié  le [<time class="dt-published" datetime="2016-10-05T16:22:51.418Z">October 5, 2016</time> sur Médium](https://medium.com/p/53dc9a308c8a).
+
