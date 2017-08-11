@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Et si je testais un nouveau truc…"
+date:   2017-08-11 18:37:28 +0200
+categories: blog
+---
+En postant depuis GitHub, ça marche ?
