@@ -3,7 +3,7 @@ description: Un blog, enfin, à nouveau
 meta_description: "Un blog, enfin, à nouveau"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: '/assets/images/profile.jpg'
 paginate: 15
 baseurl: /
@@ -12,5 +12,5 @@ google_analytics: 'UA-XXXXXXXX-X'
 plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'blog url'
+url:            'https://joachimesque.github.io'
 author:         'Joachim'
