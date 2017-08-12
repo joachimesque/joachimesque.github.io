@@ -114,7 +114,7 @@ _Par_ [_Amélie Boucher_](https://twitter.com/amelieboucher) _—_ [_Sur paris-w
 
 Les sélecteurs CSS, il y a des tonnes à dire sur ce sujet, mais Gaël Poupard s’est bien débrouillé pour en tirer la substantifique moelle, en proposant à la fin son projet [a11y.css](https://github.com/ffoodd/a11y.css) , un outil CSS pour contrôler le markup HTML sur certains sujets d’accessibilité (genre contrôler la présence de l’attribut lang dans la balise <html>.
 
-L’usage de sélecteurs dans le genre de [aria-hidden=”true”] au lieu d’ajouter/enlever des classes spéciales dans nos scripts peut être plus pratique. On peut aussi en économiser en utilisant [class*=”btn”] au lieu de&nbsp;.btn.btn-red.btn-big ou autre horreur. Et puis ça, c’est joli&nbsp;: main * + * { margin-top: 1em; } (au lieu de faire des tas de p:first-child { margin-top: 0; }).
+L’usage de sélecteurs dans le genre de [aria-hidden="true"] au lieu d’ajouter/enlever des classes spéciales dans nos scripts peut être plus pratique. On peut aussi en économiser en utilisant [class*="btn"] au lieu de&nbsp;.btn.btn-red.btn-big ou autre horreur. Et puis ça, c’est joli&nbsp;: main * + * { margin-top: 1em; } (au lieu de faire des tas de p:first-child { margin-top: 0; }).
 
 _Maintenant, il faut que je me renseigne sur_ [_Atomic CSS_](http://acss.io/) _et_ [_Tachyons_](http://tachyons.io/) _, je crois que ça peut m’intéresser._
 
