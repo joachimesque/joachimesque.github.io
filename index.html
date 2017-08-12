@@ -48,15 +48,15 @@ about: 'about.html'
                 <img class="author-thumb" src="/assets/images/profile.jpg" alt="Photo de l'auteur" nopin="nopin" />
                 {{ site.author }}
             {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: '&bull; ' }} 
-            {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date: "%-d" }}
                 {% assign m = post.date | date: "%-m" | minus: 1 %}
                 {{ site.data.fr.months[m] }}
                 {{ post.date | date: "%Y" }}
             </time> 
+            {% if post.categories.size > 0 %} 
+                {{ post.categories | array_to_sentence_string | prepend: '&bull; ' }} 
+            {% endif %}
         </footer>
     </article>
 

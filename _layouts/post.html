@@ -19,6 +19,10 @@ post_class: post-template
         <header class="post-header">
             <h1 class="post-title">{{ page.title }}</h1>
             <section class="post-meta">
+                {% if site.author %}
+                    <img class="author-thumb" src="/assets/images/profile.jpg" alt="Photo de l'auteur" nopin="nopin" />
+                    {{ site.author }}
+                {% endif %}
                 <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">
                     {{ page.date | date: "%-d" }}
                     {% assign m = page.date | date: "%-m" | minus: 1 %}
