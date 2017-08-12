@@ -49,7 +49,7 @@ about: 'about.html'
                 {{ site.author }}
             {% endif %}
             {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: '| ' }} 
+                {{ post.categories | array_to_sentence_string | prepend: '&bull; ' }} 
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date: "%-d" }}
