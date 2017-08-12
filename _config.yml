@@ -7,6 +7,7 @@ highlighter: rouge
 logo: '/assets/images/profile.jpg'
 paginate: 15
 baseurl: '/'
+base-url: '/'
 domain_name: 'https://joachimesque.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 plugins: [jekyll-paginate]

@@ -12,14 +12,14 @@ about: 'about.html'
                     <img src="{{ site.logo }}" alt="Blog Logo" />
                 </a>
             {% endif %}
-        <a class="subscribe-button icon-feed" href="{{ site.url }}{{ site.baseurl }}feed.xml">Feed</a>
+        <a class="subscribe-button icon-feed" href="{{ site.url }}{{ site.base-url }}feed.xml">Feed</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title">{{ site.name }}</h1>
             <h2 class="page-description">
                 {% if site.description %} {{ site.description }}. {% endif %}
-                {% if page.about %} <a href='{{ site.url }}{{ site.baseurl }}{{ page.about }}'> À propos </a> {% endif %}
+                {% if page.about %} <a href='{{ site.url }}{{ site.base-url }}{{ page.about }}'> À propos </a> {% endif %}
             </h2>
         </div>
     </div>
