@@ -27,7 +27,7 @@ Qui sait, peut-être que ce Privacy Index sera un&nbsp;bon outil pour faire reve
 ***
 
 Tout ça c’est bien beau, mais comment je fais, moi, utilisateur lambda de&nbsp;l’interweb, pour protéger mes échanges&nbsp;?     
-C’est à&nbsp;cette question que Delphine Malassigne s’est attelée.    
+C’est à&nbsp;cette question que Delphine Malassingne s’est attelée.    
 Alors oui, on&nbsp;a vu, la&nbsp;protection de&nbsp;la vie privée est importante. Mais souvent on&nbsp;ne prend pas le&nbsp;temps de&nbsp;s’y mettre parce qu’on a beaucoup à&nbsp;faire, ça prend du temps, c’est pas toujours simple et&nbsp;de toute façon 99% de&nbsp;la population fait l’impasse. Contre ça, elle propose quelques pistes : agir petit à&nbsp;petit (à commencer par des&nbsp;outils "indolores" comme des&nbsp;plugins anti-traçage), diviser les&nbsp;grosses tâches (par exemple, migrer les&nbsp;contenus d’une app non protégée vers une&nbsp;app sécurisée en&nbsp;petites étapes), trouver des&nbsp;solutions qui simplifient tout en&nbsp;privilégiant la&nbsp;sécurité (utilisation de&nbsp;gestionnaires de&nbsp;mots de&nbsp;passe), et&nbsp;surtout accepter que tout n’est pas possible tout de&nbsp;suite… mais qu’il faut s’y mettre.    
 Bref, Delphine a bien dédramatisé toute l’affaire, ça va me pousser à&nbsp;améliorer mes pratiques, et&nbsp;à convaincre mes proches de&nbsp;faire de&nbsp;même.
 
