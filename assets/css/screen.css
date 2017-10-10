@@ -801,6 +801,12 @@ body:not(.post-template) .post-title {
 
 .read-more {
     text-decoration: none;
+    padding: 0 1ch;
+    transition:  padding .4s ease;
+}
+.read-more:hover {
+    padding: 0 .5ch 0 1.5ch;
+    transition:  padding .2s ease;
 }
 
 .post-meta {

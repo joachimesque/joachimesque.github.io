@@ -41,7 +41,16 @@ about: 'about.html'
             <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         </header>
         <section class="post-excerpt">
-            {{ post.excerpt }} &nbsp;<a class="read-more" href="{{ post.url }}">&raquo;</a>
+            {{ post.excerpt }}
+            <a class="read-more" href="{{ post.url }}">
+                <svg width="26px" height="17px" viewBox="0 0 26 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g font-size="30" font-family="ZapfDingbatsITC, Zapf Dingbats" font-weight="normal">
+                        <text id="➻" fill="#363636">
+                            <tspan x="0" y="21">➻</tspan>
+                        </text>
+                    </g>
+                </svg>
+            </a>
         </section>
         <footer class="post-meta">
             {% if site.author %}
