@@ -188,7 +188,8 @@ La question est sérieuse, la&nbsp;réponse est traitée avec humour&nbsp;: comm
 L’année dernière, il&nbsp;y&nbsp;avait eu une&nbsp;mini polémique suite à&nbsp;l’édition de&nbsp;Paris Web, au&nbsp;sujet de&nbsp;l’inclusion et&nbsp;la&nbsp;diversité au&nbsp;sein de&nbsp;la&nbsp;conférence. Cette&nbsp;année, Nathalie Pauchet nous&nbsp;a&nbsp;parlé de&nbsp;diversité dans le&nbsp;monde de&nbsp;l’informatique. On&nbsp;a&nbsp;oublié que les&nbsp;premiers informaticiens étaient des&nbsp;informaticiennes. Elles&nbsp;ont déchiffré les&nbsp;messages de&nbsp;l’Enigma et&nbsp;ont envoyé des&nbsp;fusées sur la&nbsp;Lune (tout en&nbsp;inventant les&nbsp;langages de&nbsp;l’époque et&nbsp;les&nbsp;logiques modernes de&nbsp;développement de&nbsp;logiciels). Maintenant pourtant, les&nbsp;femmes sont découragées dès l’enfance&nbsp;: tous les&nbsp;role models sont masculins, les&nbsp;maths sont vues comme une&nbsp;discipline peu féminine, et&nbsp;l’ambiance des&nbsp;filières d’étude de&nbsp;développement informatique sont souvent peu accueillantes. Après, il&nbsp;faut accentuer les&nbsp;efforts dans le&nbsp;recrutement et&nbsp;s’assurer que l’atmosphère et&nbsp;l’organisation des&nbsp;équipes ne poussera pas&nbsp;de&nbsp;femmes à&nbsp;quitter le&nbsp;monde de&nbsp;l’informatique, comme ça&nbsp;se&nbsp;fait encore trop souvent.
 
 [« L’informatique est trop importante pour être laissée aux&nbsp;hommes »](https://www.paris-web.fr/2017/conferences/linformatique-est-trop-importante-pour-etre-laissee-aux-hommes.php), par&nbsp;Nathalie Pauchet <small>[@lunatictac](https://twitter.com/lunatictac)</small>    
-[vidéo](https://www.youtube.com/watch?v=QZxWHZE02ag&t=8425s)
+[vidéo](https://www.youtube.com/watch?v=QZxWHZE02ag&t=8425s)    
+[retranscription](http://lunatopia.fr/blog/informatique-trop-importante-laissee-hommes)
 
 ***
 
