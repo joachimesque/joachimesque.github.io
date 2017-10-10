@@ -56,6 +56,8 @@ samp { font-family: monospace, serif; font-size: 1em; }
 pre { white-space: pre-wrap; }
 q { quotes: "\201C" "\201D" "\2018" "\2019"; }
 small { font-size: 80%; }
+/* special inclusion */
+small a { hyphens: none; }
 sub, sup {
    font-size: 75%;
    line-height: 0;
@@ -602,14 +604,14 @@ a#lien-contenu:focus {
     height: 38px;
     padding: 0 15px 0 10px;
     border: transparent 1px solid;
-    color: #5C656C;
+    color: rgba(8,8,16,.666);
     text-align: center;
     font-size: 12px;
     text-transform: uppercase;
     font-weight: bold;
     line-height: 35px;
     border-radius: 3px;
-    background: rgba(0,0,0,0.1);
+    background: rgba(255,255,255,0.6);
     transition: all ease 0.3s;
 }
 .back-button:before {
@@ -660,7 +662,7 @@ a#lien-contenu:focus {
 .no-cover .main-nav.overlay,
 .no-cover .back-button,
 .no-cover .subscribe-button {
-    background: none;
+    background: white;
 }
 
 .main-nav.overlay a {
@@ -682,8 +684,8 @@ a#lien-contenu:focus {
 /* Add a border to the buttons on hover */
 .back-button:hover,
 .subscribe-button:hover {
-    border-color: #bfc8cd;
-    color: #7D888F;
+    border-color: rgba(8,8,16,.666);
+    color: rgba(8,8,16,1);
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
@@ -753,11 +755,13 @@ a#lien-contenu:focus {
     position: relative;
     width: 80%;
     max-width: 710px;
+    max-width: 80ch;
     margin: 4rem auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
     word-break: break-word;
     hyphens: auto;
+    /* text-align: justify; */
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
