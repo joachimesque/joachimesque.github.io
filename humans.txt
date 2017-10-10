@@ -1,0 +1,51 @@
+humans.txt
+
+One-man-band
+------------
+
+Joachim Robert
+↳ mastodon : @joachim@boitam.eu
+↳ keybase  : joachimrobert
+↳ twitter  : @joachimesque
+↳ flickr   : joachim
+↳ email    : joachim.robert@protonmail.com
+↳ www      : joachimesque.com
+↳ www      : boitam.eu
+↳ www      : joachimesque.github.io
+
+
+With a little help from my friends
+----------------------------------
+
+Profile Picture
+↳ Corentin Fohlen
+  ↳ www : corentinfohlen.com
+
+
+With some work from
+-------------------
+
+jekyll
+↳ www : jekyllrb.com
+
+kasper theme
+↳ www : github.com/rosario/kasper
+
+Fonts
+↳ Chonburi
+  ↳ by  : Cadson Demak
+  ↳ www : cadsondemak.github.io/chonburi
+  ↳ www : github.com/cadsondemak/chonburi
+↳ Spectral
+  ↳ www : github.com/productiontype/Spectral
+  ↳ by  : Production Type
+    ↳ www : productiontype.com
+↳ served by Google Fonts
+  ↳ www : fonts.google.com
+
+
+License
+-------
+
+Unless otherwise mentioned, all the work featured on this blog is under an Attribution-NonCommercial-ShareAlike 4.0 International Creative Commons License (CC BY-NC-SA 4.0)
+  ↳ www : creativecommons.org/licenses/by-nc-sa/4.0
