@@ -5,7 +5,7 @@ date:   2015-10-04 17:26:00
 categories: blog
 ---
 
-**J’étais à la conférence des gens qui font le&nbsp;web**
+**J’étais à la conférence des gens qui font le&nbsp;web.**
 
 [**Paris Web**](http://www.paris-web.fr) est une conférence annuelle basée à Paris, qui célébrait cette année sa 10e édition. Cet événement rassemble les professionnels de toute la France autour de sujets touchant aux technologies du web, au design et à l’accessibilité. On peut venir y découvrir les évolutions, les bonnes pratiques ou retours d’expérience, de la part de spécialistes français ou internationaux.
 
