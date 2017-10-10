@@ -1,0 +1,195 @@
+---
+layout: post
+title:  "Paris Web 2017"
+date:   2017-10-10 08:37:28 +0200
+categories: blog
+---
+
+**Les gens qui font le web existent, je les ai&nbsp;rencontrés.**
+
+Pour la&nbsp;troisième année consécutive, j’ai eu l’opportunité d’assister à&nbsp;Paris Web, la&nbsp;conférence parisienne qui réunit les&nbsp;métiers du Web. Comme les&nbsp;années précédentes, c’est mon employeur, [Actiane](http://www.actiane.com), qui m’y a envoyé afin de&nbsp;rapporter à&nbsp;mes collègues la&nbsp;bonne parole. Voilà le&nbsp;compte-rendu de&nbsp;[Paris-Web 2015](https://joachimesque.github.io/blog/2015/10/04/parisweb-2015.html) et&nbsp;celui de&nbsp;[Paris-Web 2016](https://joachimesque.github.io/blog/2016/10/05/parisweb-2016.html). En&nbsp;2015, mon plan était articulé sur le&nbsp;futur / présent / retours d’expérience, en&nbsp;2016 c’était une&nbsp;question d’utilité pour moi / mon équipe / plus de&nbsp;monde. Là je vais avoir une&nbsp;approche plus thématique : d’abord les&nbsp;conférences parlant de&nbsp;[Web et&nbsp;Vie Privée](#leweb-etla-vie-privée), puis de&nbsp;[Méthodologie](#méthodologie-etconception-web) et&nbsp;celles parlant de&nbsp;[Technologies](#technologies-dela-conception-web). Et&nbsp;je terminerai par [les conférences qui ne rentrent pas dans les&nbsp;cases](#lesinclassables).
+
+Si vous voyez des&nbsp;erreurs ou des&nbsp;flous dans ce texte, n’hésitez pas à&nbsp;me contacter : [@joachimesque](https://twitter.com/joachimesque)).
+
+***
+
+## Le&nbsp;Web et&nbsp;la Vie Privée
+
+Tous les&nbsp;ans, je suis agréablement surpris par le&nbsp;nombre de&nbsp;conférences ayant trait à&nbsp;la protection de&nbsp;la vie privée sur le&nbsp;web. Cette année ne m’a pas déçu, je suis content des&nbsp;organisateurs pour la&nbsp;sélection très intéressante cette année où le&nbsp;maître-mot était *Un web responsable*.
+
+Pour ouvrir Paris-Web, Laurent Chemla (fondateur de&nbsp;Gandi) et&nbsp;Julien Dubedout (professionnel du pixel) ont pris la&nbsp;scène pour parler de&nbsp;l’histoire de&nbsp;ce concept qu’est la&nbsp;Vie Privée. Invention récente, héritée du siècle des&nbsp;lumières et&nbsp;du secret des&nbsp;correspondances réclamé à&nbsp;la Révolution, notre vie privée est en&nbsp;danger. Les&nbsp;causes de&nbsp;ce danger sont liées à&nbsp;l’usage qu’on fait de&nbsp;la technologie qui dévalue le&nbsp;concept même de&nbsp;Vie Privée, ainsi qu’à la&nbsp;centralisation par les&nbsp;GAFAM et&nbsp;la surveillance de&nbsp;masse par les&nbsp;États.     
+Pour inverser la&nbsp;tendance, Laurent Chemla et&nbsp;son projet Caliopen proposent un&nbsp;Privacy Index (∏), une&nbsp;notation des&nbsp;trois articulations de&nbsp;la sécurité de&nbsp;nos échanges : les&nbsp;facteurs technique, comportemental et&nbsp;contextuel. Ces facteurs changent en&nbsp;fonction de&nbsp;nos conversations et&nbsp;nos destinataires, et&nbsp;nos habitudes en&nbsp;matière de&nbsp;sécurité informatique.    
+Qui sait, peut-être que ce Privacy Index sera un&nbsp;bon outil pour faire revenir la&nbsp;protection de&nbsp;notre Vie Privée sur le&nbsp;devant de&nbsp;la scène.
+
+[Le secret de&nbsp;la correspondance numérique](https://www.paris-web.fr/2017/conferences/le-secret-de-la-correspondance-numerique.php), par&nbsp;Laurent Chemla <small>[@LaurentChemla](https://twitter.com/LaurentChemla)</small> / <small>[@LaurentChemla@mamot.fr](https://mamot.fr/@LaurentChemla)</small> et&nbsp;Julien Dubedout <small>[@mariejulien](https://twitter.com/mariejulien)</small>    
+[vidéo](https://www.youtube.com/watch?v=iN7b312ZDU4&t=1507s)
+
+***
+
+Tout ça c’est bien beau, mais comment je fais, moi, utilisateur lambda de&nbsp;l’interweb, pour protéger mes échanges&nbsp;?     
+C’est à&nbsp;cette question que Delphine Malassigne s’est attelée.    
+Alors oui, on&nbsp;a vu, la&nbsp;protection de&nbsp;la vie privée est importante. Mais souvent on&nbsp;ne prend pas le&nbsp;temps de&nbsp;s’y mettre parce qu’on a beaucoup à&nbsp;faire, ça prend du temps, c’est pas toujours simple et&nbsp;de toute façon 99% de&nbsp;la population fait l’impasse. Contre ça, elle propose quelques pistes : agir petit à&nbsp;petit (à commencer par des&nbsp;outils "indolores" comme des&nbsp;plugins anti-traçage), diviser les&nbsp;grosses tâches (par exemple, migrer les&nbsp;contenus d’une app non protégée vers une&nbsp;app sécurisée en&nbsp;petites étapes), trouver des&nbsp;solutions qui simplifient tout en&nbsp;privilégiant la&nbsp;sécurité (utilisation de&nbsp;gestionnaires de&nbsp;mots de&nbsp;passe), et&nbsp;surtout accepter que tout n’est pas possible tout de&nbsp;suite… mais qu’il faut s’y mettre.    
+Bref, Delphine a bien dédramatisé toute l’affaire, ça va me pousser à&nbsp;améliorer mes pratiques, et&nbsp;à convaincre mes proches de&nbsp;faire de&nbsp;même.
+
+[Je prends en&nbsp;main ma vie numérique… et&nbsp;c’est pas si facile&nbsp;!](https://www.paris-web.fr/2017/conferences/je-prends-en-main-ma-vie-numerique-et-cest-pas-si-facile.php), par&nbsp;Delphine Malassigne <small>[@Nissone](https://twitter.com/Nissone)</small>    
+[vidéo](https://www.youtube.com/watch?v=QZxWHZE02ag&t=2340s)
+
+***
+
+Bon et&nbsp;sinon, les&nbsp;données que les&nbsp;sites web recueillent continuellement sur nous, c’est préoccupant. Heureusement, un&nbsp;règlement européen, le&nbsp;Règlement Général sur la&nbsp;Protection des&nbsp;Données des&nbsp;citoyens européens (RGPD ou GDPR), entre en&nbsp;vigueur en&nbsp;mai 2018. Et&nbsp;pour nous expliquer ce que ça implique, la&nbsp;conférence de&nbsp;Stéphane Lebarque est éclairante. Le&nbsp;RGPD pousse à&nbsp; l’application de&nbsp;deux principes : le&nbsp;*Privacy By Design*, où le&nbsp;respect de&nbsp;la vie privée est pensé dès le&nbsp;début de&nbsp;la conception d’un produit, et&nbsp;le *Privacy By Default*, où les&nbsp;données stockées par un&nbsp;acteur du web sont limitées aux&nbsp;données utiles au traitement nécessaire, des&nbsp;limites qui s’appliquent à&nbsp;la quantité des&nbsp;données, l’étendue du traitement, la&nbsp;durée de&nbsp;conservation et&nbsp;leur droit d’accès.     
+Un effet de&nbsp;bord frappant : les&nbsp;nouveaux dialogues de&nbsp;consentement de&nbsp;partage de&nbsp;données voient un&nbsp;refus à&nbsp;hauteur de&nbsp;79%. C’est bien la&nbsp;preuve que les&nbsp;usages chez les&nbsp;concepteurs web doivent évoluer au regard des&nbsp;volontés des&nbsp;utilisateurs.    
+Une conférence très intéressante, qui ouvre des&nbsp;perspective quant aux&nbsp;services à&nbsp;fournir à&nbsp;nos clients (en revanche il va falloir potasser les&nbsp;textes).
+
+[Souriez (?) #GDPR, #PrivacyByDesign, #PrivacyByDefault deviennent réalité&nbsp;!](https://www.paris-web.fr/2017/conferences/souriez-gdpr-privacybydesign-privacybydefault-deviennent-realite.php), par&nbsp;Stéphane Lebarque <small>[@slebarque](https://twitter.com/slebarque)</small>    
+[slides de&nbsp;la conférence](https://www.slideshare.net/secret/GSOgE31woohc6D)    
+[vidéo](https://www.youtube.com/watch?v=QZxWHZE02ag&t=9527s)
+
+***
+
+La Quadrature du Net est l’organisation qui défend nos libertés dans l’espace numérique, Christopher Talib nous présente ici l’une des&nbsp;principales menaces de&nbsp;nos libertés : la&nbsp;centralisation du Web.    
+L’histoire d’Internet, c’est celle d’un réseau décentralisé. Malheureusement, quelques entreprises en&nbsp;contrôlent maintenant les&nbsp;principaux vecteurs de&nbsp;communication : Google, Facebook, Twitter, Dropbox, etc… Si l’une d’eux arrêtait ses services du jour au lendemain, ça causerait des&nbsp;problèmes énormes.     
+Une des&nbsp;solutions pour rendre le&nbsp;réseau plus résilient, c’est de&nbsp;décentraliser tout ça, un&nbsp;peu à&nbsp;l’exemple du mail. Une&nbsp;quantité énorme de&nbsp;servers de&nbsp;mail communiquent les&nbsp;uns avec les&nbsp;autres sans problème, si l’un n’est plus accessible, les&nbsp;autres continuent à&nbsp;fonctionner. Par exemple, à&nbsp;l’inverse de&nbsp;Twitter qui n’est que sur un&nbsp;domaine, [Mastodon](https://joinmastodon.org/) marche sur des&nbsp;tas de&nbsp;domaines différents, souvent auto-hébergés, de&nbsp;même pour [\[Matrix\]](https://matrix.org/) pour le&nbsp;principe de&nbsp;la communication instantanée chiffrée.
+
+Ça tombe bien, je suis déjà sur Mastodon : [@joachim@boitam.eu](https://boitam.eu/@joachim)
+
+[La Décentralisation qui Vient](https://www.paris-web.fr/2017/conferences/la-decentralisation-qui-vient.php), par&nbsp;Christopher Talib <small>[@christalib_](https://twitter.com/christalib_)</small>, de&nbsp;la Quadrature du Net <small>[@LaQuadrature](https://twitter.com/LaQuadrature)</small>    
+[vidéo](https://www.youtube.com/watch?v=R442BQQ82YM&t=330s)
+
+***
+
+Il y avait une&nbsp;autre conférence sur le&nbsp;sujet de&nbsp;la vie privée, à&nbsp;laquelle j’aurais bien aimé assister, mais il y avait un&nbsp;autre sujet dans l’autre amphi, donc je l’ai ratée, c’est celle qui s’appelle [Développeur et&nbsp;protection de&nbsp;la vie privée](https://www.paris-web.fr/2017/conferences/developpeur-et-protection-de-la-vie-privee.php), par&nbsp;Erwan Richard <small>[@dhalsimfr](https://twitter.com/dhalsimfr)</small>    
+[vidéo](https://www.youtube.com/watch?v=R442BQQ82YM&t=11430s)
+
+***
+
+Et pour terminer, à&nbsp;l’intersection de&nbsp;la thématique du respect de&nbsp;la vie privée et&nbsp;de la&nbsp;méthodologie de&nbsp;l’UX design, la&nbsp;présentation de&nbsp;Cyrielle Piancastelli, Architecte UX à&nbsp;la BBC répond bien aux&nbsp;problématiques de&nbsp;récolte et&nbsp;rétention des&nbsp;données, soulevées dans les&nbsp;autres conférences.    
+Les services de&nbsp;compte en&nbsp;ligne de&nbsp;la BBC sont utilisés par 9 millions de&nbsp;personnes a Royaume-Uni. Ça implique des&nbsp;séries de&nbsp;décisions concernant l’architecture des&nbsp;données, les&nbsp;règles et&nbsp;responsabilités dans la&nbsp;gestion de&nbsp;ces données, en&nbsp;bref une&nbsp;vraie démarche de&nbsp;gouvernance des&nbsp;données à&nbsp;l’intersection du champ légal (gérer des&nbsp;comptes pour des&nbsp;utilisateurs de&nbsp;moins de&nbsp;13 ans par exemple), UX (un seul compte unifié pour tous les&nbsp;services BBC), produits et&nbsp;tech. À&nbsp;cette échelle dans le&nbsp;web, on&nbsp;ne conçoit pas des&nbsp;pages, mais un&nbsp;système. Quand chaque interaction de&nbsp;l’utilisateur avec l’interface génère potentiellement des&nbsp;données, la&nbsp;responsabilité du designer, c’est de&nbsp;correctement transmettre le&nbsp;sens de&nbsp;ces données.
+
+[Designing BBC Account: with BIG DATA comes BIG RESPONSIBILITY](https://www.paris-web.fr/2017/conferences/designing-bbc-account-with-big-data-comes-big-responsibility.php), par&nbsp;Cyrielle Piancastelli <small>[@cyro](https://twitter.com/cyro)</small>    
+[vidéo](https://www.youtube.com/watch?v=6sbg2SzArkQ&t=5710s)
+
+***
+
+## Méthodologie et&nbsp;Conception Web
+
+Un prof m’avait dit, “la technique on&nbsp;apprend ça en&nbsp;faisant, la&nbsp;méthodologie s’apprend en&nbsp;écoutant…”. C’est ça l’utilité d’un événement comme Paris Web : on&nbsp;se tait et&nbsp;on écoute, et&nbsp;avec un&nbsp;peu de&nbsp;chance on&nbsp;apprend.
+
+L’écoute, justement, commence par l’écoute du client. Deux mini conférences parlaient de&nbsp;ces moments où il faut écouter ce que le&nbsp;client nous dit, mais surtout ce qu’il oublie de&nbsp;dire : *Expliquer l’implicite*, présentée par Sylvain Abélard, et&nbsp;*Les questions oubliées de&nbsp;la Spécification* par Sylvie Clément.    
+Sylvain Abélard nous parle des&nbsp;clients qui ne savent pas ce qu’ils veulent—à part qu’ils veulent un&nbsp;site web. Il faut alors revoir ce qui n’est pas dit : qui se charge de&nbsp;la conception, du développement, quel est l’intérêt du site, etc… Quelques questions à&nbsp;se poser : est-ce qu’on a tous bien compris le&nbsp;projet&nbsp;? on&nbsp;sait faire&nbsp;? qui fait quoi&nbsp;? quel est le&nbsp;budget&nbsp;? le&nbsp;délai&nbsp;? Après, c’est les&nbsp;négociations, et&nbsp;possiblement la&nbsp;réalisation.    
+De son côté, Sylvie Clément aborde les&nbsp;manières de&nbsp;ne rien oublier lorsqu’on établit des&nbsp;spécifications. Généralement, on&nbsp;oublie ce qui n’est pas sur la&nbsp;maquette : règles de&nbsp;gestion, back-office, interactions, notifications, mais aussi l’aspect humain : les&nbsp;missions des&nbsp;rédacteurs, les&nbsp;outils des&nbsp;community managers, etc. Sans oublier de&nbsp;réfléchir à&nbsp;l’élément le&nbsp;plus important d’un projet web, qui n’est jamais sur les&nbsp;maquettes : la&nbsp;fidélisation des&nbsp;visiteurs et&nbsp;la vision au long terme.
+
+[Expliquer l’implicite – je veux juste un&nbsp;site web](https://www.paris-web.fr/2017/conferences/expliciter-limplicite---je-veux-juste-un-site-web.php), par&nbsp;Sylvain Abélard <small>[@abelar_s](https://twitter.com/abelar_s)</small>    
+[vidéo](https://www.youtube.com/watch?v=QZxWHZE02ag&t=3420s)
+[Les questions oubliées des&nbsp;spécifications : la&nbsp;partie cachée de&nbsp;l’iceberg site web](https://www.paris-web.fr/2017/conferences/les-questions-oubliees-des-specifications-la-partie-cachee-de-liceberg-site-web.php), par&nbsp;Sylvie Clément <small>[@Oelita](https://twitter.com/Oelita)</small>    
+[vidéo](https://www.youtube.com/watch?v=6sbg2SzArkQ&t=3250s)
+
+***
+
+Tant qu’on est à&nbsp;écouter, écoutons d’abord l’utilisateur, c’est autour de&nbsp;lui que tout tourne. L’empathie, la&nbsp;capacité de&nbsp;ressentir les&nbsp;émotions d’autrui, est primordiale dans la&nbsp;conception web.    
+My Lê est designer UX et&nbsp;UI, mais elle parle à&nbsp;tout le&nbsp;monde dans l’équipe de&nbsp;conception. Lorsqu’il y a des&nbsp;problèmes dans le&nbsp;produit, quand celui-ci ne correspond pas au modèle mental utilisateur, ou quand il y a des&nbsp;soucis de&nbsp;cohésion (et le&nbsp;syndrome du "j’ai fait mon job") qui font trainer le&nbsp;projet en&nbsp;longueur, ça a des&nbsp;conséquences sur le&nbsp;budget. Il faut faire des&nbsp;expériences mémorables, et&nbsp;non des&nbsp;utilisateurs mécontents. Si on&nbsp;veut appliquer l’empathie au processus de&nbsp;création, on&nbsp;peut commencer par penser le&nbsp;produit comme une&nbsp;relation avec l’utilisateur : on&nbsp;récolte les&nbsp;réactions en&nbsp;écoutant sans préjuger, on&nbsp;qualifie les&nbsp;retours, ce qui permet de&nbsp;se mettre à&nbsp;la place de&nbsp;l’utilisateur. Au final, on&nbsp;juge mieux de&nbsp;la qualité des&nbsp;retours qu’on peut interpréter correctement, et&nbsp;on peut proposer des&nbsp;solutions adaptées.     
+Pour ma part, les&nbsp;outils présentés dans cette conférence sont à&nbsp;creuser, mais je suis convaincu que l’ajout d’un peu d’empathie avant/<wbr>pendant/<wbr>après la&nbsp;conception peut faire des&nbsp;miracles pour la&nbsp;qualité du produit.
+
+[« C’est la&nbsp;faute de&nbsp;l’utilisateur » — Où est passée l’empathie de&nbsp;mon équipe&nbsp;?](https://www.paris-web.fr/2017/conferences/cest-la-faute-de-lutilisateur-ou-est-passee-lempathie-de-mon-equipe.php), par&nbsp;My Lê <small>[@l_myle_l](https://twitter.com/l_myle_l)</small>    
+[vidéo](https://www.youtube.com/watch?v=6sbg2SzArkQ&t=4458s)
+
+***
+
+Lorsqu’on pense UX, c’est l’utilisateur qui est au centre de&nbsp;la conception web. Nicolas Le&nbsp;Cam nous a présenté un&nbsp;retour d’expérience sur la&nbsp;façon dont son agence de&nbsp;design a pivoté vers l’UX. Sur ces 5 années de&nbsp;travail, les&nbsp;changements de&nbsp;process se sont parfois fait dans la&nbsp;douleur et&nbsp;le business n’a pas forcément suivi au début, mais il faut de&nbsp;la patience. Ce qu’il en&nbsp;retire, c’est qu’il faut redoubler son attention au conseil, aux&nbsp;explications qu’on donne au client. Il faut former toute l’équipe, pour que la&nbsp;pensée UX s’applique à&nbsp;toutes les&nbsp;étapes. Il faut maitriser les&nbsp;process. Et&nbsp;dès le&nbsp;début il faut provoquer une&nbsp;prise de&nbsp;conscience chez le&nbsp;client en&nbsp;lui montrant l’usager naviguer sur son interface.
+
+[UX en&nbsp;Agence, 5 ans pour s’y mettre « en&nbsp;vrai »](https://www.paris-web.fr/2017/conferences/ux-en-agence-5-ans-pour-sy-mettre-en-vrai.php), par&nbsp;Nicolas Le&nbsp;Cam <small>[@nlecam](https://twitter.com/nlecam)</small>    
+[vidéo](https://www.youtube.com/watch?v=QZxWHZE02ag&t=10468s)
+
+***
+
+Bon, on&nbsp;écoute, c’est bien, on&nbsp;designe, c’est très bien. Après il faut discuter pour se mettre d’accord entre designers, intégrateurs et&nbsp;développeurs back. Sur ce sujet-là, deux salles, deux ambiances. D’un côté, Brad Frost nous dit *Let’s work together*, de&nbsp;l’autre, Thibault Mahé nous emmène en&nbsp;guerre contre les&nbsp;*zombie styleguides*.      
+Pour Brad Frost, le&nbsp;travail se fait avec d’autres gens, pour d’autres gens. C’est pour ça qu’il faut de&nbsp;l’ordre dans notre organisation, un&nbsp;compromis entre le&nbsp;chaos complet et&nbsp;la rigidité qui immobilise. Pour ça, à&nbsp;chaque niveau de&nbsp;la pyramide organisationnelle il faut des&nbsp;principes et&nbsp;des guidelines. Au niveau le&nbsp;plus haut, une&nbsp;mission et&nbsp;des valeurs. Dans l’équipe, des&nbsp;guidelines de&nbsp;marque, transcrites en&nbsp;design system pour l’équipe de&nbsp;développement. Le&nbsp;styleguide permet une&nbsp;expérience en&nbsp;cohésion avec le&nbsp;reste, une&nbsp;production plus rapide, un&nbsp;vocabulaire partagé entre développeurs et&nbsp;designers et&nbsp;surtout une&nbsp;fondation qui résistera aux&nbsp;assauts de&nbsp;l’entropie et&nbsp;du futur. Les&nbsp;manières de&nbsp;commencer un&nbsp;styleguide sont diverses, mais il faut toujours se centrer sur l’expérience de&nbsp;l’utilisateur.    
+De son côté, Thibault Mahé nous parle de&nbsp;ce qui se passe dans un&nbsp;styleguide quand le&nbsp;projet se complique. Si l’on ne fait pas attention, le&nbsp;styleguide ne suit pas les&nbsp;évolutions du code et&nbsp;les besoins des&nbsp;nouvelles features, et&nbsp;perd en&nbsp;pertinence avec le&nbsp;temps. Pour cela il a trois processus pour mieux faire vivre un&nbsp;styleguide : tout d’abord y penser en&nbsp;stratégie d’équipe (workshops regroupant toutes les&nbsp;parties prenantes), puis identifier et&nbsp;définir le&nbsp;design system (à voir comme un&nbsp;produit, pas comme un&nbsp;projet), et&nbsp;faire en&nbsp;sorte que chacun participe à&nbsp;la construction du système (en mettant en&nbsp;place le&nbsp;système soit mis en&nbsp;place dès le&nbsp;design, grâce aux&nbsp;Design Tokens).
+
+[Let’s Work Together!](https://www.paris-web.fr/2017/conferences/lets-work-together.php), par&nbsp;Brad Frost <small>[@brad_frost](https://twitter.com/brad_frost)</small>    
+[vidéo](https://www.youtube.com/watch?v=8n1TDR-8WVE&t=11640s)     
+[Échapper au “zombie styleguide” : 3 méthodes pour armer une&nbsp;équipe dans la&nbsp;conception de&nbsp;son styleguide](https://www.paris-web.fr/2017/conferences/echapper-au-zombie-styleguide-3-methodes-pour-armer-une-equipe-dans-la-conception-de-son-styleguide.php), par&nbsp;Thibault Mahé <small>[@tibomahe](https://twitter.com/TiboMahe)</small>    
+[vidéo](https://www.youtube.com/watch?v=o9xInoZgZ4o&t=11360s)
+
+***
+
+## Technologies de&nbsp;la Conception Web
+
+Tous les&nbsp;ans, on&nbsp;a la&nbsp;chance d’avoir des&nbsp;orateurs qui viennent de&nbsp;loin, généralement pour nous parler des&nbsp;avancées technologiques qui vont être importantes dans les&nbsp;années qui viennent. Cette année, on&nbsp;a été plutôt gâtés.
+
+La conférence dont j’ai parlé à&nbsp;tous les&nbsp;collègues lundi matin, c’était [Mavo](https://mavo.io). Lea Verou, la&nbsp;créatrice de&nbsp;Mavo mais aussi as du CSS et&nbsp;du JavaScript, nous a fait découvrir les&nbsp;principaux concepts et&nbsp;les capacités de&nbsp;cette technologie.    
+En gros, il s’agit d’une librairie JS qui permet de&nbsp;coder des&nbsp;applications réactives sans savoir le&nbsp;JavaScript. En&nbsp;enrichissant le&nbsp;langage HTML par des&nbsp;attributs spécifiques, on&nbsp;peut facilement définir des&nbsp;interactions riches. Inutile de&nbsp;dire que moi, qui n’ai pas un&nbsp;super niveau en&nbsp;JS, ça m’intéresse.
+
+J’ai d’ailleurs profité du week-end pour faire un&nbsp;petit test. Il s’agit d’une page de&nbsp;styleguide simple, pour ces projets où je dois travaille les&nbsp;feuilles de&nbsp;style et&nbsp;les développeurs utilisent directement le&nbsp;code HTML. C’est visible ici : [joachimesque.github.io/mv-styleguide](https://joachimesque.github.io/mv-styleguide/styleguide.html).
+
+[HTML re-invented for the age of web apps](https://www.paris-web.fr/2017/conferences/ux-en-agence-5-ans-pour-sy-mettre-en-vrai.php), par&nbsp;Lea Verou <small>[@LeaVerou](https://twitter.com/LeaVerou)</small>    
+[vidéo](https://www.youtube.com/watch?v=6sbg2SzArkQ&t=)
+
+
+***
+
+Chris Lilley est stratégie au W3C, il a travaillé sur les&nbsp;formats SVG et&nbsp;PNG, deux technologies clef-de-voûte du web moderne. Sa conférence portait sur l’état actuel des&nbsp;Web Fonts. Il a commencé par rappeler les&nbsp;basiques de&nbsp;la typographie, puis nous a parlé de&nbsp;deux innovations récentes : la&nbsp;présence de&nbsp;l’OpenType dans le&nbsp;CSS (qui nous permet de&nbsp;profiter des&nbsp;ligatures, variantes, small-caps, etc… pour peu que la&nbsp;typo le&nbsp;permette), et&nbsp;des formats WOFF et&nbsp;WOFF2, qui améliorent la&nbsp;performance des&nbsp;sites web du fait de&nbsp;leur compression. Puis il a abordé le&nbsp;futur : dans CSS4 on&nbsp;aura la&nbsp;gestion des&nbsp;typos colorées (plusieurs calques de&nbsp;typo qu’on peut superposer pour des&nbsp;effets décoratifs amusants), les&nbsp;typos variables (j’ai vraiment envie de&nbsp;tester), et&nbsp;des améliorations dans les&nbsp;familles génériques ou la&nbsp;gestion des&nbsp;déclaration de&nbsp;graisse.
+
+Et grâce à&nbsp;ma question sur le&nbsp;format des&nbsp;typos variables et&nbsp;la performance, l’orateur m’a décerné le&nbsp;livre [Typographie Web](http://www.editions-eyrolles.com/Livre/9782212141481/typographie-web), gracieusement offert par les&nbsp;éditions Eyrolles. Merci&nbsp;!
+
+[The State of WebFonts](https://www.paris-web.fr/2017/conferences/the-state-of-webfonts.php), par&nbsp;Chris Lilley <small>[@svgeesus](https://twitter.com/svgeesus)</small>    
+[vidéo](https://www.youtube.com/watch?v=6sbg2SzArkQ&t=9875s)
+
+***
+
+Harry Roberts est ensuite venu nous dire que parfois on&nbsp;oublie les&nbsp;utilisateurs qui ont des&nbsp;connexions pas optimales. Pourtant, un&nbsp;site web rapide, ça aide à&nbsp;gagner de&nbsp;l’argent, ou déjà ça en&nbsp;économise… et&nbsp;puis comme ça ne frustre pas les&nbsp;utilisateurs, ils viennent plus nombreux et&nbsp;restent plus longtemps. C’est pas seulement financier, c’est une&nbsp;question qui touche à&nbsp;la morale et&nbsp;à l’étique.    
+Comment faire pour améliorer la&nbsp;situation&nbsp;? Déjà il faut le&nbsp;vouloir. Ensuite, il faut comprendre intimement le&nbsp;problème (en faisant des&nbsp;tests, en&nbsp;écoutant les&nbsp;utilisateurs), puis il faut découvrir ce qui se passe (est-ce qu’on a besoin de&nbsp;53 tag managers quand un&nbsp;seul bien configuré ferait l’affaire&nbsp;?), et&nbsp;enfin il faut tout mesurer, avant puis après les&nbsp;modifications.
+
+[Why Fast Matters](https://www.paris-web.fr/2017/conferences/why-fast-matters.php), par&nbsp;Harry Roberts <small>[@csswizardry](https://twitter.com/csswizardry)</small>    
+[vidéo](https://www.youtube.com/watch?v=8n1TDR-8WVE&t=4870s)
+
+***
+
+S’il y a une&nbsp;conf qui m’a fait découvrir sous un&nbsp;autre angle quelque chose que je pensais comprendre depuis des&nbsp;années, c’est celle de&nbsp;Maryla U., sur *l’épopée d’une couleur*. Tout d’abord elle nous a parlé du fonctionnement de&nbsp;l’œil, puis de&nbsp;la façon dont un&nbsp;ordinateur perçoit la&nbsp;couleur, puis une&nbsp;très bonne explication des&nbsp;profils colorimétriques. Nous graphistes qui nous amusions avec les&nbsp;profils ICC pour le&nbsp;print et&nbsp;la retouche photo, ils arrivent sur le&nbsp;Web avec CSS4, tout comme le&nbsp;gamma. Je sais pas si je suis vraiment impatient… mais j’ai vraiment compris, ça fait du bien.
+
+[L’épopée d’une couleur](https://www.paris-web.fr/2017/conferences/when-color-goes-wrong.php), par&nbsp;Maryla U.    
+[vidéo](https://www.youtube.com/watch?v=8n1TDR-8WVE&t=28m2s)
+
+***
+
+Elie Sloïm et&nbsp;Denis Boudreau sont des&nbsp;sommités dans le&nbsp;domaine de&nbsp;l’accessibilité et&nbsp;de la&nbsp;qualité web. Pour Paris Web, ils nous ont présenté le&nbsp;panorama des&nbsp;avancées de&nbsp;l’Intelligence Artificielle dans le&nbsp;domaine de&nbsp;l’Accessibilité numérique. Plein de&nbsp;nouvelles technologies arrivent séparément (reconnaissance faciale, lecture labiale, description automatique d’images, reconnaissance de&nbsp;la langue des&nbsp;signes, sous-titrage automatique…), qui peuvent être combinées (WorldLens par exemple fait de&nbsp;la reconnaissance d’objets et&nbsp;la traduction des&nbsp;textes en&nbsp;temps réel…). Quand les&nbsp;textes peuvent être lus et&nbsp;prononcés par les&nbsp;machines ça conduit aussi à&nbsp;l’effacement des&nbsp;interfaces visuelles avec par exemple les&nbsp;chatbots. Quel avenir pour les&nbsp;métiers du web&nbsp;? Les&nbsp;IA sont encore à&nbsp;leurs balbutiements, donc notre rôle est de&nbsp;leur enseigner comment faire leurs tâches, mais aussi faisons se rapprocher UX et&nbsp;accessibilité pour répondre plus globalement aux&nbsp;besoins de&nbsp;nos utilisateurs. 
+
+[L’accessibilité numérique à&nbsp;l’ère de&nbsp;l’intelligence artificielle](https://www.paris-web.fr/2017/conferences/laccessibilite-numerique-a-lre-de-lintelligence-artificielle.php), par&nbsp;Elie Sloïm <small>[@ElieSl](https://twitter.com/ElieSl)</small> et&nbsp;Denis Boudreau <small>[@dboudreau](https://twitter.com/dboudreau)</small>    
+[vidéo](https://www.youtube.com/watch?v=iN7b312ZDU4&t=7268s)
+
+
+***
+
+Le CSS, c’est la&nbsp;partie du code la&nbsp;plus difficile à&nbsp;tester. *C’est comme un&nbsp;ourson*, nous dit Thomas Zilliox, *c’est mignon au début, mais en&nbsp;grandissant ça n’hésite pas à&nbsp;vous bouffer vivant*. Dans mon expérience personnelle ça arrive plus rapidement que je ne le&nbsp;prévois. Le&nbsp;CSS est complexe. Idéalement, il faut le&nbsp;tester au fur et&nbsp;à mesure de&nbsp;l’écriture. Je ne vais pas les&nbsp;lister ici, regardez le&nbsp;replay.
+
+[CSS, tu peux pas test&nbsp;!](https://www.paris-web.fr/2017/conferences/css-tu-peux-pas-test.php), Thomas Zilliox <small>[@iamtzi](https://twitter.com/iamtzi)</small>    
+[vidéo](https://www.youtube.com/watch?v=o9xInoZgZ4o&t=3495s)
+
+***
+
+## Les&nbsp;inclassables
+
+Le problème de&nbsp;mon plan, c’est qu’il laissait pas de&nbsp;place à&nbsp;trois conférences inclassables.
+
+Tout d’abord, un&nbsp;projet un&nbsp;peu fou : faire communiquer deux navigateurs sur des&nbsp;ordinateurs qui sont dans la&nbsp;même pièce, sans passer par un&nbsp;serveur mais via des&nbsp;ultrasons. C’est ludique, c’est intéressant, c’est drôle, et&nbsp;ça m’a appris l’existence des&nbsp;API WebRTC et&nbsp;WebAudio.
+
+[Projet perso n°42 : une&nbsp;aventure ultrasonique](https://www.paris-web.fr/2017/conferences/projet-perso-n42-une-aventure-ultrasonique.php), par&nbsp;Hubert Sablonnière <small>[@hsablonniere](https://twitter.com/hsablonniere)</small>    
+[vidéo](https://www.youtube.com/watch?v=6sbg2SzArkQ&t=12885s)
+
+***
+
+La question est sérieuse, la&nbsp;réponse est traitée avec humour : comment faire se réconcilier le&nbsp;design et&nbsp;l’accessibilité dans un&nbsp;projet Web&nbsp;? Julien Dubedout et&nbsp;Aurélien Levy font tout un&nbsp;numéro pour montrer comment un&nbsp;projet peur être beau **et** accessible.     
+À voir en&nbsp;replay, en&nbsp;attendant une&nbsp;tournée au Théâtre des&nbsp;Trois Baudets et&nbsp;dans le&nbsp;reste de&nbsp;la France (si possible avec des&nbsp;patchs brodés).
+
+[Design et&nbsp;accessibilité, frères d’arme ou ennemis&nbsp;?](https://www.paris-web.fr/2017/conferences/design-et-accessibilite-frere-darme-ou-ennemi.php), par&nbsp;Julien Dubedout <small>[@mariejulien](https://twitter.com/mariejulien)</small> et&nbsp;Aurélien Levy <small>[@goetsu](https://twitter.com/goetsu)</small>    
+[vidéo](https://www.youtube.com/watch?v=8n1TDR-8WVE&t=8810s)
+
+***
+
+L’année dernière, il y avait eu une&nbsp;mini polémique suite à&nbsp;l’édition de&nbsp;Paris Web, au sujet de&nbsp;l’inclusion et&nbsp;la diversité au sein de&nbsp;la conférence. Cette année, Nathalie Pauchet nous a parlé de&nbsp;diversité dans le&nbsp;monde de&nbsp;l’informatique. On&nbsp;a oublié que les&nbsp;premiers informaticiens étaient des&nbsp;informaticiennes. Elles ont déchiffré les&nbsp;messages de&nbsp;l’Enigma et&nbsp;ont envoyé des&nbsp;fusées sur la&nbsp;Lune (tout en&nbsp;inventant les&nbsp;langages de&nbsp;l’époque et&nbsp;les logiques modernes de&nbsp;développement de&nbsp;logiciels). Maintenant pourtant, les&nbsp;femmes sont découragées dès l’enfance : tous les&nbsp;role models sont masculins, les&nbsp;maths sont vues comme une&nbsp;discipline peu féminine, et&nbsp;l’ambiance des&nbsp;filières d’étude de&nbsp;développement informatique sont souvent peu accueillantes. Après, il faut accentuer les&nbsp;efforts dans le&nbsp;recrutement et&nbsp;s’assurer que l’atmosphère et&nbsp;l’organisation des&nbsp;équipes ne poussera pas de&nbsp;femmes à&nbsp;quitter le&nbsp;monde de&nbsp;l’informatique, comme ça se fait encore trop souvent.
+
+[« L’informatique est trop importante pour être laissée aux&nbsp;hommes »](https://www.paris-web.fr/2017/conferences/linformatique-est-trop-importante-pour-etre-laissee-aux-hommes.php), par&nbsp;Nathalie Pauchet <small>[@lunatictac](https://twitter.com/lunatictac)</small>    
+[vidéo](https://www.youtube.com/watch?v=QZxWHZE02ag&t=8425s)
+
+***
+
+Pour conclure ce compte-rendu, un&nbsp;message à&nbsp;mes collègues et&nbsp;supérieurs hiérarchiques : l’an prochain venez, vous aussi. Plus d’excuses&nbsp;! (en attendant, vous avez les&nbsp;vidéos)
