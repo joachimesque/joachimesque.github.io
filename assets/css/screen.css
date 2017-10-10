@@ -56,8 +56,6 @@ samp { font-family: monospace, serif; font-size: 1em; }
 pre { white-space: pre-wrap; }
 q { quotes: "\201C" "\201D" "\2018" "\2019"; }
 small { font-size: 80%; }
-/* special inclusion */
-small a { hyphens: none; }
 sub, sup {
    font-size: 75%;
    line-height: 0;
@@ -759,9 +757,11 @@ a#lien-contenu:focus {
     margin: 4rem auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
+}
+.post p {
     word-break: break-word;
     hyphens: auto;
-    /* text-align: justify; */
+    text-align: justify;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
