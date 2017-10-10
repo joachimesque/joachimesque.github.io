@@ -756,7 +756,7 @@ a#lien-contenu:focus {
     position: relative;
     width: 80%;
     max-width: 710px;
-    max-width: 80ch;
+    max-width: 70ch;
     margin: 4rem auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
