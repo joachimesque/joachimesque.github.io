@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Paris Web 2017"
-date:   2017-10-10 08:37:28 +0200
+date:   2017-10-10 16:50:28 +0200
 categories: blog
 ---
 
