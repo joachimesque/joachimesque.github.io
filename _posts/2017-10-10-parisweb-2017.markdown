@@ -9,7 +9,7 @@ categories: blog
 
 Pour la&nbsp;troisième année consécutive, j’ai eu l’opportunité d’assister à&nbsp;Paris Web, la&nbsp;conférence parisienne qui&nbsp;réunit les&nbsp;métiers du&nbsp;Web. Comme les&nbsp;années précédentes, c’est mon&nbsp;employeur, [Actiane](http://www.actiane.com), qui&nbsp;m’y&nbsp;a&nbsp;envoyé afin de&nbsp;rapporter à&nbsp;mes&nbsp;collègues la&nbsp;bonne parole. Voilà le&nbsp;compte-rendu de&nbsp;[Paris Web 2015](https://joachimesque.github.io/blog/2015/10/04/parisweb-2015.html) et&nbsp;celui de&nbsp;[Paris Web 2016](https://joachimesque.github.io/blog/2016/10/05/parisweb-2016.html). En&nbsp;2015, mon&nbsp;plan était articulé sur le&nbsp;futur / présent / retours d’expérience, en&nbsp;2016 c’était une&nbsp;question d’utilité pour moi&nbsp;/ mon&nbsp;équipe / plus&nbsp;de&nbsp;monde. Là je&nbsp;vais avoir une&nbsp;approche plus&nbsp;thématique&nbsp;: d’abord les&nbsp;conférences parlant de&nbsp;[Web et&nbsp;Vie Privée](#leweb-etla-vie-privée), puis de&nbsp;[Méthodologie](#méthodologie-etconception-web) et&nbsp;celles parlant de&nbsp;[Technologies](#technologies-dela-conception-web). Et&nbsp;je&nbsp;terminerai par [les conférences qui&nbsp;ne rentrent pas&nbsp;dans les&nbsp;cases](#lesinclassables).
 
-Si vous&nbsp;voyez des&nbsp;erreurs ou des&nbsp;flous dans ce&nbsp;texte, n’hésitez pas&nbsp;à&nbsp;me contacter&nbsp;: [@joachimesque](https://twitter.com/joachimesque)).
+Si vous&nbsp;voyez des&nbsp;erreurs ou des&nbsp;flous dans ce&nbsp;texte, n’hésitez pas&nbsp;à&nbsp;me contacter&nbsp;: [@joachimesque](https://twitter.com/joachimesque).
 
 ***
 
