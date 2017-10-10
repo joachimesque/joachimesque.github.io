@@ -1,6 +1,6 @@
 name: Joachimesque
-description: Le blog
-meta_description: "Le blog"
+description: Un carnet web un peu sérieux
+meta_description: "Un carnet web un peu sérieux"
 
 markdown: kramdown
 highlighter: rouge
