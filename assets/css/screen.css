@@ -763,7 +763,7 @@ a#lien-contenu:focus {
 .post p {
     word-break: break-word;
     hyphens: auto;
-    /* text-align: justify; */
+    text-align: justify;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -1422,6 +1422,10 @@ body:not(.post-template) .post-title {
 
     .post {
         font-size: 0.95em
+    }
+
+    .post p {
+        text-align: left;
     }
 
     body:not(.post-template) .post-title {
