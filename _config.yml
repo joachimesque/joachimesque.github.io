@@ -1,6 +1,6 @@
 name: Joachimesque
-description: Un blog, enfin, à nouveau
-meta_description: "Un blog, enfin, à nouveau"
+description: Le blog
+meta_description: "Le blog"
 
 markdown: kramdown
 highlighter: rouge
