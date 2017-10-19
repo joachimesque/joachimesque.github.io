@@ -168,6 +168,20 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 
 /* ==========================================================================
+   1.1 Webfonts
+   ========================================================================== */
+    
+@font-face {
+    font-family: 'yokaweradregular';
+    src: url('../fonts/yokawerad-webfont.woff2') format('woff2'),
+         url('../fonts/yokawerad-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+/* ==========================================================================
    2. General - Setting up some base styles
    ========================================================================== */
 
@@ -208,8 +222,8 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Chonburi", sans-serif;
-    font-weight:  900;
+    font-family: "yokaweradregular", "Chonburi", sans-serif;
+    font-weight:  700;
 }
 
 h1 {
@@ -697,7 +711,7 @@ a#lien-contenu:focus {
     font-size: 5rem;
     letter-spacing: -.5px;
     font-weight: 700;
-    font-family: "Chonburi", sans-serif;
+    font-family: "yokaweradregular", "Chonburi", sans-serif;
     color: #fff;
     text-shadow: 0 0 60px rgba(0,0,0,0.8), 0 0 5px rgba(20, 24, 23,.5);
 }
@@ -776,7 +790,7 @@ a#lien-contenu:focus {
     background-color: #c9dedf;
 }
 .post p a:not(.read-more) {
-    box-shadow: inset 0 -.20em 0 0 white, inset 0 -.42em 0 0 #c9dedf;
+    box-shadow: inset 0 -.2em 0 0 white, inset 0 .2em 0 0 white, inset 0 -.42em 0 0 #c9dedf;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
