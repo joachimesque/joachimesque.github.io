@@ -781,15 +781,15 @@ a#lien-contenu:focus {
     hyphens: auto;
     text-align: justify;
 }
-.post a:not(.read-more) {
+.post a:not(.read-more, [class^="icon-twitter"]) {
     box-shadow: inset 0 -.20em 0 0 #c9dedf;
     text-decoration: none;
     transition: background .1s cubic-bezier(.33, .66, .66, 1);
 }
-.post a:not(.read-more):hover {
+.post a:not(.read-more, [class^="icon-twitter"]):hover {
     background-color: #c9dedf;
 }
-.post p a:not(.read-more) {
+.post p a:not(.read-more, [class^="icon-twitter"]) {
     box-shadow: inset 0 -.2em 0 0 white, inset 0 .2em 0 0 white, inset 0 -.42em 0 0 #c9dedf;
 }
 
