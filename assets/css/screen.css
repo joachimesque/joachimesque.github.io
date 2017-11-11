@@ -222,8 +222,8 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "yokaweradregular", "Chonburi", sans-serif;
-    font-weight:  700;
+    font-family: "Chonburi", sans-serif;
+    font-weight:  900;
 }
 
 h1 {
@@ -710,8 +710,8 @@ a#lien-contenu:focus {
     margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -.5px;
-    font-weight: 700;
-    font-family: "yokaweradregular", "Chonburi", sans-serif;
+    font-weight: 900;
+    font-family: "Chonburi", sans-serif;
     color: #fff;
     text-shadow: 0 0 60px rgba(0,0,0,0.8), 0 0 5px rgba(20, 24, 23,.5);
 }
