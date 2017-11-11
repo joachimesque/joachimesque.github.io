@@ -321,7 +321,10 @@ blockquote {
     border-left: #4A4A4A 0.4em solid;
 }
 
-blockquote p {
+blockquote p,
+blockquote li,
+blockquote ol,
+blockquote ul {
     margin: 0.8em 0;
     font-style: italic;
 }
