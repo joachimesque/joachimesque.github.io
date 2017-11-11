@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "pyreNoel"
+date:   2017-11-13 14:32:28 +0200
+categories: blog
+---
+
+Il y a une semaine, j’ai publié sur GitHub mon premier projet en Python.
+
+L’origine est simple :    
+Dans ma famille, à noël, on avait l’habitude que chacun fasse des cadeaux à tout le monde. L’an dernier, on a changé : chacun fait un seul cadeau à une personne tirée au hasard. Comme ça, on n’a qu’une seule idée à avoir, et ça coûte moins cher au total.
+
+Mon idée, comme toute ma famille est dispersée, c’est d’avoir un moteur de tirage au sort qui envoie un email à chaque personne en indiquant à qui il ou elle doit offrir un cadeau, avec aussi la mention du conjoint au cas où on manque d’idée de cadeau et on veut un peu d’aide.
+
+Comme on est tous en couples, il faut un tirage qui permette :
+
+- de ne pas tomber sur son·sa conjoint·e
+- de ne pas tomber sur le·la destinataire de l’année précédente (idéalement, il faut que ça marche sur plusieurs années)
+- que deux conjoint·e·s ne doivent pas offrir des cadeaux au même couple
+
+J’avais eu l’occasion de me frotter à Python grâce au Raspberry Pi, puis j’avais commencé à suivre le tutoriel de [Learn Python the Hard Way](https://www.learnpythonthehardway.org/) (je n’ai pas dépassé la leçon 40, je sèche toujours avec la programmation orientée objet). Là, plus de six mois après, j’ai eu juste un peu besoin de StackOverflow et de la doc Python. Le plus dur, c’est l’architecture du code (surtout dans un langage que je ne connais pas bien) et le nommage des variables et fonctions… mais tant que ça marche, c’est le principal.
+
+Le code est disponible là, en license libre :
+
+<https://github.com/joachimesque/pyreNoel>
+
