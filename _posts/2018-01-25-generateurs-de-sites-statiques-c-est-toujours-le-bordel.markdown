@@ -71,7 +71,7 @@ Voilà un classement tout à fait subjectif des différentes manières d’avoir
 
 | Catégorie | Type | Exemples |
 |:---------:|------|:---------|
-|    **1**  | Clé-en-main | Wordpress.org, Tumblr, Squarespace… |
+|    **1**  | Clé-en-main | Wordpress.com, Tumblr, Squarespace… |
 |    **2**  | CMS Personnalisable | WordPress ou Kirby sur serveur mutualisé |
 |    **3**  | CMS statique | Hugo ou Jekyll sur GitHub Pages ou Netlify |
 |    **4**  | CMS custom | Framework à la Symfony, ou système développé de rien |
