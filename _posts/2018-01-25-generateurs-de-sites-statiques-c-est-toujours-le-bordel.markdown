@@ -5,7 +5,7 @@ date:   2018-01-25 03:38:04
 categories: blog
 ---
 
-**Cet article est encore un brouillon. Tout lecteur qui a des remarques peut en faire part à [@joachimesque][2]**
+**Cet article est encore un brouillon. Tout lecteur qui a des remarques peut m’en faire part : [@joachimesque][2]**
 
 On va parler de générateurs de sites statiques, et de leur utilisation par des gens qui ne sont pas portés sur la technique, mais qui veulent avoir un site à eux.
 
@@ -97,4 +97,4 @@ On a besoin d’outils.
 Sans ça, les Générateurs Statiques ne sont qu’une mode de plus limitée aux développeurs.
 
 [1]: https://daringfireball.net/projects/markdown/
-[2]: https://twitter.com/joachimesque
+[2]: https://twitter.com/joachimesque/status/956512246137544704
