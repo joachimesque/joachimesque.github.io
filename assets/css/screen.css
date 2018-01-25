@@ -780,8 +780,8 @@ a#lien-contenu:focus {
     border-bottom: #EBF2F6 1px solid;
 }
 .post p {
-    word-break: break-word;
-    hyphens: auto;
+    /* word-break: break-word;
+    hyphens: auto; */
     text-align: left;
 }
 .post a:not(.read-more, [class^="icon-twitter"]) {
