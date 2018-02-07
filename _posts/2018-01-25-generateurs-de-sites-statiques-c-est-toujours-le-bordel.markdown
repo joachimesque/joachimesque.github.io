@@ -5,9 +5,10 @@ date:   2018-01-25 03:38:04
 categories: blog
 ---
 
-**Cet article est encore un brouillon. Tout lecteur qui a des remarques peut m’en faire part : [@joachimesque][2]**
 
 On va parler de générateurs de sites statiques, et de leur utilisation par des gens qui ne sont pas portés sur la technique, mais qui veulent avoir un site à eux.
+
+Cet article a généré quelques réponses très intéressantes suite à la publication : [@joachimesque][2]
 
 Je voulais faire un tutoriel pour [Julien](https://twitter.com/mariejulien/status/956289601295077376), mais je me suis un peu perdu en route, en comparant l’User Experience de mes sites sous WordPress ou Kirby et celle de ce blog sous Jekyll.
 
@@ -96,5 +97,27 @@ On a besoin d’outils.
 
 Sans ça, les Générateurs Statiques ne sont qu’une mode de plus limitée aux développeurs.
 
+---
+
+## Addendum, deux semaines plus tard
+
+Parmi les outils :
+
+- Une alternative libre à Kirby, [Grav][3], qui a un "cache intelligent".
+- Un générateur de sites statiques via une app, [Publii][4]. Le principal souci que je vois, c’est que je ne peux pas poster depuis mon mobile.
+
+Une discussion a eu lieu avec [@borisschapira][5]. Son avis est plus nuancé que le mien, c’est pas dur :) De cet échange, il ressort que les devs et les gens qui veulent créer un site mais qui ne sont pas dev (mais qui peuvent bidouiller un peu), ont des attentes très différentes. Pour un dev, l’avantage c’est de n’avoir aucune page dynamique, même pour un système de gestion de contenus. D’où l’essor des [CMS Headless][6]. La séparation des fonctions (des données d’un côté, le générateur de l’autre, le CMS encore ailleurs) n'est pas forcément argumentée pour expliquer les bénéfices à des non-devs. Ce qui me chagrine vraiment, c’est qu’il n’y a que des solutions déjà hébergées, qui dépendent de fournisseurs cloud comme Netlify, Forestry, etc… De ce que j’ai vu, on n‘a pas de solution vraiment libre et hébergeable sur son propre espace, via par exemple [Yunohost][7].
+
+Au final, ma conclusion reste la même : les générateurs de sites statiques ne sont qu’un outil pour développeur, et de gens qui ne se soucient pas d’héberger simplement leurs propres contenus (sans avoir à installer un Gitlab sur leur espace Free). Tant qu’on n’aura pas de solution qu’un graphiste/intégrateur peut vendre à ses clients, les générateurs de sites statiques resteront le domaine de développeurs. Une sorte de chasse gardée, en somme.
+
+Prévenez-moi quand il y aura du nouveau, de l’auto-hébergeable, basé sur le web.
+
+---
+
 [1]: https://daringfireball.net/projects/markdown/
 [2]: https://twitter.com/joachimesque/status/956512246137544704
+[3]: https://getgrav.org/
+[4]: https://getpublii.com/
+[5]: https://twitter.com/borisschapira/status/956597944895066112
+[6]: https://jamstatic.fr/2017/12/15/cms-headless/
+[7]: https://yunohost.org/
