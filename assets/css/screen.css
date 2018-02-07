@@ -171,14 +171,64 @@ table { border-collapse: collapse; border-spacing: 0; }
    1.1 Webfonts
    ========================================================================== */
     
-@font-face {
+/* @font-face {
     font-family: 'yokaweradregular';
     src: url('../fonts/yokawerad-webfont.woff2') format('woff2'),
          url('../fonts/yokawerad-webfont.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 
+} */
+
+
+@font-face {
+    font-family: 'Faune';
+    src:    url('../fonts/woff/Faune-Display_Black.woff') format('woff'),
+            url('../fonts/woff2/Faune-Display_Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'Faune';
+    src:    url('../fonts/woff/Faune-Display_Bold_Italic.woff') format('woff'),
+            url('../fonts/woff2/Faune-Display_Bold_Italic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Faune';
+    src:    url('../fonts/woff/Faune-Display_Thin.woff') format('woff'),
+            url('../fonts/woff2/Faune-Display_Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Faune';
+    src:    url('../fonts/woff/Faune-Text_Bold.woff') format('woff'),
+            url('../fonts/woff2/Faune-Text_Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Faune';
+    src:    url('../fonts/woff/Faune-Text_Italic.woff') format('woff'),
+            url('../fonts/woff2/Faune-Text_Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Faune';
+    src:    url('../fonts/woff/Faune-Text_Regular.woff') format('woff'),
+            url('../fonts/woff2/Faune-Text_Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 /* ==========================================================================
@@ -196,7 +246,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Spectral", serif;
+    font-family: "Faune", sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.5em;
@@ -222,15 +272,15 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Chonburi", sans-serif;
+    font-family: "Faune", sans-serif;
     font-weight:  900;
+
 }
 
 h1 {
     font-size: 5rem;
     letter-spacing: -.5px;
     text-indent: -3px;
-    font-weight: 700;
 }
 
 h2 {
@@ -260,6 +310,11 @@ a {
 
 a:hover {
     color: #111;
+}
+
+p a, li a {
+    font-style: italic;
+    font-weight: bold;
 }
 
 p, ul, ol, dl {
@@ -711,20 +766,19 @@ a#lien-contenu:focus {
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 10px 0 10px 0;
-    font-size: 5rem;
+    font-size: 8rem;
     letter-spacing: -.5px;
-    font-weight: 900;
-    font-family: "Chonburi", sans-serif;
+    font-style: italic;
+    font-weight:  bold;
     color: #fff;
     text-shadow: 0 0 60px rgba(0,0,0,0.8), 0 0 5px rgba(20, 24, 23,.5);
 }
 
 .page-description {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Spectral", serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
     text-shadow: 0 0 60px rgba(0,0,0,0.8), 0 0 10px rgba(0,0,0,0.8), 0 0 5px rgba(20, 24, 23,.5);
@@ -843,7 +897,6 @@ body:not(.post-template) .post-title {
 .post-meta {
     display: block;
     margin: 1.75rem 0 1rem 0;
-    font-family: "Spectral", sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
     color: #7D888F;
@@ -1243,7 +1296,6 @@ body:not(.post-template) .post-title {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Spectral", serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
@@ -1287,7 +1339,6 @@ body:not(.post-template) .post-title {
     width: 80%;
     max-width: 710px;
     margin: 4rem auto;
-    font-family: "Spectral", sans-serif;
     font-size: 1.3rem;
     color: #7D888F;
     text-align: center;
@@ -1374,8 +1425,7 @@ body:not(.post-template) .post-title {
     margin: 8rem 0 0 0;
     padding: 0.5rem 15px;
     border-top: #EBF2F6 1px solid;
-    font-family: "Spectral", sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.75em;
     color: #818b90;
 }
@@ -1384,6 +1434,11 @@ body:not(.post-template) .post-title {
     color: #818b90;
     text-decoration: none;
     font-weight: bold;
+}
+.site-footer em a {
+    font-size: 2rem;
+    display: inline-block;
+    vertical-align: text-bottom;
 }
 
 .site-footer a:hover {
