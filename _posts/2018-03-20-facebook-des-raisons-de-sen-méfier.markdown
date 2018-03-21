@@ -38,9 +38,12 @@ Mais ça n’est pas le seul moyen de nous cibler : le réseau social peut ident
 
 Un autre moyen, c’est les autorisations données aux apps sur smartphone. Si Facebook a accès à l’accéléromètre/gyroscope de ton téléphone, il peut savoir quand tu le regardes, et quand tu le poses. Si Facebook a accès à ton GPS, il peut savoir où tu es. Si Facebook recoupe ces informations, il peut savoir si tu étais face à une personne à une soirée (par exemple pour discuter), ou si les deux téléphones sont posés chez cette personne toute la nuit, Facebook peut en déduire que vous avez couché ensemble.
 
+Et puis tiens, sur votre smartphone, si vous laissez à une app l’accès à vos photos—pas accès à votre caméra, mais juste aux photos qui sont stockée sur l’appareil—l’app peut en déduire tous les endroits qui sont sur ces photos (grâce au données de GPS qui sont sauvées sur chaque photo), et donc elle peut vous pister, savoir dans quel restaurant vous allez, votre domicile, vos vacances, etc. Ça fait beaucoup, non ?
+
 * [**Gizmodo** : How Facebook Figures Out Everyone You've Ever Met](https://gizmodo.com/how-facebook-figures-out-everyone-youve-ever-met-1819822691)
 * [**Gizmodo** : Facebook Knows How to Track You Using the Dust on Your Camera Lens](https://gizmodo.com/facebook-knows-how-to-track-you-using-the-dust-on-your-1821030620)
 * [**@steashaz** : Facebook sait avec qui vous dormez](https://twitter.com/steashaz/status/951564117365665792)
+* [**KrauseFx** : 📍 Any app gets complete access to where you've been the last years within a second, when you grant access to photos](https://twitter.com/KrauseFx/status/913034580852117504)
 
 ### Comment Facebook nous cible sur internet
 
@@ -186,6 +189,10 @@ Si vous parlez anglais, l’Electronic Frontier Foundation détaille le processu
 
 L’Electronic Frontier Foundation est une structure de défense des droits en ligne. En France, on a la [Quadrature du Net](https://www.laquadrature.net/fr/). À ma connaissance ils n’ont pas encore réagi publiquement au sujet du scandale Facebook / Cambridge Analytica, mais ils sont au fait des législation traitant du respect de la Vie Privée. N’hésitez pas à visiter leur site et à donner de l’argent pour soutenir leur activité.
 
+### Il n’y a pas que Facebook
+
+Bien sûr, il n’y a pas que Facebook qui partage vos données avec d’autres apps. Twitter, Google, Linkedin… Chacune de ces plate-formes cache à sa façon les réglages qui vous permettront de limiter que vos données ne se répandent : [**numerama** : Facebook, Twitter… : vérifiez quels services ont accès à vos données](https://www.numerama.com/tech/337135-facebook-twitter-verifiez-quels-services-ont-acces-a-vos-donnees.html)
+
 ## On s’en sort comment ?
 
 Depuis la campagne de Donald Trump, Facebook a du faire face à son lot de critiques, liées ou pas à son rôle dans son élection.
@@ -246,10 +253,13 @@ Depuis quelques années, plusieurs jugements sont venus mettre des batons dans l
 
 J’ai prévu une belle lettre à envoyer à Facebook début Juin, pour pouvoir récupérer tout mon shadow profile, etc. Ça devrait être amusant.
 
-En Angleterre, suite aux révélations de cette semaine concernant Cambridge Analytica, le parlement a demandé à Mark Zuckerberg de venir répondre à l’enquête qui débute sur cette affaire, et un mandat de perquisition a été signé pour les locaux de CA. Apparemment des employés de Facebook y étaient à ce moment là, ce qui voudrait dire que le réseau social pourrait être soupçonné de vouloir faire obstruction à l’enquête. De son côté, Cambridge Analytica a écarté son directeur Alexander Nix… qui avait déjà fondé une nouvelle société vendredi 16/03, à l’approche de la publication de l’article.
+En Angleterre, suite aux révélations de cette semaine concernant Cambridge Analytica, le parlement a demandé à Mark Zuckerberg de venir répondre à l’enquête qui débute sur cette affaire, et un mandat de perquisition a été signé pour les locaux de CA. Apparemment des employés de Facebook y étaient à ce moment là, ce qui voudrait dire que le réseau social pourrait être soupçonné de vouloir faire obstruction à l’enquête. 
 
-Depuis lundi et l’ouverture de la Bourse, l’action de Facebook a plongé, elle a perdu entre 3 et 5%, et la banque Nordea a déclaré avoir liquidé tous ses investissements dans le groupe Facebook.    
+Depuis lundi et l’ouverture de la Bourse, l’action de Facebook a plongé, elle a perdu entre 3 et 5%, et la banque Nordea a déclaré avoir liquidé tous ses investissements dans le groupe Facebook.        
 Et la fortune de Mark Zuckerberg a perdu plus de 30 milliards de dollars, comme faisait remarquer Carole Cadwalladr, celle par qui le scandale Cambridge Analytica a éclaté.
+
+**Mise à jour le 21/03 dans la matinée**    
+Les nouvelles s’enchaînent, le Parlement européen vient d’annoncer qu’ils avaient invité Mark Zuckerberg au sujet de la sécurité des données des 500 millions de citoyens européens. De plus, des actionnaire ont intenté un recours collectif à l’encontre de l’entreprise. Et tout le monde, même les employés de Facebook, se demandent où est Mark Zuckerberg, et pourquoi il n’a encore rien dit sur l’affaire alors que la campagne [#DeleteFacebook](https://twitter.com/hashtag/DeleteFacebook) prend de l’ampleur. De son côté, Cambridge Analytica a écarté son directeur Alexander Nix… qui avait déjà fondé une nouvelle société vendredi 16/03, à l’approche de la publication de l’article.
 
 * [**Reuters** : German court rules Facebook use of personal data illegal](https://www.reuters.com/article/us-germany-facebook/german-court-rules-facebook-use-of-personal-data-illegal-idUSKBN1FW1FI)
 * [**Wikipedia** : Règlement général sur la protection des données](https://fr.wikipedia.org/wiki/R%C3%A8glement_g%C3%A9n%C3%A9ral_sur_la_protection_des_donn%C3%A9es)
@@ -258,7 +268,10 @@ Et la fortune de Mark Zuckerberg a perdu plus de 30 milliards de dollars, comme 
 * [**@carolecadwalla** : OMG. Facebook's share price down $30 billion in first two hours trading. Gulp. #WheresZuck?](https://twitter.com/carolecadwalla/status/975766678712803328)
 * [**@embruns** : la chute continue… #facebook](https://twitter.com/embruns/status/976091769229193216)
 * [**@SasjaBeslik** : Today, we in @Nordea decided to put #Facebook investments on quarantine in our sustainable funds.](https://twitter.com/SasjaBeslik/status/976191177904058373)
+* [**@Faskil** : Facebook Shareholder Files Class Action Suit Over Cambridge Analytica Scandal Fallout](https://twitter.com/Faskil/status/976375899502399490)
+* [**The Guardian** : Where's Zuck? Facebook CEO silent as data harvesting scandal unfolds](https://www.theguardian.com/news/2018/mar/19/where-is-mark-zuckerberg-facebook-ceo-cambridge-analytica-scandal?CMP=twt_gu)
 * [**@TheRynheart** : Cambridge Analytica suspended CEO Nix?  Pffft. Nix has already started a new company ‘Emerdata Ltd’ in the UK and Rebekah Mercer was appointed Director On March 16, 2018. 🙄](https://twitter.com/TheRynheart/status/976249573869064192)
+* [**@Europarl_FR** : Nous avons invité Mark Zuckerberg au Parlement européen. Facebook doit assurer aux représentants de 500 millions d'Européens que les données personnelles ne sont pas utilisées pour manipuler la démocratie.](https://twitter.com/Europarl_FR/status/976127845851369472)
 
 
 ### Faites attention à ce que vous lisez !
@@ -282,4 +295,9 @@ Pour discuter, le système qui allie chiffrement (personne ne peut lire les conv
 
 [**Mastodon** : Le réseau social qui vous redonne le contrôle](https://joinmastodon.org/)
 
+(Telegram est parfois conseillé. Perso, je me tiens le plus éloigné possible, surtout vu le climat actuel en Russie : [**@MaliciaRogue** : Allez, petit thread sur le jugement prononcé plus tôt aujourd'hui dans la bataille judiciaire qui oppose Telegram au FSB.](https://twitter.com/MaliciaRogue/status/976175349011746817))
 
+
+----
+
+Comme l’actualité avance, si vous voulez suivre les mises à jour de l’article sans avoir à tout relire, vous pouvez consulter les *commits* sur GitHub : <https://github.com/joachimesque/joachimesque.github.io/commits/master>. C’est pas hyper lisible et c'est sûrement très geek, mais c‘est mieux que rien.
