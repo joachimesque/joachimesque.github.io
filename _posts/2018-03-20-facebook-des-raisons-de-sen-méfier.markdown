@@ -183,11 +183,14 @@ Pour se prémunir du pistage sur Internet, je conseille [Privacy Badger](https:/
 
 Sur l’app comme sur le site, les réglages principaux de sécurité sont sur les préférences de [Vie Privée](https://www.facebook.com/settings?tab=privacy), et d’[Applications](https://www.facebook.com/settings?tab=applications) (Désactiver la plate-forme). Cet article de la rubrique Pixels, du journal Le Monde, qui a très bien couvert la crise Cambridge Analytica, est bien détaillé : [Cambridge Analytica : comment éviter que des entreprises collectent vos données Facebook](http://www.lemonde.fr/pixels/article/2018/03/19/cambridge-analytica-comment-eviter-que-des-entreprises-collectent-vos-donnees-facebook_5273156_4408996.html)
 
+L’option nucléaire, c’est la suppression du compte Facebook. Là aussi, Facebook cache bien les options. Voilà [comment désactiver, fermer, effacer ou supprimer votre compte Facebook](https://www.francoischarron.com/comment-desactiver-fermer-effacer-ou-supprimer-votre-compte-facebook/-/8bep6hVUq8/).
+
 Toute cette histoire, tout ce texte n’auraient pas eu raison d’être si Facebook avait appliqué un principe : par défaut, l’utilisateur ne collecte que le minimum, et ne partage rien. Lorsqu’un partage de données est proposé, il est détaillé et argumenté. Là, on a une situation où Facebook impose son système de partage de données à des apps, sans expliquer où les données vont aller, et qui va les utiliser. Le problème vient de Facebook. Pour se dés inscrire de ces partages, il faut passer du temps dans une interface très confuse. En plus de ça, Facebook ne permet pas de limiter la quantité de données partagées avec les apps *des contacts*. Ou bien on partage tout avec tout le monde, ou bien on ne partage rien.
 
 Si vous parlez anglais, l’Electronic Frontier Foundation détaille le processus de désinscription du système API Platform : [How To Change Your Facebook Settings To Opt Out of Platform API Sharing](https://www.eff.org/deeplinks/2018/03/how-change-your-facebook-settings-opt-out-platform-api-sharing)
 
-L’Electronic Frontier Foundation est une structure de défense des droits en ligne. En France, on a la [Quadrature du Net](https://www.laquadrature.net/fr/). À ma connaissance ils n’ont pas encore réagi publiquement au sujet du scandale Facebook / Cambridge Analytica, mais ils sont au fait des législation traitant du respect de la Vie Privée. N’hésitez pas à visiter leur site et à donner de l’argent pour soutenir leur activité.
+L’Electronic Frontier Foundation est une structure de défense des droits en ligne. En France, on a la [Quadrature du Net](https://www.laquadrature.net/fr/). Eux aussi partagent l’analyse que le problème n’est pas une “fuite de données”, mais un partage de vos données personnelles par Facebook, sans possibilité de consentir—ou de ne pas consentir. [**@laquadrature** : Arrêtons de parler de « fuite de données ». Transmettre à des tiers la liste de vos like est le fonctionnement « NORMAL » que Facebook vous oblige à accepter pour utiliser ses services.](https://twitter.com/laquadrature/status/976464749444689921)     
+N’hésitez pas à visiter leur site et à donner de l’argent pour soutenir leur activité.
 
 ### Il n’y a pas que Facebook
 
@@ -225,6 +228,7 @@ Comme le dit Edward Snowden, *Facebook gagne son argent en exploitant et revenda
 * [**Framablog, Aral Balkan** : Facebook n’est pas un réseau social, c’est un scanner qui nous numérise](https://framablog.org/2017/02/20/facebook-scanner-qui-nous-numerise/)
 * [**@Snowden** : Facebook makes their money by exploiting and selling intimate details about the private lives of millions, far beyond the scant details you voluntarily post. They are not victims. They are accomplices.](https://twitter.com/Snowden/status/975106627513729024)
 * [**@aral** ‘If Cambridge Analytica can sway elections and referenda with a relatively small subset of Facebook’s data, imagine what Facebook can and does do with the full set.’](https://twitter.com/aral/status/976234530364428289)
+* [**mcpaccard** Facebook's purpose is NOT to connect you with your friends and family. Google's purpose is NOT to give you useful tools. They want to monetise our data. They always did.](https://twitter.com/mcpaccard/status/976419861558685698)
 
 ### Ce que Facebook fait, c’est exploiter notre labeur pour ses profits
 
@@ -238,12 +242,15 @@ Et d’ailleurs, Facebook ne veut pas se passer de son business model. En ce mom
 
 ### Le problème c’est pas seulement Cambridge Analytica / Facebook
 
-D’ailleurs en revenant sur l’affaire, les analystes sont partagés. Selon certains d’entre eux, les services de Cambridge Analytica auraient été achetés par la campagne de Trump non pas dans le but de profiler les utilisateurs, mais uniquement pour que Robert Mercer, investisseur de CA, fasse des donations à la campagne de Donald Trump.
+D’ailleurs en revenant sur l’affaire, les analystes sont partagés. Selon certains d’entre eux, les services de Cambridge Analytica auraient été achetés par la campagne de Trump non pas dans le but de profiler les utilisateurs, mais uniquement parce que Robert Mercer, grand financier de Cambridge Analytics, en a fait sa condition pour financer la campagne de Donald Trump.
+
+Ce que Cambridge Analytica appelle *ciblage psychographique* ne marche pas forcément autant qu’ils le laissent croire. C’est une étude un peu nébuleuse de cibles marketing (domaine peu connu pour son aspect scientifique), mêlée au *big data* et aux algorithmes. La conclusion de l’article du journal Wired qui y est consacré ? Ça ne marche pas vraiment, mais ça ne veut pas dire que Facebook doit être excusé.
 
 La principale cause de tous ces problèmes que je décris, c’est l’exploitation de nos données en général. Facebook, Google c’est des organisations qui nous rendent des services en échange de nos communications, selfies, etc. Mais il y a des entreprises de surveillance, comme Palantir, qui sont bien pires dans l’utilisation de nos données : des services gouvernementaux de plusieurs dizaines de pays font appel à cette entreprise et à d’autres, pour profiter de leurs bases de données et méthodes de ciblage pour le renseignement.
 
 (L’entreprise Palantir a été fondée par Peter Thiel, proche de Donald Trump et de l’extrême droite américaine)
 
+* [**Wired** : The Noisy Fallacies of Psychographic Targeting](https://www.wired.com/story/the-noisy-fallacies-of-psychographic-targeting)
 * [**@CorentinSellin** : possible que toutes les promesses de CA de « décryptage psychologique" des votants aient été survendues, et achetées pour amadouer le milliardaire propriétaire de la firme, Mercer](https://twitter.com/CorentinSellin/status/975757706735874048)
 * [**@harryhalpin** : ](https://twitter.com/harryhalpin/status/976026949868048384)
 
@@ -289,7 +296,8 @@ Quand vous partagez quoi que ce soit sur Internet, soyez conscients de la valeur
 
 ### Des alternatives à Facebook ?
 
-J’en ai pas trouvé beaucoup. Déjà, Twitter c’est niet… même si je consomme beaucoup, je ne conseille pas vraiment. Quitte à changer, autant opter pour un système décentralisé, qui ne collecte que les informations primordiales, et dont le financement ou le business model ne dépendent pas du pistage d’utilisateurs. C’est pour ça que [le réseau social Mastodon](https://joinmastodon.org) est particulièrement génial. Sur le réseau Mastodon, je suis [@joachim@boitam.eu](https://boitam.eu/@joachim). Rejoignez une instance et ajoutez-moi comme ami !
+J’en ai pas trouvé beaucoup. Déjà, Twitter c’est niet… même si je consomme beaucoup, je ne conseille pas vraiment. Quitte à changer, autant opter pour un système décentralisé, qui ne collecte que les informations primordiales, et dont le financement ou le business model ne dépendent pas du pistage d’utilisateurs. C’est pour ça que [le réseau social Mastodon](https://joinmastodon.org) est particulièrement génial. Je recommande la lecture de [l’article du créateur de Mastodon au sujet de l’affaire Facebook](https://medium.com/tootsuite/deletefacebook-fafdc4090307) : il partage l’opinion que le problème, c’est la quantité de données personnelles que Facebook collecte et analyse. Les gens qui disent avoir besoin de Facebook pour leur business devraient regarder comment l’entreprise a traité d’autres partenaires par le passé (des sites de presse, des pages de buzz, des organismes qui avaient passé toute leur communication en vidéo—pour apprendre deux mois après que Facebook allait réduire le nombre de vidéos affichées dans le News Feed…)    
+Sur le réseau Mastodon, je suis [@joachim@boitam.eu](https://boitam.eu/@joachim). Rejoignez une instance et ajoutez-moi comme ami !
 
 Pour discuter, le système qui allie chiffrement (personne ne peut lire les conversations), facilité et décentralisation, c’est [Riot.im](https://riot.im)). Comme app ou sur le web, il n’y a qu’un nombre très limité de trackers, et nos conversations sont privées. De plus, pas besoin de donner mon numéro de téléphone, donc c’est cool. Sinon, il y a [Signal](https://www.signal.org/), si vous avez déjà mon numéro de téléphone.
 
