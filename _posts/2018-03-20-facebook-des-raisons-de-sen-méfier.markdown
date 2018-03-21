@@ -25,9 +25,10 @@ Avant Facebook, il aurait fallu être en possession d’une photo, ou il fallait
 
 Facebook change la donne. Tout ce que j’y mets (photos, vidéos, mon carnet d’adresse et les permissions de mon smartphone (GPS, micro, caméra)) pourra être utilisé pour préciser mon ciblage, et aussi mieux cibler mes amis et contacts.
 
-Facebook a récemment déposé un brevet sur une manière de déterminer notre classe sociale. Grâce à tout ce qu’on partage volontairement sur le réseau social, et tout ce qu’il découvre par lui-même en récoltant des données sans notre consentement, qui sait ce que Facebook sait véritablement de nous ?
+Facebook a récemment déposé un brevet sur une manière de déterminer notre classe sociale. Grâce à tout ce qu’on partage volontairement sur le réseau social, et tout ce qu’il découvre par lui-même en récoltant des données sans notre consentement, qui sait ce que Facebook sait véritablement de nous ? C’est une question que tout utilisateur de Facebook peut se poser. C’est aussi le slogan d’une campagne allemande du réseau social : “Comment ça se fait que l’algorithme de Facebook me connaît si bien ?”
 
 * [**engadget** Facebook patents tech to determine social class](https://www.engadget.com/2018/02/09/facebook-patents-tech-to-determine-social-class/)
+* [**@wireporter** Disturbingly relevant Facebook ad in Germany asks: "Why does the Facebook algorithm know me so well?"](https://twitter.com/wirereporter/status/976227418712236034)
 
 ### Comment Facebook nous cible dans la vraie vie
 
@@ -45,11 +46,11 @@ Un autre moyen, c’est les autorisations données aux apps sur smartphone. Si F
 
 La surveillance ne s’arrête pas là : évidemment, Facebook s’intéresse de près à ce que vous faites sur le web.
 
-Tout d’abord, lorsque vous utilisez l’app ou le site web du réseau social, évidemment, tout ce que vous faites est consigné. Quand vous avez recherché le profil de votre ex du collège (mais sans l’ajouter comme contact), quand vous avez été sur des groupes sans forcément les rejoindre… et même tous ces statuts que vous avez commencé à écrire mais que vous avez effacé. Facebook peut se souvenir de ça. Pareil pour les messages que vous avez écrit sans les envoyer, évidemment.
+Tout d’abord, lorsque vous utilisez l’app ou le site web du réseau social, évidemment, tout ce que vous faites est consigné. Quand vous avez recherché le profil de votre ex du collège (mais sans l’ajouter comme contact), quand vous avez été sur des groupes sans forcément les rejoindre… et même tous ces statuts que vous avez commencé à écrire mais que vous avez effacé. Facebook peut se souvenir de ça. Pareil pour les messages que vous avez écrit sans les envoyer, évidemment.
 
 Ça c’est des data que nous donnons plus ou moins volontairement. Mais il y a des data que d’autres vont donner : les développeurs d’autres apps et sites web.
 
-Il y a un projet, [Exodus Privacy](https://reports.exodus-privacy.eu.org), qui fait un travail de dingue : ils analysent les apps Android présentes sur le marché, pour savoir combien de trackers et de permissions ils ont, et à quel point nos données sont partagées à Facebook. Actuellement, [plus de 1000 apps communiquent à Facebook des informations](https://reports.exodus-privacy.eu.org/trackers/66/)… comme par exemple [AirBnb](https://reports.exodus-privacy.eu.org/reports/189/) ou [Spotify](https://reports.exodus-privacy.eu.org/reports/3310/), sans oublier Allociné, Marmiton, Météo France, Axa, France Info, les Pages Jaunes, le réseau social Vero ou la ville de Valence. Ce que chacune de ces apps partage avec Facebook, on ne sait pas trop… mais ça enrichit votre profil.
+Il y a un projet, [Exodus Privacy](https://reports.exodus-privacy.eu.org), qui fait un travail de dingue : ils analysent les apps Android présentes sur le marché, pour savoir combien de trackers et de permissions ils ont, et à quel point nos données sont partagées à Facebook. Actuellement, [plus de 1000 apps communiquent à Facebook des informations](https://reports.exodus-privacy.eu.org/trackers/66/)… comme par exemple [AirBnb](https://reports.exodus-privacy.eu.org/reports/189/) ou [Spotify](https://reports.exodus-privacy.eu.org/reports/3310/), sans oublier Allociné, Marmiton, Météo France, Axa, France Info, les Pages Jaunes, le réseau social Vero ou la ville de Valence. Ce que chacune de ces apps partage avec Facebook, on ne sait pas trop… mais ça enrichit votre profil.
 
 Pareil pour le Web. Grâce à ses mouchards, les développeurs de sites web peuvent lier leur audience web à leur audience Facebook. Grâce au retargeting, si vous visitez par exemple un site qui vend des chaussures, et que vous vous intéressez à un modèle en particulier, la personne derrière ce site peut vous inonder de publicités pour cette paire de chaussures, ciblées exprès pour vous. Voilà pourquoi un sèche-linge apparaissait partout sur mon Facebook pendant 3 mois en 2015.
 
@@ -69,7 +70,7 @@ C’est dingue comment les employés ne se remettent pas en question. Ils travai
 
 ### *Shadow profiles* et données récupérées dans le consentement
 
-Toutes les informations que je n’ai pas données volontairement à Facebook sont dans mon *shadow profile*, ou *profil dans l’ombre*. Comment on le sait ? Parce qu’en 2013, si on utilisait la fonction « Télécharger mes données » que le réseau met à notre disposition, on pouvait y voir notre *shadow profile* et celui de nos contacts. Le bug a été corrigé depuis, mais il prouve la présence de ce profil… même si Facebook ne reconnait pas son existence publiquement.
+Toutes les informations que je n’ai pas données volontairement à Facebook sont dans mon *shadow profile*, ou *profil dans l’ombre*. Comment on le sait ? Parce qu’en 2013, si on utilisait la fonction « Télécharger mes données » que le réseau met à notre disposition, on pouvait y voir notre *shadow profile* et celui de nos contacts. Le bug a été corrigé depuis, mais il prouve la présence de ce profil… même si Facebook ne reconnait pas son existence publiquement.
 
 C’est dedans que se retrouvent la plupart des données citées précédemment : le carnet d’adresse, les infos de GPS, ce qu’ils savent de notre navigation Internet…
 
@@ -93,11 +94,11 @@ Dans son article du 19/03/2018 du New York Times, [@zeynep](https://twitter.com/
 
 ## Comment Facebook fait son beurre 
 
-La question qui est sur toutes les lèvres, ou sur tous les doigts de mes lecteurs digitaux, c’est… *pourquoi Facebook fait ça ?*
+La question qui est sur toutes les lèvres, ou sur tous les doigts de mes lecteurs digitaux, c’est… *pourquoi Facebook fait ça ?*
 
 Bé la réponse, elle vous étonnera ou elle vous étonnera pas, mais c’est son fond de commerce. Nous, les utilisateurs, n’avons de valeur que pour les données qu’on contribue et le temps qu’on passe. Les *données*, pour donner à des annonceurs la possibilité de cibler le plus précisément des publicités, qui vont être affichées lorsqu’on passe du *temps* sur le site ou l’app.
 
-Ce principe est appelé *surveillance capitalism*. La définition est un nouveau type de capitalisme qui génère de l’argent à partir de données acquises par la surveillance. C’est Google qui l’a développé en premier. L’Internet voit une transformation depuis plusieurs années : *la création de richesses passe par l’extraction de données et non plus par la création de nouveaux biens, générant ainsi d'intenses concentrations de pouvoir sur l'extraction et menaçant des valeurs fondamentales telles que la liberté et la vie privée*.
+Ce principe est appelé *surveillance capitalism*. La définition est un nouveau type de capitalisme qui génère de l’argent à partir de données acquises par la surveillance. C’est Google qui l’a développé en premier. L’Internet voit une transformation depuis plusieurs années : *la création de richesses passe par l’extraction de données et non plus par la création de nouveaux biens, générant ainsi d’intenses concentrations de pouvoir sur l’extraction et menaçant des valeurs fondamentales telles que la liberté et la vie privée*.
 
 * [**Wikipedia** : Surveillance capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 * [**Frankfurter Allgemeine Zeitung** : The Secrets of Surveillance Capitalism](http://www.faz.net/aktuell/feuilleton/debatten/the-digital-debate/shoshana-zuboff-secrets-of-surveillance-capitalism-14103616.html)
@@ -149,6 +150,7 @@ Il est intéressant de noter qu’en 2012, la campagne de Barack Obama avait uti
 Vous serez intéressés d’apprendre que Emmanuel Macron, Jean-Luc Mélenchon ou François Fillon ont fait appel à des startups d’analyse de big-data lors de la campagne de l’an dernier, mais aucune n’a pour l’instant été accusée d’avoir utilisé trop de données de Facebook.
 
 * [**Mediapart** : Cambridge Analytica, le Big Brother électoral de Donald Trump](http://www.mediapart.fr/journal/international/190318/cambridge-analytica-le-big-brother-electoral-de-donald-trump)
+* [**@temptoetiam** : Cambridge Analytica, le point commun entre la campagned de Trump et celle du Brexit.](https://twitter.com/temptoetiam/status/976220519757500418)
 * [**The New York Times** : How Trump Consultants Exploited the Facebook Data of Millions](https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html)
 * [**The Guardian** : Revealed: 50 million Facebook profiles harvested for Cambridge Analytica in major data breach](https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election)
 * [**@Channel4News** : Cambridge Analytica bosses say they “ran all the digital campaign” for Donald Trump - including potentially illegal activities.](https://twitter.com/Channel4News/status/976175290496897025)
@@ -156,13 +158,16 @@ Vous serez intéressés d’apprendre que Emmanuel Macron, Jean-Luc Mélenchon o
 
 ### Le problème révélé par Cambridge Analytica
 
-La manière dont Cambridge Analytica a récolté ces informations, c’est par le Facebook Graph. C’est une API, une manière pour Facebook de donner l’accès à des développeurs d’apps, jeux, quizz, etc., selon certaines règles. La première version de cette API a fonctionné de 2010 à 2015, et Facebook a très vite vu que beaucoup trop de données utilisateurs étaient partagées. Mais… ils n’ont pas corrigé ça : l’API Graph était un super moyen d’approcher des développeurs pour qu’ils tirent parti de leur plate-forme, ce qui à son tour ramenait ou fidélisait des utilisateurs. Avant 2015, un développeur pouvait récolter des infos sur les contacts d’un utilisateur, mais aussi lire les messages. Facebook ne peut donc pas parler d’un “vol” de données pour ce que Cambridge Analytica et sans doutes des dizaines d’autres organisations ont fait.
+La manière dont Cambridge Analytica a récolté ces informations, c’est par le Facebook Graph. C’est une API, une manière pour Facebook de donner l’accès à des développeurs d’apps, jeux, quizz, etc., selon certaines règles. La première version de cette API a fonctionné de 2010 à 2015, et Facebook a très vite vu que beaucoup trop de données utilisateurs étaient partagées. Mais… ils n’ont pas corrigé ça : l’API Graph était un super moyen d’approcher des développeurs pour qu’ils tirent parti de leur plate-forme, ce qui à son tour ramenait ou fidélisait des utilisateurs. Avant 2015, un développeur pouvait récolter des infos sur les contacts d’un utilisateur, mais aussi lire les messages. Facebook ne peut donc pas parler d’un “vol” de données pour ce que Cambridge Analytica et sans doutes des dizaines d’autres organisations ont fait.
+
+En 2012, Facebook avait même changé le design de son système de permission des apps : au lieu de présenter un choix entre “Accepter” et “Refuser”, le réseau social présentait un seul choix, “Jouer maintenant”, et ne mettait plus l’accent sur les données qui seraient partagées avec le développeur de l’app.
 
 Le principe même de fonctionnement de Facebook, c’est la collecte de données, comme on l’a vu en première partie. Tout découle de là. Que Facebook partage ses données avec des tiers, c’est un détail : Facebook possède ces données en premier lieu.
 
 Facebook possède une quantité de détails phénoménale sur nos vies. Si un régime politique a accès à ce genre de données sur son peuple, c’en est fini des libertés de ses citoyens. Le réseau social nous offre du confort dans nos discussions et notre shoot de dopamine quand on a ce *like* en plus, et récupère des quantités d’argent énormes via la surveillance de tous ses utilisateurs.
 
 * [**@d1gi** : The Graph API is the underlying issue in Cambridge Analytica & FB data-sharing & voter micro-targeting debacle](https://twitter.com/d1gi/status/976109055642042368)
+* [**@WolfieChristl** In 2012, Facebook changed its user interface design for third-party permission requests so that more users were granting app developers access to personal info](https://twitter.com/WolfieChristl/status/976211909816045568)
 * [**@Pinboard** : The work that CA is accused of doing—building "psychographic profiles" based on demographics and online behavior in order to figure out how to segment and market to a vulnerable population—is a succinct description of how Facebook makes money.](https://twitter.com/pinboard/status/975014938283474944)
 
 ### Limiter le partage d’informations :
@@ -171,11 +176,11 @@ Maintenant, comment est-ce qu’on se prémunit de ça ?
 
 Le plus simple moyen serait de n’avoir jamais eu de compte Facebook. On connait tous un mec qui nous faisait chier aux soirées parce qu’il voulait pas s’inscrire, bah au final, il a raté quelques invitations mais il avait pas tort.
 
-Pour se prémunir du pistage sur Internet, je conseille [Privacy Badger](https://www.eff.org/fr/privacybadger), développé par l’Electronic Frontier Foundation. Cette extension pour Firefox et Chrome *empêche les annonceurs et autres trackers tiers de pister les pages que vous visitez sur le web.  Si un annonceur semble vous pister sans votre autorisation sur plusieurs sites Web, le Privacy Badger l'empêche automatiquement de charger davantage de contenu dans votre navigateur.  Pour l'annonceur, c'est comme si vous aviez soudainement disparu.* En plus de Privacy Badger, le bloqueur de pub [uBlock Origin pour Firefox](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) (et la version pour [Google Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)). Ces deux extensions permettent de navigue plus sereinement. Pour iOS et pour Android, les recommandations sont un peu différentes, je préconise l’installation de Firefox pour les deux, ainsi qu’un bloqueur de contenus. Et si avec ça vous optez pour [Qwant](https://www.qwant.com/) au lieu de Google, c’est beaucoup de progrès d’un coup.
+Pour se prémunir du pistage sur Internet, je conseille [Privacy Badger](https://www.eff.org/fr/privacybadger), développé par l’Electronic Frontier Foundation. Cette extension pour Firefox et Chrome *empêche les annonceurs et autres trackers tiers de pister les pages que vous visitez sur le web.  Si un annonceur semble vous pister sans votre autorisation sur plusieurs sites Web, le Privacy Badger l’empêche automatiquement de charger davantage de contenu dans votre navigateur.  Pour l’annonceur, c'est comme si vous aviez soudainement disparu.* En plus de Privacy Badger, le bloqueur de pub [uBlock Origin pour Firefox](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) (et la version pour [Google Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)). Ces deux extensions permettent de navigue plus sereinement. Pour iOS et pour Android, les recommandations sont un peu différentes, je préconise l’installation de Firefox pour les deux, ainsi qu’un bloqueur de contenus. Et si avec ça vous optez pour [Qwant](https://www.qwant.com/) au lieu de Google, c’est beaucoup de progrès d’un coup.
 
 Sur l’app comme sur le site, les réglages principaux de sécurité sont sur les préférences de [Vie Privée](https://www.facebook.com/settings?tab=privacy), et d’[Applications](https://www.facebook.com/settings?tab=applications) (Désactiver la plate-forme). Cet article de la rubrique Pixels, du journal Le Monde, qui a très bien couvert la crise Cambridge Analytica, est bien détaillé : [Cambridge Analytica : comment éviter que des entreprises collectent vos données Facebook](http://www.lemonde.fr/pixels/article/2018/03/19/cambridge-analytica-comment-eviter-que-des-entreprises-collectent-vos-donnees-facebook_5273156_4408996.html)
 
-Toute cette histoire, tout ce texte n’auraient pas eu raison d’être si Facebook avait appliqué un principe : par défaut, l’utilisateur ne collecte que le minimum, et ne partage rien. Lorsqu’un partage de données est proposé, il est détaillé et argumenté. Là, on a une situation où Facebook impose son système de partage de données à des apps, sans expliquer où les données vont aller, et qui va les utiliser. Le problème vient de Facebook. Pour se dés inscrire de ces partages, il faut passer du temps dans une interface très confuse.
+Toute cette histoire, tout ce texte n’auraient pas eu raison d’être si Facebook avait appliqué un principe : par défaut, l’utilisateur ne collecte que le minimum, et ne partage rien. Lorsqu’un partage de données est proposé, il est détaillé et argumenté. Là, on a une situation où Facebook impose son système de partage de données à des apps, sans expliquer où les données vont aller, et qui va les utiliser. Le problème vient de Facebook. Pour se dés inscrire de ces partages, il faut passer du temps dans une interface très confuse. En plus de ça, Facebook ne permet pas de limiter la quantité de données partagées avec les apps *des contacts*. Ou bien on partage tout avec tout le monde, ou bien on ne partage rien.
 
 Si vous parlez anglais, l’Electronic Frontier Foundation détaille le processus de désinscription du système API Platform : [How To Change Your Facebook Settings To Opt Out of Platform API Sharing](https://www.eff.org/deeplinks/2018/03/how-change-your-facebook-settings-opt-out-platform-api-sharing)
 
@@ -198,7 +203,7 @@ Ce coup de Cambridge Analytica n’arrive donc pas comme un coup de tonnerre dan
 * [**Le Temps** : «Facebook est désormais un puissant outil d’influence vendu au plus offrant»](https://www.letemps.ch/monde/facebook-desormais-un-puissant-outil-dinfluence-vendu-plus-offrant)
 
 
-### Le souci ne vient pas des utilisateurs qui « ne savent pas assez » mais de la conception même de Facebook
+### Le souci ne vient pas des utilisateurs qui « ne savent pas assez » mais de la conception même de Facebook
 
 Pour avoir une vie sociale, quand tout notre cercle n’utilise que Facebook pour organiser soirées, concerts ou pour annoncer les changements dans leur vie, c’est difficile de penser qu’on peut s’en passer. Il existe des alternatives, mais même si elles sont beaucoup plus éthiques, chiffrées et mieux conçues, personne ne va les utiliser si personne du cercle ne les utilise déjà.
 
@@ -208,16 +213,21 @@ Bien sûr, en n’ayant pas de compte Facebook on limite les problèmes de fuite
 
 Facebook ne nous connecte pas les uns aux autres : Facebook nous connecte à Facebook, et nous met en contact avec les autres. On ne partage pas avec les autres, on partage avec Facebook. Facebook nous promet un parc de loisirs mais nous pose dans un centre commercial.
 
-Comme le dit Edward Snowden, *Facebook gagne son argent en exploitant et revendant les données intimes de la vie privée de millions de gens, bien au delà des détails que nous postons volontairement. Ils ne sont pas des victimes [de la mauvaise utilisation de nos données], ils sont des complices.*
+Comme le dit Edward Snowden, *Facebook gagne son argent en exploitant et revendant les données intimes de la vie privée de millions de gens, bien au delà des détails que nous postons volontairement. Ils ne sont pas des victimes [de la mauvaise utilisation de nos données], ils sont des complices.* Et si Cambridge Analytica peut influencer des élections avec une petite partie des données de de Facebook, imaginez ce que Facebook peut faire en utilisant tout ce qu’ils ont.
 
 * [**Framablog, Aral Balkan** : Facebook n’est pas un réseau social, c’est un scanner qui nous numérise](https://framablog.org/2017/02/20/facebook-scanner-qui-nous-numerise/)
 * [**@Snowden** : Facebook makes their money by exploiting and selling intimate details about the private lives of millions, far beyond the scant details you voluntarily post. They are not victims. They are accomplices.](https://twitter.com/Snowden/status/975106627513729024)
+* [**@aral** ‘If Cambridge Analytica can sway elections and referenda with a relatively small subset of Facebook’s data, imagine what Facebook can and does do with the full set.’](https://twitter.com/aral/status/976234530364428289)
 
 ### Ce que Facebook fait, c’est exploiter notre labeur pour ses profits
 
 Facebook a gagné 40 milliards de dollars en 2017.
 
 Si on y regarde bien, les données qu’on donne à Facebook ont énormément plus de valeur que les services que Facebook nous rend. En tant qu’utilisateurs, on y perd. Le Capitalisme de la Surveillance nous fait miroiter un monde en ligne où tout est gratuit, et où on est harcelés de publicités en échange de nos secrets les plus intimes donnés involontairement. Grâce à Google ou Facebook c’est le modèle qui devient la norme sur Internet. Mais ça pourrait ne pas être le cas.
+
+Et d’ailleurs, Facebook ne veut pas se passer de son business model. En ce moment, ils se battent contre un projet de loi en Californie, qui améliorerait la protection de la vie privée des utilisateurs.
+
+* [**Los Angeles Times** California privacy advocates ask Facebook to stop opposing their proposed ballot measure following Cambridge Analytica debacle](https://www.latimes.com/politics/essential/la-pol-ca-essential-politics-updates-amid-cambridge-analytica-debacle-1521569410-htmlstory.html)
 
 ### Le problème c’est pas seulement Cambridge Analytica / Facebook
 
@@ -227,7 +237,7 @@ La principale cause de tous ces problèmes que je décris, c’est l’exploitat
 
 (L’entreprise Palantir a été fondée par Peter Thiel, proche de Donald Trump et de l’extrême droite américaine)
 
-* [**@CorentinSellin** : possible que toutes les promesses de CA de « décryptage psychologique" des votants aient été survendues, et achetées pour amadouer le milliardaire propriétaire de la firme, Mercer](https://twitter.com/CorentinSellin/status/975757706735874048)
+* [**@CorentinSellin** : possible que toutes les promesses de CA de « décryptage psychologique" des votants aient été survendues, et achetées pour amadouer le milliardaire propriétaire de la firme, Mercer](https://twitter.com/CorentinSellin/status/975757706735874048)
 * [**@harryhalpin** : ](https://twitter.com/harryhalpin/status/976026949868048384)
 
 ### Ce qui se passe en Allemagne et ailleurs en Europe
@@ -236,9 +246,9 @@ Depuis quelques années, plusieurs jugements sont venus mettre des batons dans l
 
 J’ai prévu une belle lettre à envoyer à Facebook début Juin, pour pouvoir récupérer tout mon shadow profile, etc. Ça devrait être amusant.
 
-En Angleterre, suite aux révélations de cette semaine concernant Cambridge Analytica, le parlement a demandé à Mark Zuckerberg de venir répondre à l’enquête qui débute sur cette affaire, et un mandat de perquisition a été signé pour les locaux de CA. Apparemment des employés de Facebook y étaient à ce moment là, ce qui voudrait dire que le réseau social pourrait être soupçonné de vouloir faire obstruction à l’enquête.
+En Angleterre, suite aux révélations de cette semaine concernant Cambridge Analytica, le parlement a demandé à Mark Zuckerberg de venir répondre à l’enquête qui débute sur cette affaire, et un mandat de perquisition a été signé pour les locaux de CA. Apparemment des employés de Facebook y étaient à ce moment là, ce qui voudrait dire que le réseau social pourrait être soupçonné de vouloir faire obstruction à l’enquête. De son côté, Cambridge Analytica a écarté son directeur Alexander Nix… qui avait déjà fondé une nouvelle société vendredi 16/03, à l’approche de la publication de l’article.
 
-Depuis lundi et l’ouverture de la Bourse, l’action de Facebook a plongé, elle a perdu entre 3 et 5%, et la banque Nordea a déclaré avoir liquidé tous ses investissements dans le groupe Facebook.    
+Depuis lundi et l’ouverture de la Bourse, l’action de Facebook a plongé, elle a perdu entre 3 et 5%, et la banque Nordea a déclaré avoir liquidé tous ses investissements dans le groupe Facebook.    
 Et la fortune de Mark Zuckerberg a perdu plus de 30 milliards de dollars, comme faisait remarquer Carole Cadwalladr, celle par qui le scandale Cambridge Analytica a éclaté.
 
 * [**Reuters** : German court rules Facebook use of personal data illegal](https://www.reuters.com/article/us-germany-facebook/german-court-rules-facebook-use-of-personal-data-illegal-idUSKBN1FW1FI)
@@ -248,11 +258,12 @@ Et la fortune de Mark Zuckerberg a perdu plus de 30 milliards de dollars, comme 
 * [**@carolecadwalla** : OMG. Facebook's share price down $30 billion in first two hours trading. Gulp. #WheresZuck?](https://twitter.com/carolecadwalla/status/975766678712803328)
 * [**@embruns** : la chute continue… #facebook](https://twitter.com/embruns/status/976091769229193216)
 * [**@SasjaBeslik** : Today, we in @Nordea decided to put #Facebook investments on quarantine in our sustainable funds.](https://twitter.com/SasjaBeslik/status/976191177904058373)
+* [**@TheRynheart** : Cambridge Analytica suspended CEO Nix?  Pffft. Nix has already started a new company ‘Emerdata Ltd’ in the UK and Rebekah Mercer was appointed Director On March 16, 2018. 🙄](https://twitter.com/TheRynheart/status/976249573869064192)
 
 
 ### Faites attention à ce que vous lisez !
 
-Un petit conseil ? Faites gaffe à ce que vous lisez. Les fausses informations sont disséminées par des instituts tout aussi sérieux que Cambridge Analytica, qui veulent nous cibler tout aussi sérieusement, pour faire valoir leur propagande… comme en ce moment autour du référendum irlandais sur l’avortement, par exemple.
+Un petit conseil ? Faites gaffe à ce que vous lisez. Les fausses informations sont disséminées par des instituts tout aussi sérieux que Cambridge Analytica, qui veulent nous cibler tout aussi sérieusement, pour faire valoir leur propagande… comme en ce moment autour du référendum irlandais sur l’avortement, par exemple.
 
 Les questions à se poser, en lisant un media : comment est-il financé ? Quel est son business model ?
 
@@ -270,3 +281,5 @@ J’en ai pas trouvé beaucoup. Déjà, Twitter c’est niet… même si je cons
 Pour discuter, le système qui allie chiffrement (personne ne peut lire les conversations), facilité et décentralisation, c’est [Riot.im](https://riot.im)). Comme app ou sur le web, il n’y a qu’un nombre très limité de trackers, et nos conversations sont privées. De plus, pas besoin de donner mon numéro de téléphone, donc c’est cool. Sinon, il y a [Signal](https://www.signal.org/), si vous avez déjà mon numéro de téléphone.
 
 [**Mastodon** : Le réseau social qui vous redonne le contrôle](https://joinmastodon.org/)
+
+
