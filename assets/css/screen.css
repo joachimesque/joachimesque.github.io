@@ -401,7 +401,7 @@ p a, li a {
 }
 
 p a strong, li a strong {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 p, ul, ol, dl {
@@ -471,6 +471,7 @@ blockquote ul {
     font-style: italic;
     font-size: 1.3em;
     line-height: 1.4em;
+    font-weight: 500;
 }
 
 blockquote small {
@@ -961,6 +962,7 @@ a#lien-contenu:focus {
 
 body:not(.post-template) .post-title {
     font-size: 4.4rem;
+    line-height: 1;
 }
 
 .post-title a {
