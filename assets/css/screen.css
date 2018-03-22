@@ -180,7 +180,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 } */
 
-
+/* 
 @font-face {
     font-family: 'Faune';
     src:    url('../fonts/woff/Faune-Display_Black.woff') format('woff'),
@@ -188,7 +188,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-weight: 900;
     font-style: normal;
 }
-
+ */
 @font-face {
     font-family: 'Faune';
     src:    url('../fonts/woff/Faune-Display_Bold_Italic.woff') format('woff'),
@@ -197,7 +197,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-style: italic;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Faune';
     src:    url('../fonts/woff/Faune-Display_Thin.woff') format('woff'),
             url('../fonts/woff2/Faune-Display_Thin.woff2') format('woff2');
@@ -219,14 +219,96 @@ table { border-collapse: collapse; border-spacing: 0; }
             url('../fonts/woff2/Faune-Text_Italic.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
-}
-
+} */
+/* 
 @font-face {
     font-family: 'Faune';
     src:    url('../fonts/woff/Faune-Text_Regular.woff') format('woff'),
             url('../fonts/woff2/Faune-Text_Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+} */
+
+
+
+
+@font-face {
+    font-family: 'Spectral';
+    src:    url('../fonts/woff/spectral-regular.woff') format('woff'),
+            url('../fonts/woff2/spectral-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spectral';
+    src:    url('../fonts/woff/spectral-italic.woff') format('woff'),
+            url('../fonts/woff2/spectral-italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Spectral';
+    src:    url('../fonts/woff/spectral-medium.woff') format('woff'),
+            url('../fonts/woff2/spectral-medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spectral';
+    src:    url('../fonts/woff/spectral-mediumitalic.woff') format('woff'),
+            url('../fonts/woff2/spectral-mediumitalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Spectral';
+    src:    url('../fonts/woff/spectral-semibold.woff') format('woff'),
+            url('../fonts/woff2/spectral-semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spectral';
+    src:    url('../fonts/woff/spectral-semibolditalic.woff') format('woff'),
+            url('../fonts/woff2/spectral-semibolditalic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Spectral';
+    src:    url('../fonts/woff/spectral-bold.woff') format('woff'),
+            url('../fonts/woff2/spectral-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spectral';
+    src:    url('../fonts/woff/spectral-bolditalic.woff') format('woff'),
+            url('../fonts/woff2/spectral-bolditalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Spectral';
+    src:    url('../fonts/woff/spectral-extrabold.woff') format('woff'),
+            url('../fonts/woff2/spectral-extrabold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spectral';
+    src:    url('../fonts/woff/spectral-extrabolditalic.woff') format('woff'),
+            url('../fonts/woff2/spectral-extrabolditalic.woff2') format('woff2');
+    font-weight: 800;
+    font-style: italic;
 }
 
 
@@ -246,7 +328,8 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Faune", sans-serif;
+    font-family: "Spectral", sans-serif;
+    font-weight: 400;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.5em;
@@ -272,8 +355,8 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Faune", sans-serif;
-    font-weight:  900;
+    /* font-family: "Faune", sans-serif; */
+    font-weight:  800;
 
 }
 
@@ -284,15 +367,15 @@ h1 {
 }
 
 h2 {
-    font-size: 3.6rem;
+    font-size: 3.8rem;
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 h5 {
@@ -314,11 +397,11 @@ a:hover {
 
 p a, li a {
     /* font-style: italic; */
-    font-weight: bold;
+    font-weight: 500;
 }
 
 p a strong, li a strong {
-    font-weight: 900;
+    font-weight: 700;
 }
 
 p, ul, ol, dl {
@@ -771,6 +854,7 @@ a#lien-contenu:focus {
 
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
+    font-family: 'Faune';
     margin: 10px 0 10px 0;
     font-size: 8rem;
     letter-spacing: -.5px;
@@ -876,7 +960,7 @@ a#lien-contenu:focus {
 }
 
 body:not(.post-template) .post-title {
-    font-size: 3.6rem;
+    font-size: 4.4rem;
 }
 
 .post-title a {
@@ -1442,6 +1526,7 @@ body:not(.post-template) .post-title {
     font-weight: bold;
 }
 .site-footer em a {
+    font-family: 'Faune';
     font-size: 2rem;
     display: inline-block;
     vertical-align: text-bottom;
