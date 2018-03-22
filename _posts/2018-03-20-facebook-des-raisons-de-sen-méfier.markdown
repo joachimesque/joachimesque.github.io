@@ -115,6 +115,7 @@ Facebook est addictif. Ça n’est pas un accident. C’est fait pour. Comme Net
 Cette addiction qui est provoquée en nous, c’est ce qui nous fait passer plus de *temps* et qui nous encourage à partager toujours plus de *données* (check-in dans un restaurant trop bon, selfie avec les besties…). Qui est-ce qui gagne&nbsp;? Le capitalisme de la surveillance.
 
 * [**The Guardian**&nbsp;: ‘Never get high on your own supply’ – why social media bosses don’t use social media](https://www.theguardian.com/media/2018/jan/23/never-get-high-on-your-own-supply-why-social-media-bosses-dont-use-social-media) 
+* [**Mustapha Itani** Ex-Facebook Executive: “You Don’t Realize It But You Are Being Programmed”](https://medium.com/@MustaphaItani/ex-facebook-executive-you-dont-realize-it-but-you-are-being-programmed-2b35db8a421)
 
 ### Les mauvaises fréquentations
 
@@ -191,6 +192,8 @@ Si vous parlez anglais, l’Electronic Frontier Foundation détaille le processu
 
 L’Electronic Frontier Foundation est une structure de défense des droits en ligne. En France, on a la [Quadrature du Net](https://www.laquadrature.net/fr/). Eux aussi partagent l’analyse que le problème n’est pas une “fuite de données”, mais un partage de vos données personnelles par Facebook, sans possibilité de consentir—ou de ne pas consentir. [**@laquadrature**&nbsp;: Arrêtons de parler de «&nbsp;fuite de données&nbsp;». Transmettre à des tiers la liste de vos like est le fonctionnement «&nbsp;NORMAL&nbsp;» que Facebook vous oblige à accepter pour utiliser ses services.](https://twitter.com/laquadrature/status/976464749444689921)     
 N’hésitez pas à visiter leur site et à donner de l’argent pour soutenir leur activité.
+
+Si vous cherchez des alternatives à Facebook, j’en donne [à la fin de cet article](#des-alternatives-%C3%A0-facebook). Spoiler, je parle de Signal, Riot et Mastodon.
 
 ### Il n’y a pas que Facebook
 
@@ -280,6 +283,28 @@ Les nouvelles s’enchaînent, le Parlement européen vient d’annoncer qu’il
 * [**@TheRynheart**&nbsp;: Cambridge Analytica suspended CEO Nix?  Pffft. Nix has already started a new company ‘Emerdata Ltd’ in the UK and Rebekah Mercer was appointed Director On March 16, 2018. 🙄](https://twitter.com/TheRynheart/status/976249573869064192)
 * [**@Europarl_FR**&nbsp;: Nous avons invité Mark Zuckerberg au Parlement européen. Facebook doit assurer aux représentants de 500 millions d'Européens que les données personnelles ne sont pas utilisées pour manipuler la démocratie.](https://twitter.com/Europarl_FR/status/976127845851369472)
 
+### Nouvelles retombées (mis à jour le 22/03/2018)
+
+Mark Zuckerberg et son bras droit, Sheryl Sandberg, sortent de leur silence dans un post sur Facebook. Il n’y a pas d’excuse dans leur message, pas d’admission que Facebook puisse être blâmé, juste des promesses de “mieux protéger nos données”. Le Zuck a toujours eu du mal à comprendre quand il merdait. Dans une interview pour CNN, il déclare être désolé, et a annoncé qu’il irait répondre aux questions des membres du Congrès, s’il y était invité.
+
+Tim Berners-Lee, inventeur du Web, déclare qu’il faut agir pour avoir des réglementations pour protéger nos données. D’autres personnalités se prononcent aussi en faveur de plus de règles, et le groupe Massive Attack quitte Facebook (ils s’étaient prononcés plusieurs fois contre la surveillance massive).
+
+Des opinions arrivent dans des média, que Facebook est *mauvais* pour la santé de la société. Facebook aide à la destruction du journalisme (à travers la crise des *fake news*), encourage ses utilisateurs à plus de dépendance, de dépression et de solitude, et a un rôle fondamental dans la diffusion de propagande, pouvant conduir jusqu’au génocide. La seule solution, selon le journaliste politique Matt Yglesias, c’est de démanteler Facebook.
+
+Les spécialistes commencent à parler Un spécialiste du *deep learning* chez Google, François Chollet, offre une analyse qui mêle la collecte non réglementée de données par les géants du Web et le développement des Intelligences Artificielles par les mêmes géants. De ce mélange on peut craindre une généralisation et une systématisation du contrôle psychologique que les géants peuvent avoir sur nous.
+
+> Importantly, mass population control -- in particular political control -- arising from placing AI algorithms in charge of our information diet does not necessarily require very advanced AI. You don’t need self-aware, superintelligent AI for this to be a dire threat. So, if mass population control is already possible today -- in theory -- why hasn’t the world ended yet? In short, I think it’s because we’re really bad at AI. But that may be about to change. You see, our technical capabilities are the bottleneck here. […] We’re looking at a powerful entity that builds fine-grained psychological profiles of over two billion humans, that runs large-scale behavior manipulation experiments, and that aims at developing the best AI technology the world has ever seen. Personally, it really scares me
+
+* [**@bySamRo** Mark Zuckerberg’s statement on Cambridge Analytica](https://twitter.com/bySamRo/status/976543657976389632)
+* [**Gizmodo** Mark Zuckerberg Fails to Apologize](https://gizmodo.com/mark-zuckerberg-fails-to-apologize-1823966476)
+* [**BBC News** Facebook's Zuckerberg speaks out over Cambridge Analytica 'breach'](http://www.bbc.com/news/world-us-canada-43494337)
+* [**CNN Tech** Mark Zuckerberg tells CNN he is 'happy to' testify before Congress](http://money.cnn.com/2018/03/21/technology/mark-zuckerberg-cnn-interview/index.html)
+* [**timberners_lee** The problems we see today are bugs in the system. Bugs can cause damage, but bugs are created by people, and can be fixed by people.](https://twitter.com/timberners_lee/status/976623317808484352)
+* [**@Spacekatgal** This may be an unpopular opinion, but I don’t think educating people is a realistic solution. I am hyper educated on these issues, and I still have to make privacy compromises all the time, just to participate in society and have a career. We need regulation.](https://twitter.com/Spacekatgal/status/976631833273217025)
+* [**MassiveAttackUK** In light of FB’s continued disregard for your privacy, their lack of transparency and disregard for accountability - Massive Attack will be temporarily withdrawing from FB](https://twitter.com/MassiveAttackUK/status/976474290135732229)
+* [**Vox** The case against Facebook](https://www.vox.com/policy-and-politics/2018/3/21/17144748/case-against-facebook)
+* [**@fchollet** …The more worrying issue, in my opinion, is its use of digital information consumption as a psychological control vector.](https://twitter.com/fchollet/status/976563870322999296)
+* [**@saradannerdukic** ](https://twitter.com/saradannerdukic/status/976125179049988097)
 
 ### Faites attention à ce que vous lisez&nbsp;!
 
