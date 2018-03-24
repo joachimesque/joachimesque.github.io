@@ -289,7 +289,7 @@ Mark Zuckerberg et son bras droit, Sheryl Sandberg, sortent de leur silence dans
 
 Tim Berners-Lee, inventeur du Web, déclare qu’il faut agir pour avoir des réglementations pour protéger nos données. D’autres personnalités se prononcent aussi en faveur de plus de règles, et le groupe Massive Attack quitte Facebook (ils s’étaient prononcés plusieurs fois contre la surveillance massive).
 
-Des opinions arrivent dans des média, que Facebook est *mauvais* pour la santé de la société. Facebook aide à la destruction du journalisme (à travers la crise des *fake news*), encourage ses utilisateurs à plus de dépendance, de dépression et de solitude, et a un rôle fondamental dans la diffusion de propagande, pouvant conduir jusqu’au génocide. La seule solution, selon le journaliste politique Matt Yglesias, c’est de démanteler Facebook.
+Des opinions arrivent dans des média, que Facebook est *mauvais* pour la santé de la société. Facebook aide à la destruction du journalisme (à travers la crise des *fake news*), encourage ses utilisateurs à plus de dépendance, de dépression et de solitude, et a un rôle fondamental dans la diffusion de propagande, pouvant conduir jusqu’au génocide. La seule solution, selon le journaliste politique Matt Yglesias, c’est de démanteler Facebook. Bizarrement, comme il le soulève plus tard, l’article a eu très visité depuis des liens sur Twitter ou sur Google… mais très peu depuis Facebook. Ça alors, l’algorithme n’apprécierait pas la critique&nbsp;?
 
 Les spécialistes commencent à parler Un spécialiste du *deep learning* chez Google, François Chollet, offre une analyse qui mêle la collecte non réglementée de données par les géants du Web et le développement des Intelligences Artificielles par les mêmes géants. De ce mélange on peut craindre une généralisation et une systématisation du contrôle psychologique que les géants peuvent avoir sur nous.
 
@@ -303,6 +303,7 @@ Les spécialistes commencent à parler Un spécialiste du *deep learning* chez G
 * [**@Spacekatgal** This may be an unpopular opinion, but I don’t think educating people is a realistic solution. I am hyper educated on these issues, and I still have to make privacy compromises all the time, just to participate in society and have a career. We need regulation.](https://twitter.com/Spacekatgal/status/976631833273217025)
 * [**MassiveAttackUK** In light of FB’s continued disregard for your privacy, their lack of transparency and disregard for accountability - Massive Attack will be temporarily withdrawing from FB](https://twitter.com/MassiveAttackUK/status/976474290135732229)
 * [**Vox** The case against Facebook](https://www.vox.com/policy-and-politics/2018/3/21/17144748/case-against-facebook)
+* [**@mattyglesias** Yesterday’s article “The Case Against Facebook” had above-average search referrals, twitter referrals, and overall traffic but below-average Facebook referrals. 🤔](https://twitter.com/mattyglesias/status/976805672707903488)
 * [**@fchollet** …The more worrying issue, in my opinion, is its use of digital information consumption as a psychological control vector.](https://twitter.com/fchollet/status/976563870322999296)
 * [**@saradannerdukic** ](https://twitter.com/saradannerdukic/status/976125179049988097)
 
