@@ -5,7 +5,7 @@ date:   2018-03-24 23:33:33
 categories: blog
 ---
 
-Depuis une semaine on entend beaucoup parler de Facebook, à propos d’une affaire de vol de données. J’ai rédigé un long, très long article pour mettre mes notes personnelles au propre et pour en parler à mes contacts sur Facebook. Ceci est une version réduite de mon article. Chaque paragraphe a un lien vers la partie correspondante.
+Depuis une semaine on entend beaucoup parler de Facebook, à propos d’une affaire de vol de données. J’ai rédigé [un long, très long article](https://joachimesque.github.io/blog/2018/03/20/facebook-des-raisons-de-sen-m%C3%A9fier.html) pour mettre mes notes personnelles au propre et pour en parler à mes contacts sur Facebook. Ceci est une version réduite de mon article. Chaque paragraphe a un lien vers la partie correspondante.
 
 
 **Facebook collecte énormément de choses sur nous.** Et on les contribue de manière tout à fait volontaire. C’est un problème. [lien](https://joachimesque.github.io/blog/2018/03/20/facebook-des-raisons-de-sen-m%C3%A9fier.html#ce-que-facebook-sait-de-nous)

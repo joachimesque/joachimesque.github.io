@@ -13,6 +13,8 @@ Depuis ce weekend on entend beaucoup parler de Facebook, à propos d’une affai
 
 Je vais utiliser le terme Facebook tout au long de cet article, mais tout s’applique aussi à Google, Twitter dans une moindre mesure, et tous les concepts de réseaux sociaux dont le but principal est la collecte de données.
 
+Si vous n’avez pas le temps de tout lire, je vous conseille de parcourir [la version rapide de cet article](https://joachimesque.github.io/blog/2018/03/24/il-faut-se-m%C3%A9fier-de-facebook-version-rapide.html), qui contient un résumé partie par partie, avec des liens qui dirigent vers les différentes parties de ce long article pour les détails.
+
 *Si vous voyez des fautes, soyez sympa, signalez-les moi&nbsp;!*
 
 ## Ce que Facebook sait de nous
