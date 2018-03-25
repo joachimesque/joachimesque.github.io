@@ -9,7 +9,7 @@ Depuis quelques mois, je voulais écrire un texte en plusieurs parties pour expl
 
 Le plan était là, plein de liens pour documenter le tout… et pas le temps.
 
-Depuis ce weekend on entend beaucoup parler de Facebook, à propos d’une affaire de vol de données. J’ai ressorti mon plan tout poussiéreux, et comme l’affaire Cambridge Analytica fournit à nos dépends une affaire de manipulation à l’échelle mondiale, ça sera l’exemple parfait pour montrer les dérives de Facebook.
+Depuis ce weekend on entend beaucoup parler de Facebook, à propos d’une affaire de vol de données. J’ai ressorti mon plan tout poussiéreux, et comme l’affaire Cambridge Analytica fournit à nos dépens une affaire de manipulation à l’échelle mondiale, ça sera l’exemple parfait pour montrer les dérives de Facebook.
 
 Je vais utiliser le terme Facebook tout au long de cet article, mais tout s’applique aussi à Google, Twitter dans une moindre mesure, et tous les concepts de réseaux sociaux dont le but principal est la collecte de données.
 
@@ -32,7 +32,7 @@ Facebook a récemment déposé un brevet sur une manière de déterminer notre c
 
 ### Comment Facebook nous cible dans la vraie vie
 
-Facebook, Messenger et Instagram nous demandent régulièrement accès à notre carnet d’adresse. Par exemple, voilà comment Messenger ne connait pas la réponse “non”&nbsp;: <https://twitter.com/CraftyDeano/status/975322185031208960>. À partir de cette liste, Facebook sait qui sont nos amis, mais aussi qui nous proposer comme nouveaux contacts. Si vous avez parfois des recommandations qui étaient un peu trop précises (un·e ex, le cousin pas croisé depuis 10 ans, la voisine dont on a le numéro suite au cambriolage de la résidence…), c’est grâce au fait que j’ai partagé mon carnet d’adresse ; et si je n’ai jamais partagé mon carnet d’adresse, c’est parce que l’ex, le cousin ou la voisine l’ont fait, sans se douter que ça mettait mes informations personnelles dans l’escarcelle de Facebook.
+Facebook, Messenger et Instagram nous demandent régulièrement accès à notre carnet d’adresse. Par exemple, voilà comment Messenger ne connaît pas la réponse “non”&nbsp;: <https://twitter.com/CraftyDeano/status/975322185031208960>. À partir de cette liste, Facebook sait qui sont nos amis, mais aussi qui nous proposer comme nouveaux contacts. Si vous avez parfois des recommandations qui étaient un peu trop précises (un·e ex, le cousin pas croisé depuis 10 ans, la voisine dont on a le numéro suite au cambriolage de la résidence…), c’est grâce au fait que j’ai partagé mon carnet d’adresse ; et si je n’ai jamais partagé mon carnet d’adresse, c’est parce que l’ex, le cousin ou la voisine l’ont fait, sans se douter que ça mettait mes informations personnelles dans l’escarcelle de Facebook.
 
 Mais ça n’est pas le seul moyen de nous cibler&nbsp;: le réseau social peut identifier un appareil photo (ou un téléphone) grâce aux poussières sur l’objectif&nbsp;: deux personnes sans rapport qui postent des photos différentes venant du même appareil sont ainsi “liées” par Facebook. Si, après un mariage, vous voyez des invités avec qui vous n’avez pas parlé, conseillés par le réseau social, ça peut être par ce moyen.
 
@@ -63,7 +63,7 @@ Pareil pour le Web. Grâce à ses mouchards, les développeurs de sites web peuv
 
 ### Facebook sait tout de ses employé·e·s
 
-Ça serait trop moche si le tracking ne s’arrêtait qu’aux utilisateurs de Facebook… mais il s’applique aussi aux employés. Je n’ai que peu sympathie pour les gens qui y travaillent, pour les raisons citées dans cet article, mais je ne peux pas m’empêcher de les plaindre sur ce plan là. L’équipe des *chasseurs de rats* sait quand tu prends une capture d’écran, quels liens tu cliques ou tu survoles, et le contenu de conversations privées que tu peux avoir eues avant même d’être employé du réseau social.
+Ça serait trop moche si le tracking ne s’arrêtait qu’aux utilisateurs de Facebook… mais il s’applique aussi aux employés. Je n’ai que peu de sympathie pour les gens qui y travaillent, pour les raisons citées dans cet article, mais je ne peux pas m’empêcher de les plaindre sur ce plan-là. L’équipe des *chasseurs de rats* sait quand tu prends une capture d’écran, quels liens tu cliques ou tu survoles, et le contenu de conversations privées que tu peux avoir eues avant même d’être employé du réseau social.
 
 > “It’s horrifying how much they know,” he told the Guardian, on the condition of anonymity. “You go into Facebook and it has this warm, fuzzy feeling of ‘we’re changing the world’ and ‘we care about things’. But you get on their bad side and all of a sudden you are face to face with [Facebook CEO] Mark Zuckerberg’s secret police.”
 
@@ -71,9 +71,9 @@ C’est dingue comment les employés ne se remettent pas en question. Ils travai
 
 * [**The Guardian**&nbsp;: 'They'll squash you like a bug': how Silicon Valley keeps a lid on leakers](https://www.theguardian.com/technology/2018/mar/16/silicon-valley-internal-work-spying-surveillance-leakers?CMP=share_btn_tw)
 
-### *Shadow profiles* et données récupérées dans le consentement
+### *Shadow profiles* et données récupérées sans le consentement
 
-Toutes les informations que je n’ai pas données volontairement à Facebook sont dans mon *shadow profile*, ou *profil dans l’ombre*. Comment on le sait&nbsp;? Parce qu’en 2013, si on utilisait la fonction «&nbsp;Télécharger mes données&nbsp;» que le réseau met à notre disposition, on pouvait y voir notre *shadow profile* et celui de nos contacts. Le bug a été corrigé depuis, mais il prouve la présence de ce profil… même si Facebook ne reconnait pas son existence publiquement.
+Toutes les informations que je n’ai pas données volontairement à Facebook sont dans mon *shadow profile*, ou *profil dans l’ombre*. Comment on le sait&nbsp;? Parce qu’en 2013, si on utilisait la fonction «&nbsp;Télécharger mes données&nbsp;» que le réseau met à notre disposition, on pouvait y voir notre *shadow profile* et celui de nos contacts. Le bug a été corrigé depuis, mais il prouve la présence de ce profil… même si Facebook ne reconnaît pas son existence publiquement.
 
 C’est dedans que se retrouvent la plupart des données citées précédemment&nbsp;: le carnet d’adresse, les infos de GPS, ce qu’ils savent de notre navigation Internet…
 
@@ -178,7 +178,7 @@ Facebook possède une quantité de détails phénoménale sur nos vies. Si un r�
 
 Maintenant, comment est-ce qu’on se prémunit de ça&nbsp;?
 
-Le plus simple moyen serait de n’avoir jamais eu de compte Facebook. On connait tous un mec qui nous faisait chier aux soirées parce qu’il voulait pas s’inscrire, bah au final, il a raté quelques invitations mais il avait pas tort.
+Le plus simple moyen serait de n’avoir jamais eu de compte Facebook. On connaît tous un mec qui nous faisait chier aux soirées parce qu’il voulait pas s’inscrire, bah au final, il a raté quelques invitations mais il avait pas tort.
 
 Pour se prémunir du pistage sur Internet, je conseille [Privacy Badger](https://www.eff.org/fr/privacybadger), développé par l’Electronic Frontier Foundation. Cette extension pour Firefox et Chrome *empêche les annonceurs et autres trackers tiers de pister les pages que vous visitez sur le web.  Si un annonceur semble vous pister sans votre autorisation sur plusieurs sites Web, le Privacy Badger l’empêche automatiquement de charger davantage de contenu dans votre navigateur.  Pour l’annonceur, c'est comme si vous aviez soudainement disparu.* En plus de Privacy Badger, le bloqueur de pub [uBlock Origin pour Firefox](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) (et la version pour [Google Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)). Ces deux extensions permettent de navigue plus sereinement. Pour iOS et pour Android, les recommandations sont un peu différentes, je préconise l’installation de Firefox pour les deux, ainsi qu’un bloqueur de contenus. Et si avec ça vous optez pour [Qwant](https://www.qwant.com/) au lieu de Google, c’est beaucoup de progrès d’un coup.
 
@@ -186,7 +186,7 @@ Sur l’app comme sur le site, les réglages principaux de sécurité sont sur l
 
 L’option nucléaire, c’est la suppression du compte Facebook. Là aussi, Facebook cache bien les options. Voilà [comment désactiver, fermer, effacer ou supprimer votre compte Facebook](https://www.francoischarron.com/comment-desactiver-fermer-effacer-ou-supprimer-votre-compte-facebook/-/8bep6hVUq8/).
 
-Toute cette histoire, tout ce texte n’auraient pas eu raison d’être si Facebook avait appliqué un principe&nbsp;: par défaut, l’utilisateur ne collecte que le minimum, et ne partage rien. Lorsqu’un partage de données est proposé, il est détaillé et argumenté. Là, on a une situation où Facebook impose son système de partage de données à des apps, sans expliquer où les données vont aller, et qui va les utiliser. Le problème vient de Facebook. Pour se dés inscrire de ces partages, il faut passer du temps dans une interface très confuse. En plus de ça, Facebook ne permet pas de limiter la quantité de données partagées avec les apps *des contacts*. Ou bien on partage tout avec tout le monde, ou bien on ne partage rien.
+Toute cette histoire, tout ce texte n’auraient pas eu raison d’être si Facebook avait appliqué un principe&nbsp;: par défaut, l’utilisateur ne collecte que le minimum, et ne partage rien. Lorsqu’un partage de données est proposé, il est détaillé et argumenté. Là, on a une situation où Facebook impose son système de partage de données à des apps, sans expliquer où les données vont aller, et qui va les utiliser. Le problème vient de Facebook. Pour se désinscrire de ces partages, il faut passer du temps dans une interface très confuse. En plus de ça, Facebook ne permet pas de limiter la quantité de données partagées avec les apps *des contacts*. Ou bien on partage tout avec tout le monde, ou bien on ne partage rien.
 
 Si vous parlez anglais, l’Electronic Frontier Foundation détaille le processus de désinscription du système API Platform&nbsp;: [How To Change Your Facebook Settings To Opt Out of Platform API Sharing](https://www.eff.org/deeplinks/2018/03/how-change-your-facebook-settings-opt-out-platform-api-sharing)
 
@@ -222,7 +222,7 @@ Pour avoir une vie sociale, quand tout notre cercle n’utilise que Facebook pou
 
 De plus, dans beaucoup de pays, Facebook domine totalement les communications&nbsp;: en Indonésie si je me souviens bien, il y a 70% des utilisateurs d’Internet qui ne savent pas faire la différence entre Facebook et le reste d’Internet. Tout leur horizon culturel est limité par Facebook. Quand les amis, la famille, les médias, les partis politiques se font via Facebook, il faut repenser ses stratégies.
 
-Bien sûr, en n’ayant pas de compte Facebook on limite les problèmes de fuite de donnée liés à ce réseau social. Mais si on cherche les vrais responsables, il faut regarder du côté de Facebook et non vers celui des utilisateurs.
+Bien sûr, en n’ayant pas de compte Facebook on limite les problèmes de fuite de données liés à ce réseau social. Mais si on cherche les vrais responsables, il faut regarder du côté de Facebook et non vers celui des utilisateurs.
 
 Facebook ne nous connecte pas les uns aux autres&nbsp;: Facebook nous connecte à Facebook, et nous met en contact avec les autres. On ne partage pas avec les autres, on partage avec Facebook. Facebook nous promet un parc de loisirs mais nous pose dans un centre commercial.
 
@@ -259,7 +259,7 @@ La principale cause de tous ces problèmes que je décris, c’est l’exploitat
 
 ### Ce qui se passe en Allemagne et ailleurs en Europe
 
-Depuis quelques années, plusieurs jugements sont venus mettre des batons dans les roues de Facebook en Europe. L’Allemagne a déterminé que son utilisation des données personnelles était illégale, Bruxelles a aussi causé quelques sueurs froides aux juristes de Facebook. La grosse avancée en matière de protection de nos données va avoir lieu fin mai, quand le RGPD (Règlement Général sur la Protection des Données) sera véritablement en application&nbsp;: ces lois votées au Parlement Européen il y a quelques années garantissent à tout citoyen Européen le droit de pouvoir dire non au tracking, le droit d’accéder à ses données personnelles et à pouvoir les faire supprimer.
+Depuis quelques années, plusieurs jugements sont venus mettre des bâtons dans les roues de Facebook en Europe. L’Allemagne a déterminé que son utilisation des données personnelles était illégale, Bruxelles a aussi causé quelques sueurs froides aux juristes de Facebook. La grosse avancée en matière de protection de nos données va avoir lieu fin mai, quand le RGPD (Règlement Général sur la Protection des Données) sera véritablement en application&nbsp;: ces lois votées au Parlement Européen il y a quelques années garantissent à tout citoyen Européen le droit de pouvoir dire non au tracking, le droit d’accéder à ses données personnelles et à pouvoir les faire supprimer.
 
 J’ai prévu une belle lettre à envoyer à Facebook début Juin, pour pouvoir récupérer tout mon shadow profile, etc. Ça devrait être amusant.
 
@@ -289,9 +289,9 @@ Mark Zuckerberg et son bras droit, Sheryl Sandberg, sortent de leur silence dans
 
 Tim Berners-Lee, inventeur du Web, déclare qu’il faut agir pour avoir des réglementations pour protéger nos données. D’autres personnalités se prononcent aussi en faveur de plus de règles, et le groupe Massive Attack quitte Facebook (ils s’étaient prononcés plusieurs fois contre la surveillance massive).
 
-Des opinions arrivent dans des média, que Facebook est *mauvais* pour la santé de la société. Facebook aide à la destruction du journalisme (à travers la crise des *fake news*), encourage ses utilisateurs à plus de dépendance, de dépression et de solitude, et a un rôle fondamental dans la diffusion de propagande, pouvant conduir jusqu’au génocide. La seule solution, selon le journaliste politique Matt Yglesias, c’est de démanteler Facebook. Bizarrement, comme il le soulève plus tard, l’article a eu très visité depuis des liens sur Twitter ou sur Google… mais très peu depuis Facebook. Ça alors, l’algorithme n’apprécierait pas la critique&nbsp;?
+Des opinions arrivent dans des média, que Facebook est *mauvais* pour la santé de la société. Facebook aide à la destruction du journalisme (à travers la crise des *fake news*), encourage ses utilisateurs à plus de dépendance, de dépression et de solitude, et a un rôle fondamental dans la diffusion de propagande, pouvant conduir jusqu’au génocide. La seule solution, selon le journaliste politique Matt Yglesias, c’est de démanteler Facebook. Bizarrement, comme il le soulève plus tard, l’article a été très visité depuis des liens sur Twitter ou sur Google… mais très peu depuis Facebook. Ça alors, l’algorithme n’apprécierait pas la critique&nbsp;?
 
-Les spécialistes commencent à parler Un spécialiste du *deep learning* chez Google, François Chollet, offre une analyse qui mêle la collecte non réglementée de données par les géants du Web et le développement des Intelligences Artificielles par les mêmes géants. De ce mélange on peut craindre une généralisation et une systématisation du contrôle psychologique que les géants peuvent avoir sur nous.
+Les professionnels commencent à parler. Un spécialiste du *deep learning* chez Google, François Chollet, offre une analyse qui mêle la collecte non réglementée de données par les géants du Web et le développement des Intelligences Artificielles par les mêmes géants. De ce mélange on peut craindre une généralisation et une systématisation du contrôle psychologique que les géants peuvent avoir sur nous.
 
 > Importantly, mass population control -- in particular political control -- arising from placing AI algorithms in charge of our information diet does not necessarily require very advanced AI. You don’t need self-aware, superintelligent AI for this to be a dire threat. So, if mass population control is already possible today -- in theory -- why hasn’t the world ended yet? In short, I think it’s because we’re really bad at AI. But that may be about to change. You see, our technical capabilities are the bottleneck here. […] We’re looking at a powerful entity that builds fine-grained psychological profiles of over two billion humans, that runs large-scale behavior manipulation experiments, and that aims at developing the best AI technology the world has ever seen. Personally, it really scares me
 
@@ -313,7 +313,7 @@ Un petit conseil&nbsp;? Faites gaffe à ce que vous lisez. Les fausses informati
 
 Les questions à se poser, en lisant un media&nbsp;: comment est-il financé&nbsp;? Quel est son business model&nbsp;?
 
-En utilisant un site web, posez vous les questions&nbsp;: quelles données collecte-t’il&nbsp;? que fait-il avec ces données&nbsp;?
+En utilisant un site web, posez vous les questions&nbsp;: quelles données collecte-t-il&nbsp;? que fait-il avec ces données&nbsp;?
 
 Quand vous partagez quoi que ce soit sur Internet, soyez conscients de la valeur en données.
 
@@ -335,3 +335,5 @@ Pour discuter, le système qui allie chiffrement (personne ne peut lire les conv
 ----
 
 Comme l’actualité avance, si vous voulez suivre les mises à jour de l’article sans avoir à tout relire, vous pouvez consulter les *commits* sur GitHub&nbsp;: <https://github.com/joachimesque/joachimesque.github.io/commits/master>. C’est pas hyper lisible et c'est sûrement très geek, mais c‘est mieux que rien.
+
+Merci à [@Khrys@mamot.fr](https://mamot.fr/@Khrys) et à [@sb_51_@mastodon.xyz](https://mastodon.xyz/@sb_51_) pour les remarques aurtograffik !
