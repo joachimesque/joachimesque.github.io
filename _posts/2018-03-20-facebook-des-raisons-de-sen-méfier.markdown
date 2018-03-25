@@ -338,4 +338,4 @@ Pour discuter, le système qui allie chiffrement (personne ne peut lire les conv
 
 Comme l’actualité avance, si vous voulez suivre les mises à jour de l’article sans avoir à tout relire, vous pouvez consulter les *commits* sur GitHub&nbsp;: <https://github.com/joachimesque/joachimesque.github.io/commits/master>. C’est pas hyper lisible et c'est sûrement très geek, mais c‘est mieux que rien.
 
-Merci à [@Khrys@mamot.fr](https://mamot.fr/@Khrys) et à [@sb_51_@mastodon.xyz](https://mastodon.xyz/@sb_51_) pour les remarques aurtograffik !
+Merci à [@Khrys@mamot.fr](https://mamot.fr/@Khrys) et à [@sb\_51\_@mastodon.xyz](https://mastodon.xyz/@sb_51_) pour les remarques aurtograffik !
