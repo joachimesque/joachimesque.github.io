@@ -11,7 +11,7 @@ Cet article est plutôt à lire comme un recueil de notes personnelles sur le su
 
 **Ce texte a été mis à jour&nbsp;:**
 
-- **le 27 mars dans la matinée**
+- **le 27 mars dans la matinée** ([lien](#les-retombées))
   + annonce que la Federal Trade Commission (organisme gouvernemental en charge du commerce) lance une enquête sur Facebook et sa politique de gestion des données
   + baisse de l’action FBCK de 190$ à 160$
   + enquête sur la collaboration de Facebook avec l’ICE (force de police des douanes et de l’immigration, en charge de la traque et l’arrestation des résidents sans papiers)
