@@ -398,6 +398,12 @@ a:hover {
 p a, li a {
     /* font-style: italic; */
     font-weight: 500;
+    text-decoration-skip: objects ink;
+}
+
+p a:hover, li a:hover {
+    text-decoration-style: wavy;
+    text-decoration-color: black;
 }
 
 p a strong, li a strong {
@@ -470,8 +476,8 @@ blockquote ul {
     margin: 0.8em 0;
     font-style: italic;
     font-size: 1.3em;
-    line-height: 1.4em;
-    font-weight: 500;
+    line-height: 1.2em;
+    font-weight: 400;
 }
 
 blockquote small {
