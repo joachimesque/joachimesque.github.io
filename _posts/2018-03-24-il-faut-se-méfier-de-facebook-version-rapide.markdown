@@ -53,3 +53,6 @@ Depuis, beaucoup de choses se sont passées. Mark Zuckerberg a dit qu’il étai
 Un petit conseil ? Faites attention à ce que vous lisez, faites attention à ce que vous partagez sur Internet, et qui ça va enrichir. [lien](https://joachimesque.github.io/blog/2018/03/20/facebook-des-raisons-de-sen-m%C3%A9fier.html#faites-attention-%C3%A0-ce-que-vous-lisez)
 
 Si tu veux supprimer ton compte Facebook, ton Messenger, ton WhatsApp et ton Instagram, il y a plein de moyen de rester en contact avec tes proches. Riot ou Signal par exemple son très bien pour la conversation : les systèmes sont chiffrés de bout en bout. Pour partager des photos, des statuts, et réagir aux partages de tes amis, il y a Mastodon : comme pour l’email (gmail, yahoo…) il y a plein de serveurs différents (mamot.fr, mastodon.social…), moi je suis @joachim@boitam.eu, n’hésitez pas à m’y contacter. [lien](https://joachimesque.github.io/blog/2018/03/20/facebook-des-raisons-de-sen-m%C3%A9fier.html#des-alternatives-%C3%A0-facebook)
+
+**La suite de ce billet est à l’adresse suivante&nbsp;: <https://joachimesque.github.io/blog/2018/03/26/facebook-quelques-notes-sur-la-suite.html>**
+
