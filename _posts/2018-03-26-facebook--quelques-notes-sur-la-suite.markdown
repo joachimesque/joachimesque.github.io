@@ -55,8 +55,9 @@ En fait, on savait depuis longtemps que Facebook est mauvais pour nous. En 2014,
 
 Le meilleur moyen de gagner à ce jeu-là avec Facebook, c’est de ne pas jouer, nous explique Rene Ritchie, journaliste technologique, en nous conseillant de supprimer son compte.
 
-> You can't trust the company — who knows who will own or run them, at the executive or government level, at any given time? — and you absolutely can't trust every single employee that can gain access to your personal data that they've harvested and hoarded. We've seen those types of abuses with everything from the NSA to Uber.  
-> The only thing you can trust is a company not having your data, encrypting it end-to-end so even the company itself can't get access to your data, or deleting your data as fast as possible because its business model doesn't depend on exploiting your data over time.
+> You can't trust the company — who knows who will own or run them, at the executive or government level, at any given time? — and you absolutely can't trust every single employee that can gain access to your personal data that they've harvested and hoarded. We've seen those types of abuses with everything from the NSA to Uber.      
+> The only thing you can trust is a company not having your data, encrypting it end-to-end so even the company itself can't get access to your data, or deleting your data as fast as possible because its business model doesn't depend on exploiting your data over time.     
+> [**Rene Ritchie, iMore**](https://www.imore.com/delete-your-facebook)
 
 Parmi ceux qui ont supprimé leur compte Facebook, on peut compter le cofondateur de WhatsApp (qui est devenu milliardaire quand le réseau social a racheté son app), et les entreprises SpaceX et Tesla—après qu’un utilisateur de Twitter a fait remarquer à Elon Musk qu’il y avait des pages Facebook pour ses compagnies.
 
@@ -162,7 +163,8 @@ Comme si ça ne suffisait pas, des groupes de lutte pour l’accès au logement 
 
 ### La réaction de Facebook
 
->  lorsque des journalistes se sont présentés avec des preuves, Facebook les a menacés et accusés de diffamation. C’est seulement une fois acculé, au pied du mur, qu’il a daigné prendre position et annoncé qu’il suspendait Cambridge Analytica et consorts. C’est une approche très préoccupante en termes de transparence et de gestion des données personnelles.
+>  lorsque des journalistes se sont présentés avec des preuves, Facebook les a menacés et accusés de diffamation. C’est seulement une fois acculé, au pied du mur, qu’il a daigné prendre position et annoncé qu’il suspendait Cambridge Analytica et consorts. C’est une approche très préoccupante en termes de transparence et de gestion des données personnelles.     
+> [**Sylvia Revello, Le Temps**](https://www.letemps.ch/monde/facebook-desormais-un-puissant-outil-dinfluence-vendu-plus-offrant)
 
 La défense de Facebook reste sur la même ligne&nbsp;: c’est pas nous, c’est un méchant chercheur qui n’a pas supprimé les données qu’on lui a donné. Pas de remise en question de la *quantité* et du *type* de données transmises.
 
@@ -230,19 +232,23 @@ Pour ce qui est de la campagne du Brexit, l’illégalité dépasse l’usage de
 
 ## Le double jeu hypocrite de la presse
 
-> « Il est d'ailleurs assez amusant de voir de nombreux sites de presse s'alarmer de la fuite de données d'internautes, alors qu'ils sont eux-mêmes un dispositif de récolte massive à travers la publicité programmatique. »
+> Il est d'ailleurs assez amusant de voir de nombreux sites de presse s'alarmer de la fuite de données d'internautes, alors qu'ils sont eux-mêmes un dispositif de récolte massive à travers la publicité programmatique.     
+> [**David Legrand, NextImpact**](https://www.nextinpact.com/news/106078-exploitation-nos-donnees-quand-sage-pointe-probleme-idiot-ne-regarde-que-facebook.htm)
+
 
 La publicité programmatique, c’est simple&nbsp;: lorsque tu charges une page de journal en ligne, des scripts vont récupérer des données sur toi (adresse IP, caractéristiques du navigateur), et les partager sur des plate-formes spécialisées, les *data brokers*, où il sera fait une enchère entre les différentes plate-formes de publicités, pour savoir qui affichera une pub sur ton navigateur.
 
 La plupart des journaux n’utilisent le journalisme que pour placer des publicités devant les yeux de leurs lecteurs. En France, Mediapart, NextImpact ou Le Canard Enchaîné sont de trop rares exemples d’une presse qui ne dépend pas de la revente des données de leurs clients, et donc qui serait justifiée dans des critiques de Facebook, Google et du *Surveillance Capitalism*. (Mais à l’heure où j’écris ça, une visite Mediapart charge une dizaine de mouchards, une visite sur Next Impact n’en charge pas, et pour Le Canard Enchaîné il n’y a que mon marchand de journaux qui me connaît, et encore, seulement de vue.)
 
 > Irony Alert: the same is true for the Times, along with every other publication that lives off adtech: tracking-based advertising. These pubs don’t just open the kimonos of their readers. They treat them as naked beings with necks bared to vampires ravenous for the blood of personal data, all ostensibly so those persons can be served with “interest-based” advertising.
+> * [**Doc Searls**](https://blogs.harvard.edu/doc/2018/03/23/nothing/)
+
 
 Le conseil du designer Oliver Reichenstein, c’est que les journalistes, au lieu d’écrire des articles sur les méfaits de Facebook, devraient demander à leur rédaction d’enlever le bouton de partage, le mouchard de tracking etc., ça convaincrait beaucoup mieux les lecteurs, et ça montrerait à Facebook qu’on n’est plus dupes. Après tout, qu’est-ce qui retient les lecteurs de supprimer leurs comptes et abonnements à des sites de presse qui refilent des mouchards à n’en plus finir&nbsp;?
 
 D’ailleurs, sur ce carnet web il n’y a plus de bouton de partage, il n’y a qu’un script de statistiques hébergé sur un server personnel, qui respecte les directives «&nbsp;do not track&nbsp;» et qui ne laisse pas de cookie&nbsp;: [@joachimessque](https://twitter.com/joachimesque/status/977319581802000384).
 
-* [**NextImpact**&nbsp;: Exploitation de nos données&nbsp;: quand le sage pointe le problème, l'idiot ne regarde que Facebook](https://m.nextinpact.com/news/106078-exploitation-nos-donnees-quand-sage-pointe-probleme-idiot-ne-regarde-que-facebook.htm)
+* [**NextImpact**&nbsp;: Exploitation de nos données&nbsp;: quand le sage pointe le problème, l'idiot ne regarde que Facebook](https://www.nextinpact.com/news/106078-exploitation-nos-donnees-quand-sage-pointe-probleme-idiot-ne-regarde-que-facebook.htm)
 * [**@johnnyryan**&nbsp;: Every single big website in the world is leaking data in a similar way, through "RTB bid requests" for online behavioural advertising #adtech.](https://twitter.com/johnnyryan/status/976813768356323330)
 * [**@aral**&nbsp;: Publications like Wired & The Guardian are finally forcefully criticising the business model of Facebook, Google, etc. The elephant in the room is they have the exact same business model: they make money by exposing their readers to tracking/profiling. #SurveillanceCapitalism](https://twitter.com/aral/status/977446618877382656)
 * [**@sheynk**&nbsp;: Publishers don't care either @violetblue ... your article is on @engadget - which promptly sends data to @Facebook I bet @aral is getting a kick out of all the publishers turning the hypocrisy knob to 11 with all the faux outrage](https://twitter.com/sheynk/status/977875415497891842)
@@ -260,13 +266,17 @@ En tous cas, la solution technologique de base, qui consisterait à restreindre 
 
 Dans une tribune de Libération, le chercheur Olivier Ertzscheid analyse l’impact politique de l’existence même de Facebook.
 
-> « Croire que cette affaire sera un éclair de lucidité dans l’opinion et permettra une prise de conscience accrue des enjeux posés par une plateforme privée rassemblant deux milliards d’utilisateurs sur un modèle économique de régie publicitaire est une chose. Imaginer que cela impactera les comportements de ces mêmes utilisateurs en est une autre. »
+> Croire que cette affaire sera un éclair de lucidité dans l’opinion et permettra une prise de conscience accrue des enjeux posés par une plateforme privée rassemblant deux milliards d’utilisateurs sur un modèle économique de régie publicitaire est une chose. Imaginer que cela impactera les comportements de ces mêmes utilisateurs en est une autre.
+> * [**Olivier Ertzscheid, entretien dans Libération**](http://www.liberation.fr/debats/2018/03/23/le-scandale-facebook-pose-avant-tout-une-question-politique_1638346)
+
 
 Le ver est dans la pomme, en somme&nbsp;: ce qui nous enchaîne à Facebook, et Google, et tout ça, c’est la tyrannie de la commodité. Lorsque nous laissons la commodité décider de tout, nous nous abandonnons trop, d’après le juriste américain Tim Wu. *Le format et les conventions de Facebook nous dépouillent de toutes les expressions d’individualité, à l’exception des plus superficielles, comme la photo particulière d’une plage ou d’une chaîne de montagnes que nous choisissons comme image de fond.* Au final, quels sont les problèmes que la technologie (via Facebook) répond&nbsp;; est-ce que ces problèmes n’ont pas été inventés par Facebook uniquement pour déployer des solutions technologiques contre lesquelles les utilisateurs deviennent tous similaires et tous perdants&nbsp;?
 
 La juriste et philosophe belge Antoinette Rouvroy y remet une couche&nbsp;:
 
 > Le monde du web est opaque. En soi, recueillir des informations est déjà une tromperie. C’est la présence des tiers qui utilisent la plateforme pour proposer d’autres services qui pose problème. Par exemple, vous répondez à un questionnaire "à quel personnage de ‘la guerre des étoiles’ ressemblez-vous?", mais vous ignorez que ces données vont ensuite être utilisées. L’autre problème, c’est qu’on a l’impression de participer à une communauté alors qu’en réalité, il n’y a pas d’échange. Tout le monde est seul devant son écran. Facebook n’est pas un espace public. On assiste à une hypertrophie de la sphère privée qui se caractérise paradoxalement par une dépersonnalisation. La prise de conscience collective ne peut pas se produire.
+> * [**Antoinette Rouvroy, entretien dans L’Écho**](https://www.lecho.be/opinions/general/antoinette-rouvroy-a-mon-sens-zuckerberg-est-depasse/9995228.html)
+
 
 J’ajouterais même que cette prise de conscience collective, qui doit se passer en partie avec nos contacts sur Facebook, n’est évidemment pas souhaitée par Facebook—d’où les modifications d’algorithmes pour pénaliser les contenus trop critiques. Facebook n’est pas pensé pour des humains, c’est seulement pensé pour faire de nous beaucoup moins, pour tailler ce qui dépasse et cultiver ceux qui restent (en leur donnant de quoi réagir) pour récolter des données (pour donner aux publicitaires de quoi placer encore plus de distraction).
 
@@ -279,6 +289,6 @@ Je ne sais pas trop où on se dirige, mais je sais que dès que j’aurai arrêt
 [**@natashanyt**&nbsp;: So when Facebook announces that it is going to reduce third-party access to user data, instead of fundamentally rethinking the company's mass collection, sharing and retention of people's personal details, that's error-correction error.](https://twitter.com/natashanyt/status/977608996097060865)
 * [**@halhod**&nbsp;: When we ask FB what it is doing with “our data”, we massively let it off the hook. The question is what is FB doing with data *about us*. None of that backend data is “yours”, any more than the pattern of air molecules you trail as you walk through town is “yours”](https://twitter.com/halhod/status/976747963853819904)
 * [**Libération**&nbsp;: Le scandale Facebook pose avant tout une question politique](http://www.liberation.fr/debats/2018/03/23/le-scandale-facebook-pose-avant-tout-une-question-politique_1638346)
-* [**L’écho**&nbsp;: Antoinette Rouvroy: À mon sens, Zuckerberg est dépassé](https://www.lecho.be/opinions/general/antoinette-rouvroy-a-mon-sens-zuckerberg-est-depasse/9995228.html)
+* [**L’Écho**&nbsp;: Antoinette Rouvroy: À mon sens, Zuckerberg est dépassé](https://www.lecho.be/opinions/general/antoinette-rouvroy-a-mon-sens-zuckerberg-est-depasse/9995228.html)
 
 
