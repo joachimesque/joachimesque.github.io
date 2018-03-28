@@ -15,6 +15,13 @@ Cet article est plutôt à lire comme un recueil de notes personnelles sur le su
   + annonce que la Federal Trade Commission (organisme gouvernemental en charge du commerce) lance une enquête sur Facebook et sa politique de gestion des données
   + baisse de l’action FBCK de 190$ à 160$
   + enquête sur la collaboration de Facebook avec l’ICE (force de police des douanes et de l’immigration, en charge de la traque et l’arrestation des résidents sans papiers)
+- **le 28 mars** ([lien](#les-retombées))
+  + Le lanceur d’alertes dans l’affaire Cambridge Analytica, Christopher Wylie, raconte plusieurs choses au parlement anglais&nbsp;: un de ces prédécesseurs aurait été empoisonné au Kenya après qu’une affaire se soit mal passée, l’entreprise de renseignement Palantir (dirigée par Peter Thiel, que je mentionnais dans mon précédent article), a travaillé avec Cambridge Analytica pour élaborer des stratégies.
+  + De plus en plus d'appels à réguler les GAFAM se font entendre
+  + Les sondages montrent que Facebook perd la confiance de ses utilisateurs, plus que tout autre réseau social
+  + Firefox propose une extension pour limiter le partage de nos données
+  + Au moment où Mark Zuckerberg annonce qu’il refusera l’invitation du Parlement britannique, CNN annonce qu’il participera à l’enquête du Congrès américain
+  + Facebook est poursuivi en justice pour facilitation de discriminations contre des minorités, des familles monoparentales et des personnes handicapées
 
 
 ## Facebook et nous
@@ -107,13 +114,25 @@ Deux choses sont claires. Chez Facebook ils sont au courant des problèmes depui
 
 **Mise à jour du 27 mars&nbsp;:**    
 
-The Intercept dévoile que l’ICE (force de police des douanes et de l’immigration) utilise des données de Facebook pour traquer les immigrants sans papiers. Cette force de police aux pratiques souvent décriées a tendance à s’affranchir des lois pour remplir sa mission, l’annonce de la collaboration avec Facebook va empirer l’image du réseau social auprès de la gauche américaine et des partisans de la légalisation des immigrants sans papiers.
+The Intercept dévoile que l’ICE (force de police des douanes et de l’immigration) utilise des données de Facebook pour traquer ~~les immigrants sans papiers. Cette force de police aux pratiques souvent décriées a tendance à s’affranchir des lois pour remplir sa mission, l’annonce de la collaboration avec Facebook va empirer l’image du réseau social auprès de la gauche américaine et des partisans de la légalisation des immigrants sans papiers.~~ Suite à une rétractation de The Intercept peu après la publication de l’article, on apprend que l’ICE a utilisé des données de Facebook pour traquer un suspect criminel.
 
 La Federal Trade Commission, la Commission Fédérale du Commerce, annonce l‘ouverture d’une enquête sur les pratiques de Facebook concernant la vie privée de ses utilisateurs. C’est ce genre d’enquête qui peut faire très mal au Surveillance Capitalism&nbsp;: elle aura lieu à l’écard lobbies de la Silicon Valley, et pourrait déboucher sur des lois et des réglementations strictes de protection des utilisateurs.
 
-Les premières actions en justice commence à fleurir&nbsp;: dimanche, l’état de l’Illinois a porté plainte contre Facebook, Cambridge Analytica et SCL Group dont CA est une filiale. L’accusation décrit Facebook comme *la plus massive opération d’exploration de données en existance&nbsp; ironie du sort, le jour même le réseau social admettait que des informations sur des appels et textos de certains utilisateurs avaient été enregistrées.
+Les premières actions en justice commence à fleurir&nbsp;: dimanche, l’état de l’Illinois a porté plainte contre Facebook, Cambridge Analytica et SCL Group dont CA est une filiale. L’accusation décrit Facebook comme *la plus massive opération d’exploration de données en existance&nbsp; ironie du sort, le jour même le réseau social admettait que des informations sur des appels et textos de certains utilisateurs avaient été enregistrées.*
 
 Face à toutes ces annonces, l’action Facebook a encore perdu plusieurs pourcents de sa valeur de la semaine du 16 mars, avant les révélations de Cambridge Analytica. On estime les pertes entre 8&nbsp;% et 10&nbsp;%.
+
+**Mise à jour du 28 mars&nbsp;:**
+
+Christopher Wylie, par qui le scandale est arrivé, a été entendu par le Parlement britannique. De ses réponses on peut noter l’histoire rocambolesque d’empoisonnement au Kenya de son prédécesseur, avec en prime des pots-de-vin à la police locale et tout un tas de détails dignes de films d’espionnage… mais ça n’est que des on-dits. En revanche, il a confirmé le rapprochement de l’entreprise Palantir, spécialisée dans la surveillance et le traitement *big data*, et dirigée par Peter Thiel, un milliardaire proche de l'*alt-right* américaine et de Donald Trump, dont il a financé la campagne. Palantir aurait aidé Cambridge Analytica sur le traitement des données utilisées dans les stratégies de propagande de CA.
+
+Suite à l’invitation du Parlement britannique à Mark Zuckerberg, celui-ci ne répond qu’en envoyant deux émissaires pour défendre le réseau social. En revanche, le Zuck a répondu positivement à l’invitation du Congrès américain… là où les enjeux ne sont pas aussi élevés : beaucoup de lobbyistes à Washington travaillent pour Facebook et la Silicon Valley (où le Surveillance Capitalism est le principal business model), et un très grand nombre de politiciens ont eu des contributions de Facebook pour leurs campagnes électorales.
+
+La pression sur Facebook ne se relâche pas, de plus en plus de journaux publient des opinions et des éditoriaux appelant à de nouvelles régulations concernant nos données personnelles. Les américains se rendent compte des progrès fait en la matière par l’Union Européenne, et comprennent que ça n’est pas l’ingérence Russe qui nous fait tiquer, mais qu’on n’apprécie pas forcément que nos données soient traitées et stockées en dehors de l’UE (surtout si ça enrichit des entreprises qui n’y paient que le minimum d’impôts via des montages financiers douteux). D’ailleurs, un sondage publié par Axios montre bien que les utilisateurs de Facebook ont perdu confiance dans la plate-forme, et ce bien plus rapidement que dans les autres réseaux sociaux.
+
+Pour aider les internautes, Mozilla a développé une extension pour Firefox, qui permet de limiter la récupération de nos données par Facebook. Toutes nos interactions avec le réseau social se font dans un conteneur spécifique, et les autres conteneurs bloquent les contenus et identifiants de Facebook. À ce sujet, il faut savoir que le financement de Mozilla dépend en grande partie de Google, sous condition que Google soit le moteur de recherche par défaut de Firefox. J’attends avec impatience le même genre d’extension pour Google que pour Facebook, pour savoir si Mozilla veut *réellement* améliorer les choses.
+
+Comme si ça ne suffisait pas, des groupes de lutte pour l’accès au logement aux États-Unis viennent de porter plainte contre Facebook : selon eux, et à la suite d’[une enquête de l’organisation ProPublica en 2017](https://www.propublica.org/article/facebook-lets-advertisers-exclude-users-by-race), le réseau social permettrait de discriminer dans les annonces. En effet, le ciblage mis en place par Facebook pour son système de petites annonces donne la possibilité à un bailleur ou un propriétaire d’en interdire l’accès à des groupes légalement protégés : mères célibataires, personnes handicapées, hispanophones…
 
 * [**reddit r/technology**&nbsp;: I warned Mark Zuckerberg about the Cambridge Analytica-type flaw in April 2005. He ignored me.](https://www.reddit.com/r/technology/comments/86xwgp/i_warned_mark_zuckerberg_about_the_cambridge/)
 * [**Engadget**&nbsp;: Let’s stop pretending Facebook cares](https://www.engadget.com/2018/03/23/let-s-stop-pretending-facebook-cares/)
@@ -122,9 +141,24 @@ Face à toutes ces annonces, l’action Facebook a encore perdu plusieurs pource
 * [**@KenKlippenstein**&nbsp;: "…"](https://twitter.com/kenklippenstein/status/978447569478144007)
 * [**Federal Trade Commission**&nbsp;: Statement by the Acting Director of FTC’s Bureau of Consumer Protection Regarding Reported Concerns about Facebook Privacy Practices](https://www.ftc.gov/news-events/press-releases/2018/03/statement-acting-director-ftcs-bureau-consumer-protection)
 * [**Axios**&nbsp;: Facebook is under federal investigation](https://www.axios.com/facebook-oisunder-federal-investigation-1522075398-2926ae98-77fd-4c28-8ece-b0a51f95ca76.html)
-[**Ars Technica**&nbsp;: Facebook accused of massive fraud in new lawsuit filed by Cook County](https://arstechnica.com/tech-policy/2018/03/cook-county-illinois-sues-facebook-and-cambridge-analytica-over-data-breach/)
-[**NBC News**&nbsp;: Facebook stock takes hit on FTC probe and news it records users' call logs](https://www.nbcnews.com/tech/social-media/facebook-confirms-it-records-call-history-stoking-privacy-furor-n860006)
-[**CNBC**&nbsp;: Facebook stock slides after FTC launches data leak investigation](https://www.cnbc.com/2018/03/26/ftc-confirms-facebook-data-breach-investigation.html)
+* [**Ars Technica**&nbsp;: Facebook accused of massive fraud in new lawsuit filed by Cook County](https://arstechnica.com/tech-policy/2018/03/cook-county-illinois-sues-facebook-and-cambridge-analytica-over-data-breach/)
+* [**NBC News**&nbsp;: Facebook stock takes hit on FTC probe and news it records users' call logs](https://www.nbcnews.com/tech/social-media/facebook-confirms-it-records-call-history-stoking-privacy-furor-n860006)
+* [**CNBC**&nbsp;: Facebook stock slides after FTC launches data leak investigation](https://www.cnbc.com/2018/03/26/ftc-confirms-facebook-data-breach-investigation.html)
+
+* [**Business Insider** - Cambridge Analytica whistleblower claims predecessor was poisoned and police bribed](http://www.businessinsider.com/cambridge-analytica-whistleblower-christopher-wylie-illegal-trump-brexit-2018-3)
+* [**@justinhendrix** : Asked about other companies doing this work: PALANTIR. There were also Palantir staff working with Facebook data. Palantir staff came into the offices of CAMBRIDGE ANALYTICA and helped build the models we were working on, even though there was no contract, says @chrisinsilico](https://twitter.com/justinhendrix/status/978590285457494017)
+* [**@klustout** "They are taking in all this data, sucking it up, offering it to advertisers without a lot of oversight." - @JuliaAngwin on how it's almost impossible to lock down our data on Facebook & why regulation is needed https://edition.cnn.com/videos/tv/2018/03/27/newsstream-facebook-data-privacy-stout-angwin.cnn ht @essipang](https://twitter.com/klustout/status/978624774531293189)
+* [**Axios** : Exclusive poll: Facebook favorability plunges](https://www.axios.com/exclusive-poll-facebook-favorability-plunges-1522057235-b1fa31db-e646-4413-a273-95d3387da4f2.html)
+* [**Los Angeles Times** : How Facebook exploited us all](http://www.latimes.com/opinion/op-ed/la-oe-rushkoff-leaving-facebook-20180325-story.html)
+* [**The Guardian** : The Guardian view on surveillance: make your number unobtainable](https://www.theguardian.com/commentisfree/2018/mar/26/the-guardian-view-on-surveillance-make-your-number-unobtainable)
+* [**@zeynep** : Wait! Facebook doesn’t sell people’s data. It profiles people based on extensive data collection and then sells people’s *attention*. CA got data because Facebook was giving it away—not selling. Pass a law saying Facebook can’t sell your data, and Zuckerberg will celebrate it.](https://twitter.com/zeynep/status/978775136366186496)
+[**@sarahjeong** : I 100% believe that Americans are only flipping out about Facebook right now because of the Russian connection. Europeans aren't intrinsically more privacy focused: people just don't trust *foreign companies* with their data.](https://twitter.com/sarahjeong/status/978407065612836864)
+* [**@verge** : Firefox now isolates Facebook tracking so you don’t have to delete it https://www.theverge.com/2018/3/27/17167094/mozilla-firefox-facebook-container-tracker-blocker](https://twitter.com/verge/status/978617809847705600/)
+* [**CNN Money** : Mark Zuckerberg has decided to testify before Congress, sources say](http://money.cnn.com/2018/03/27/technology/mark-zuckerberg-testify-congress-facebook/index.html)
+* [**The Guardian** : Zuckerberg's refusal to testify before UK MPs 'absolutely astonishing'](https://www.theguardian.com/technology/2018/mar/27/facebook-mark-zuckerberg-declines-to-appear-before-uk-fake-news-inquiry-mps)
+* [**@ProPublica** : A new lawsuit alleges that the world’s largest social network still allows advertisers to discriminate against legally protected groups, including mothers, the disabled and Spanish-language speakers.](https://twitter.com/ProPublica/status/978816430702497792)
+* [**FastCompany** : Bad to worse: Now Facebook is being sued over housing discrimination](https://www.fastcompany.com/40550210/bad-to-worse-now-facebook-is-being-sued-over-housing-discrimination)
+* [**The Conversation** : Pourquoi vos données survivront à la suppression de votre compte Facebook et quels en sont les risques ?](https://theconversation.com/pourquoi-vos-donnees-survivront-a-la-suppression-de-votre-compte-facebook-et-quels-en-sont-les-risques-94011)
 
 ### La réaction de Facebook
 
