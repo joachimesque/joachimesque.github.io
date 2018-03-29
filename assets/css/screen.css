@@ -477,9 +477,14 @@ blockquote ul {
     font-style: italic;
     font-size: 1.166em;
     line-height: 1.2em;
+    font-weight: 300;
+}
+blockquote p a {
     font-weight: 400;
 }
-
+blockquote p a strong {
+    font-weight: 500;
+}
 blockquote small {
     display: inline-block;
     margin: 0.8em 0 0.8em 1.5em;

@@ -241,7 +241,7 @@ La publicité programmatique, c’est simple&nbsp;: lorsque tu charges une page 
 La plupart des journaux n’utilisent le journalisme que pour placer des publicités devant les yeux de leurs lecteurs. En France, Mediapart, NextImpact ou Le Canard Enchaîné sont de trop rares exemples d’une presse qui ne dépend pas de la revente des données de leurs clients, et donc qui serait justifiée dans des critiques de Facebook, Google et du *Surveillance Capitalism*. (Mais à l’heure où j’écris ça, une visite Mediapart charge une dizaine de mouchards, une visite sur Next Impact n’en charge pas, et pour Le Canard Enchaîné il n’y a que mon marchand de journaux qui me connaît, et encore, seulement de vue.)
 
 > Irony Alert: the same is true for the Times, along with every other publication that lives off adtech: tracking-based advertising. These pubs don’t just open the kimonos of their readers. They treat them as naked beings with necks bared to vampires ravenous for the blood of personal data, all ostensibly so those persons can be served with “interest-based” advertising.
-> * [**Doc Searls**](https://blogs.harvard.edu/doc/2018/03/23/nothing/)
+> [**Doc Searls**](https://blogs.harvard.edu/doc/2018/03/23/nothing/)
 
 
 Le conseil du designer Oliver Reichenstein, c’est que les journalistes, au lieu d’écrire des articles sur les méfaits de Facebook, devraient demander à leur rédaction d’enlever le bouton de partage, le mouchard de tracking etc., ça convaincrait beaucoup mieux les lecteurs, et ça montrerait à Facebook qu’on n’est plus dupes. Après tout, qu’est-ce qui retient les lecteurs de supprimer leurs comptes et abonnements à des sites de presse qui refilent des mouchards à n’en plus finir&nbsp;?
@@ -267,7 +267,7 @@ En tous cas, la solution technologique de base, qui consisterait à restreindre 
 Dans une tribune de Libération, le chercheur Olivier Ertzscheid analyse l’impact politique de l’existence même de Facebook.
 
 > Croire que cette affaire sera un éclair de lucidité dans l’opinion et permettra une prise de conscience accrue des enjeux posés par une plateforme privée rassemblant deux milliards d’utilisateurs sur un modèle économique de régie publicitaire est une chose. Imaginer que cela impactera les comportements de ces mêmes utilisateurs en est une autre.
-> * [**Olivier Ertzscheid, entretien dans Libération**](http://www.liberation.fr/debats/2018/03/23/le-scandale-facebook-pose-avant-tout-une-question-politique_1638346)
+> [**Olivier Ertzscheid, entretien dans Libération**](http://www.liberation.fr/debats/2018/03/23/le-scandale-facebook-pose-avant-tout-une-question-politique_1638346)
 
 
 Le ver est dans la pomme, en somme&nbsp;: ce qui nous enchaîne à Facebook, et Google, et tout ça, c’est la tyrannie de la commodité. Lorsque nous laissons la commodité décider de tout, nous nous abandonnons trop, d’après le juriste américain Tim Wu. *Le format et les conventions de Facebook nous dépouillent de toutes les expressions d’individualité, à l’exception des plus superficielles, comme la photo particulière d’une plage ou d’une chaîne de montagnes que nous choisissons comme image de fond.* Au final, quels sont les problèmes que la technologie (via Facebook) répond&nbsp;; est-ce que ces problèmes n’ont pas été inventés par Facebook uniquement pour déployer des solutions technologiques contre lesquelles les utilisateurs deviennent tous similaires et tous perdants&nbsp;?
@@ -275,7 +275,7 @@ Le ver est dans la pomme, en somme&nbsp;: ce qui nous enchaîne à Facebook, et 
 La juriste et philosophe belge Antoinette Rouvroy y remet une couche&nbsp;:
 
 > Le monde du web est opaque. En soi, recueillir des informations est déjà une tromperie. C’est la présence des tiers qui utilisent la plateforme pour proposer d’autres services qui pose problème. Par exemple, vous répondez à un questionnaire "à quel personnage de ‘la guerre des étoiles’ ressemblez-vous?", mais vous ignorez que ces données vont ensuite être utilisées. L’autre problème, c’est qu’on a l’impression de participer à une communauté alors qu’en réalité, il n’y a pas d’échange. Tout le monde est seul devant son écran. Facebook n’est pas un espace public. On assiste à une hypertrophie de la sphère privée qui se caractérise paradoxalement par une dépersonnalisation. La prise de conscience collective ne peut pas se produire.
-> * [**Antoinette Rouvroy, entretien dans L’Écho**](https://www.lecho.be/opinions/general/antoinette-rouvroy-a-mon-sens-zuckerberg-est-depasse/9995228.html)
+> [**Antoinette Rouvroy, entretien dans L’Écho**](https://www.lecho.be/opinions/general/antoinette-rouvroy-a-mon-sens-zuckerberg-est-depasse/9995228.html)
 
 
 J’ajouterais même que cette prise de conscience collective, qui doit se passer en partie avec nos contacts sur Facebook, n’est évidemment pas souhaitée par Facebook—d’où les modifications d’algorithmes pour pénaliser les contenus trop critiques. Facebook n’est pas pensé pour des humains, c’est seulement pensé pour faire de nous beaucoup moins, pour tailler ce qui dépasse et cultiver ceux qui restent (en leur donnant de quoi réagir) pour récolter des données (pour donner aux publicitaires de quoi placer encore plus de distraction).
