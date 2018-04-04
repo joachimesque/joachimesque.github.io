@@ -22,7 +22,47 @@ Cet article est plutôt à lire comme un recueil de notes personnelles sur le su
   + Firefox propose une extension pour limiter le partage de nos données
   + Au moment où Mark Zuckerberg annonce qu’il refusera l’invitation du Parlement britannique, CNN annonce qu’il participera à l’enquête du Congrès américain
   + Facebook est poursuivi en justice pour facilitation de discriminations contre des minorités, des familles monoparentales et des personnes handicapées
-
+- **le 4 avril**
+  + Bizarrement, il est très dur de voler les ordures de Mark Zuckerberg : [**The Outline** : It’s weirdly hard to steal Mark Zuckerberg’s trash](https://theoutline.com/post/3994/it-is-weirdly-hard-to-steal-mark-zuckerbergs-trash)
+  + Un bon récap’ chez NextINpact : [Facebook et la vie privée : le jour d'après](https://www.nextinpact.com/news/106380-facebook-et-vie-privee-jour-dapres.htm)
+  + [**CALmatters** : Facebook—even as it apologizes for scandal—funds campaign to block a California data-privacy measure](https://calmatters.org/articles/facebook-even-as-it-apologizes-for-scandal-funds-campaign-to-block-a-california-data-privacy-measure/)
+  + [**BFM Business** : Facebook accuse une perte faramineuse en Bourse](http://bfmbusiness.bfmtv.com/bourse/facebook-accuse-une-perte-faramineuse-en-bourse-1406684.html)
+  + [**Gizmodo** Facebook Blames a 'Bug' for Not Deleting Your Seemingly Deleted Videos](https://gizmodo.com/facebook-blames-a-bug-for-not-deleting-your-seemingly-d-1824257625)
+  + Facebook s’engage à ne plus travailler avec des *data brokers* :
+    * [**@WolfieChristl** : "1/ So, Facebook *itself* will stop sorting+classifying users also based on extensive info from third-party data brokers such as Acxiom, Oracle, Experian and Epsilon. Great, because it shows that they cannot do whatever they want anymore. But. [thread] "](https://twitter.com/WolfieChristl/status/979310850786947072)
+    * [**JuliaAngwin** : "ICYMI Facebook’s announcement that it is shutting down relationships with data brokers is a big deal. /1"](https://twitter.com/JuliaAngwin/status/979363231180271616)
+    * [**@dareobasanjo** : Facebook Makes First Real Move to Curtail Abusive Ad Targeting on their Platform](https://medium.com/@dareobasanjo/facebook-makes-first-real-move-to-curtail-abusive-ad-targeting-on-their-platform-b59a8a8c7329)
+  + Les annonces de Facebook sont à prendre avec du recul :
+    * [**Le Monde** : Facebook : Après Cambridge Analytica, les annonces en trompe-l’œil](http://www.lemonde.fr/pixels/article/2018/03/28/vie-privee-apres-cambridge-analytica-les-annonces-en-trompe-l-il-de-facebook_5277694_4408996.html)
+  + Facebook essaye d’effacer le fait qu’ils connaissaient leurs manquements depuis longtemps
+    * [**The Verge** : In a leaked memo, Facebook executive describes the consequences of its growth-at-all-costs mentality](https://www.theverge.com/2018/3/29/17178086/facebook-growth-memo-leak-boz-andrew-bosworth)
+    * [**The Verge** : Here are the internal Facebook posts of employees discussing today’s leaked memo](https://www.theverge.com/2018/3/30/17179100/facebook-memo-leaks-boz-andrew-bosworth)
+    * [**The Daily Dot** : Facebook VP's Comments On Data Collection In 2016, Deletes Memo](https://www.dailydot.com/debug/facebook-vp-data-collection-memo/)
+    * [**@JoshConstine** : "My deep dive into Facebook's morale problem epitomized by the leaks to @RMac18 & @CaseyNewton"](https://twitter.com/JoshConstine/status/979830935351783424)
+    * [**Gizmodo** : Report: Facebook Staff Suddenly Concerned About Privacy, Specifically Theirs](https://gizmodo.com/report-facebook-staff-suddenly-concerned-about-privacy-1824232328)
+    * [**Fortune** : Facebook Employees Reportedly Deleting Controversial Internal Messages](http://fortune.com/2018/03/31/facebook-employees-are-reportedly-deleting-controversial-internal-messages/)
+    * [**BuzzFeed** : Top Facebook Executive Defended Data Collection In 2016 Memo — And Warned That Facebook Could Get People Killed](https://www.buzzfeed.com/ryanmac/growth-at-any-cost-top-facebook-executive-defended-data)
+  + La presse a beaucoup de travail à faire :
+    * [**@danbarker** : "This Guardian article has been shared 95,000 times, exposing 'all the data Facebook & Google have on you'. But it doesn't mention at all that the article itself uses: - Four sets of Facebook tracking. - Nine sets of Google tracking. - Two Google ads, using all that data…"](https://twitter.com/danbarker/status/979571712961507328)
+  + Comment gérer ses données Facebook :
+    * [**Les Décodeurs** : Cookies, mouchards : comment vous êtes suivis sur Internet](http://www.lemonde.fr/les-decodeurs/article/2018/03/30/cookies-mouchards-comment-vous-etes-suivis-sur-internet_5278722_4355770.html)
+    * [**Electronic Frontier Foundation** : How To Change Your Facebook Settings To Opt Out of Platform API Sharing](https://www.eff.org/deeplinks/2018/03/how-change-your-facebook-settings-opt-out-platform-api-sharing)
+    * [**WIRED** : How to Download Your Facebook Data and What to Look for in It](https://www.wired.com/story/download-facebook-data-how-to-read)
+    * [**Vice Motherboard** : Don’t Just Delete Facebook, Poison Your Data First](https://motherboard.vice.com/en_us/article/qvxv4x/how-to-delete-facebook-data)
+  + Analyses :
+    * « Par ailleurs, il a été démontré que les individus ont généralement une préférence pour le gain immédiat en comparaison d’un risque futur. En fait, on n’agit pas du tout de manière paradoxale, on agit de manière rationnelle eu égard aux informations dont on dispose. » [**Rue89** : Caroline Lancelot Miltgen, Pouvoir se déconnecter de Facebook est un privilège, voire un luxe](https://www.nouvelobs.com/rue89/rue89-nos-vies-connectees/20180329.OBS4368/pouvoir-se-deconnecter-de-facebook-est-un-privilege-voire-un-luxe.html)
+    * [**Le Point** : Tristan Nitot : Facebook a « laissé faire » Cambridge Analytica](http://www.lepoint.fr/high-tech-internet/tristan-nitot-facebook-a-laisse-faire-cambridge-analytica-22-03-2018-2204601_47.php)
+    * [**The Conversation** : Pourquoi il est si difficile de quitter Facebook](https://theconversation.com/pourquoi-il-est-si-difficile-de-quitter-facebook-94144)
+    * [**Channel NewsAsia** : Commentary: Hooked and unable to pull the plug on Facebook? We've been there](https://www.channelnewsasia.com/news/technology/pull-plug-on-facebook-addictive-algorithms-echo-chamber-10085918)
+    * [**The New York Times** : Can Social Media Be Saved?](https://www.nytimes.com/2018/03/28/technology/social-media-privacy.html)
+    * [**Rolling Stone** : Taibbi on Facebook: Can We Be Saved From the Social Media Giant?](https://www.rollingstone.com/politics/features/taibbi-facebook-can-we-be-saved-social-media-giant-w518655)
+  + D’autres retombées :
+    * Richard Stallman, la légende du Logiciel Libre, conseille de ne plus récupérer d'informations : « the only safe database is the one that was never collected » [**The Guardian** : Richard Stallman : A radical proposal to keep your personal data safe](https://www.theguardian.com/commentisfree/2018/apr/03/facebook-abusing-data-law-privacy-big-tech-surveillance)
+    * [**The Independent** : Billion-dollar Facebook investor tells Mark Zuckerberg to quit as chairman](https://www.independent.co.uk/life-style/gadgets-and-tech/news/facebook-mark-zuckerberg-quit-investor-scott-stringer-a8286451.html)
+    * Facebook annonce qu'ils ne vont pas respecter le RGPD dans le monde entier [**@Cennydd** : "I just wrote in my data ethics chapter there’ll be two types of data companies: 1. those who extend GDPR protections globally 2. those who bifurcate codebases and policies because their business relies on data overreach & lax regulation. We just got FB’s answer."](https://twitter.com/Cennydd/status/981302333916237824)
+    * [**@Calimaq** : ""Mark Zuckerberg parle de créer une structure qui serait inspirée de la Cour Suprême des Etats-Unis pour dire en quelque sorte la loi sur Facebook." https://t.co/lsxQSBTAd1 Consolidation de la justice privée et nouveau de l'évolution des plateformes vers des quasi-Etats..."](https://twitter.com/Calimaq/status/981410279803244544)
+  + La technologie :
+    * [**WIRED** : RSS Readers Are Due for a Comeback: Feedly, The Old Reader, Inoreader](https://www.wired.com/story/rss-readers-feedly-inoreader-old-reader/)
 
 ## Facebook et nous
 
