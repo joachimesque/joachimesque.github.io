@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: redirect
+redirectTo: 'https://joachimesque.com/blog/2016-10-05-parisweb-2016'
 title:  "ParisWeb 2016"
 date:   2016-10-05 16:22:00
 categories: blog

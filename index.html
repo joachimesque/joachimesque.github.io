@@ -30,11 +30,7 @@ about: 'about.html'
 <main id="content" class="content" role="main">
 
 
-    <div class="extra-pagination inner">
-        {% include pagination.html %}
-    </div>
-
-    {% for post in paginator.posts %}
+    {% for post in site.posts limit:1 %}
 
     <article class="post">
         <header class="post-header">
@@ -68,7 +64,5 @@ about: 'about.html'
     </article>
 
     {% endfor %}
-
-    {% include pagination.html %}
 
 </main>

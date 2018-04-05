@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: redirect
+redirectTo: 'https://joachimesque.com/blog/2017-11-11-une-semaine-de-grog'
 title:  "Une semaine de grogs"
 date:   2017-11-11 18:50:28 +0200
 categories: blog

@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirect
+redirectTo: 'https://joachimesque.com/a-propos'
 title: À propos
 cover: '/assets/images/bg-index.jpg'
 ---

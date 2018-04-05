@@ -6,11 +6,11 @@ meta_description: "Un carnet web un peu sérieux"
 markdown: kramdown
 highlighter: rouge
 logo: '/assets/images/profile.jpg'
-paginate: 15
+paginate: 1
 baseurl: '/'
 base-url: '/'
 domain_name: 'https://joachimesque.github.io'
-plugins: [jekyll-paginate]
+plugins: []
 
 # Details for the RSS feed generator
 url:            'https://joachimesque.github.io'

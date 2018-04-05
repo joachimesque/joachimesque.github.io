@@ -1,6 +1,7 @@
 ---
 title: Facebook, des raisons de s’en méfier
-layout: post
+layout: redirect
+redirectTo: 'https://joachimesque.com/blog/2018-03-20-facebook-des-raisons-de-sen-me%CC%81fier'
 date:   2018-03-20 22:21:46
 categories: blog
 ---

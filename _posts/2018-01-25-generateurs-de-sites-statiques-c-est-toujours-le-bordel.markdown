@@ -1,6 +1,7 @@
 ---
 title: Générateurs de sites statiques, c'est toujours le bordel
-layout: post
+layout: redirect
+redirectTo: 'https://joachimesque.com/blog/2018-01-25-generateurs-de-sites-statiques-c-est-toujours-le-bordel'
 date:   2018-01-25 03:38:04
 categories: blog
 ---

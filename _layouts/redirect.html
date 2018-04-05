@@ -1,0 +1,18 @@
+---
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        {% if page.redirectTo contains '://' %} {% capture redirectUrl %}{{ page.redirectTo }}{% endcapture %} {% else %} {% capture redirectUrl %}{{ page.redirectTo | prepend: site.baseurl }}{% endcapture %} {% endif %}
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content="0;url={{ redirectUrl }}" />
+        <link rel="canonical" href="{{ redirectUrl }}" />
+
+        <script>
+            window.location.replace("{{ redirectUrl }}");
+        </script>
+    </head>
+    <body>
+        This page has been moved to <a href="{{ redirectUrl }}">{{ redirectUrl }}</a>.
+    </body>
+</body>

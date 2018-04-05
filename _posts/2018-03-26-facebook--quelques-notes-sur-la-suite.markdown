@@ -1,6 +1,7 @@
 ---
 title: Facebook, quelques notes sur la suite
-layout: post
+layout: redirect
+redirectTo: 'https://joachimesque.com/blog/2018-03-26-facebook-quelques-notes-sur-la-suite'
 date: 2018-03-26 18:04:32
 categories: blog
 ---

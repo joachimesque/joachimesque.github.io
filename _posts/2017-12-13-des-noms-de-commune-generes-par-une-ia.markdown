@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: redirect
+redirectTo: 'https://joachimesque.com/blog/2017-12-13-des-noms-de-commune-generes-par-une-ia'
 title:  "Un ordinateur m’a généré 6526 noms de communes françaises"
 date:   2017-12-13 20:02:44 +0200
 categories: blog

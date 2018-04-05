@@ -1,6 +1,7 @@
 ---
 title: Il faut se méfier de Facebook, version rapide
-layout: post
+layout: redirect
+redirectTo: 'https://joachimesque.com/blog/2018-03-24-il-faut-se-me%CC%81fier-de-facebook-version-rapide'
 date:   2018-03-24 23:33:33
 categories: blog
 ---

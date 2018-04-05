@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: redirect
+redirectTo: 'https://joachimesque.com/blog/2017-12-12-cards-agains-humanity-sauve-l-amerique'
 title:  "Cards Against Humanity sauve l’Amérique"
 date:   2017-12-12 11:32:28 +0200
 categories: blog
